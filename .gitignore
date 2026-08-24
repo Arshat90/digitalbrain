@@ -1,0 +1,16 @@
+# Obsidian workspace state (личные, не нужны в бэкапе)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/graph.json
+
+# Корзина
+.trash/
+
+# Временные файлы
+*.tmp
+.tmp.driveupload/
+
+# OS
+.DS_Store
+Thumbs.db
