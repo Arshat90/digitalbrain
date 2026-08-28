@@ -1,33 +1,20 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-08-27
+updated: 2026-08-28
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-08-27T04:30:57Z
+sync_last_run_at: 2026-08-28T07:13:00Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-08-27
+sync_runs_today_date: 2026-08-28
 sync_pending_capture:
-  - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
-  - local_e005283a-b5df-4dcd-be97-0c1559adc117
+  - local_2228d328-5820-4f6c-8628-e244632435c3
+  - local_d3e9719b-324f-4d23-8237-94dd16b8824f
 sync_captured_recent:
-  - local_7225257d-d365-493a-872c-738a35b26666
-  - local_a703e6ca-1f16-4017-a52d-13a94ff53fc3
-  - local_5d5386ce-fd6f-47ea-aab0-82a0ca4c9cd2
-  - local_e70c4b19-253b-41bd-84cc-c00dec0a81dc
-  - local_33f612d5-de8d-4575-92c7-82d24f689a2b
-  - local_249280fa-4faf-4d44-a901-ba98775a1829
-  - local_db04d6e6-330b-4da3-a930-2831266f7b5b
-  - local_297db029-85a8-4178-ac25-72a5ba45ba0f
-  - local_61235186-2a11-4305-ac6c-d670f6095e3b
-  - local_4369e219-2bf5-4327-8481-db4e591eb1da
-  - local_8981bb90-e71b-46bf-895c-642675a238a9
-  - local_07c94735-53f7-4c6d-add7-d359da056788
-  - local_4c11e530-1338-4b72-9cee-e50613e1b570
   - local_eec596b9-5b78-413b-be95-82d7db0feaa5
   - local_79edb362-6cb5-41f9-8549-a4e9248495c5
   - local_0bed4fa8-71d2-46ab-b5b5-147234338cb5
@@ -115,13 +102,20 @@ sync_captured_recent:
   - local_82497b2a-f683-4bd0-9e21-f09cd4f9b5e3
   - local_a99f98a1-4ad1-46c1-9c0e-e4cfd2a0c147
   - local_f17949cc-27e5-4d3e-af21-1e89d1da9df9
-last_anomalies:
-  - captured_recent had 111 elements (expected ≤100) with duplicate
-    local_79edb362 — pre-existing from prior run; corrected to 100 in this run
-    via FIFO trim + dedup
-  - "local_cee82b4d captured by 2026-08-26 run (vault written:
-    cl-2026-08-26-togonidze) but missing from captured_recent — added in this
-    run"
+  - local_89abc640-9314-4a95-8eb6-416c15df88cc
+  - local_2dcbf1b6-a854-4128-bbaa-055662b68681
+  - local_67dce9e5-cc85-412a-a90d-ea2a9f4513a6
+  - local_9c7421bc-b741-4746-aa64-7a476d5f4e43
+  - local_7451eb1a-8cd6-4a5b-a54e-8cd853225a45
+  - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
+  - local_e005283a-b5df-4dcd-be97-0c1559adc117
+  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
+  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
+  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
+  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
+  - local_09d5f309-a50e-470d-a0e1-44a763ad7e84
+  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
+last_anomalies: []
 ---
 
 # Sync State
@@ -140,6 +134,10 @@ last_anomalies:
 ## Run History
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
+
+### 2026-08-28
+
+- **Run 1** ^run-2026-08-28-r1 (scheduled, 2026-08-28T07:13:00Z) — captured 8 (3993cc51/e005283a/7ca4a13c/7451eb1a/9c7421bc/67dce9e5/2dcbf1b6/89abc640 — trading×5+dashboard×3, no vault writes); deferred 2 (2228d328/d3e9719b — running); push 3 (b5cd7181/da14fe32/0bed4fa8); orphan-system 2 (f2a56e79/09d5f309); pre-watermark 1 (5fab1290) / total 100; 0 vault writes
 
 ### 2026-08-27
 
