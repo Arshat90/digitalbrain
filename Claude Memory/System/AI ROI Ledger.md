@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-05-02
-updated: 2026-08-24
+updated: 2026-08-31
 tags:
   - claude-memory
   - system
@@ -188,8 +188,10 @@ weekly_digest_day: понедельник
 | 2026-07-30 | [[Медео Парк Отель]] | Письмо Ducasse Conseil (Marie-Pia de Roquefeuil): hotel operational advisory; pre-opening SOPs — EN | 1 | 0.25 | 0.75 | negotiation | 🟡 |
 | 2026-08-06 | [[Ecole Ducasse Almaty Studio]] | Paris PR тур: программа пересмотрена по 6 комментариям Дияра (Q1 2027 confirmed; Médон без ED-презентации; Paris Studio с Q&A) + письмо Emilie Leducq | 2 | 0.5 | 1.5 | document+negotiation | 🟡 |
 | 2026-08-07 | [[1966 Plateau Deck]] | Hurma Michelin pitch analysis (Ana Roš 3★ / Maksut Ashkar 1★ / Francisco Araya 1★) + инициативное письмо Акционеру | 2 | 0.5 | 1.5 | negotiation+analysis | 🔴 |
+| 2026-08-26 | [[Медео Парк Отель]] | Письмо George Togonidze (Marriott franchise, BATNA к DCA) — hotel operational advisory request EN; ответ получен, созвон подтверждён | 0.75 | 0.25 | 0.5 | negotiation | 🟡 |
+| 2026-08-26 | [[Медео Парк Отель]] | Re-approach письмо Marie-Pia de Roquefeuil (Ducasse Conseil) — hotel service advisory, expanded scope beyond F&B EN | 0.75 | 0.25 | 0.5 | negotiation | 🟡 |
 
-**Итого 25 апр → 11 авг:** **144 deliverables**, **490.75 ч сэкономлено**
+**Итого 25 апр → 31 авг:** **146 deliverables**, **491.75 ч сэкономлено**
 
 ## Q2 2026 Summary (25 апр — 27 июн, финальный черновик для 30.06)
 

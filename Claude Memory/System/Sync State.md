@@ -135,6 +135,10 @@ last_anomalies: []
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
 
+### 2026-08-31
+
+- **Push** ^push-2026-08-31-T043453Z (session: local_cee82b4d, "Weekly ROI digest") — 2 строки добавлено, 1.0 ч saved за окно 2026-08-24–2026-08-30. **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** vault write failure (fetch failed) — resolved after restart.
+
 ### 2026-08-28
 
 - **Run 1** ^run-2026-08-28-r1 (scheduled, 2026-08-28T07:13:00Z) — captured 8 (3993cc51/e005283a/7ca4a13c/7451eb1a/9c7421bc/67dce9e5/2dcbf1b6/89abc640 — trading×5+dashboard×3, no vault writes); deferred 2 (2228d328/d3e9719b — running); push 3 (b5cd7181/da14fe32/0bed4fa8); orphan-system 2 (f2a56e79/09d5f309); pre-watermark 1 (5fab1290) / total 100; 0 vault writes
