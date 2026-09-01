@@ -1,20 +1,29 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-08-28
+updated: 2026-09-01
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-08-28T07:13:00Z
+sync_last_run_at: 2026-09-01T04:29:14Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-08-28
+sync_runs_today_date: 2026-09-01
 sync_pending_capture:
-  - local_2228d328-5820-4f6c-8628-e244632435c3
-  - local_d3e9719b-324f-4d23-8237-94dd16b8824f
+  - local_ca65f605-39f1-4e78-ba6d-e811104d514f
+  - local_0d23cc68-6217-48bd-b46b-befc8e1b8109
+  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
+  - local_05742f4d-1955-4606-9e3e-a7653f809407
 sync_captured_recent:
+  - local_d013942c-2a9a-445a-a883-addeb718b171
+  - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
+  - local_81838f11-3890-4474-99c3-1dc7ab980526
+  - local_d3e9719b-324f-4d23-8237-94dd16b8824f
+  - local_2228d328-5820-4f6c-8628-e244632435c3
+  - local_2f0de3d0-eec2-4ba6-bac3-214bc6980d93
+  - local_3fd7c082-81b9-44ef-8269-7687ba6702af
   - local_eec596b9-5b78-413b-be95-82d7db0feaa5
   - local_79edb362-6cb5-41f9-8549-a4e9248495c5
   - local_0bed4fa8-71d2-46ab-b5b5-147234338cb5
@@ -108,14 +117,10 @@ sync_captured_recent:
   - local_9c7421bc-b741-4746-aa64-7a476d5f4e43
   - local_7451eb1a-8cd6-4a5b-a54e-8cd853225a45
   - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
-  - local_e005283a-b5df-4dcd-be97-0c1559adc117
-  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
-  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
-  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
-  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
-  - local_09d5f309-a50e-470d-a0e1-44a763ad7e84
-  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
-last_anomalies: []
+last_anomalies:
+  - scheduler gap 2026-08-28 to 2026-09-01 (4 days without sync) — confirmed by
+    sync_runs_today_date delta and trading review session dea6cfb5 which noted
+    'планировщик пропустил прогоны 28-30.08'
 ---
 
 # Sync State
@@ -134,6 +139,10 @@ last_anomalies: []
 ## Run History
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
+
+### 2026-09-01
+
+- **Run 1** ^run-2026-09-01-r1 (scheduled, 2026-09-01T04:29:14Z) — captured 5 (d013942c/dea6cfb5/81838f11/d3e9719b/2228d328 — 0 vault writes, all trading+ops sessions); deferred 4 (ca65f605/0d23cc68/89de4f90/05742f4d — running); push 4 (cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 2 (2f0de3d0/3fd7c082); pre-watermark 26 / total 100; anomaly: 4-day scheduler gap 2026-08-28→2026-09-01
 
 ### 2026-08-31
 
@@ -217,45 +226,6 @@ last_anomalies: []
 
 - **Run 1** ^run-2026-08-02-r1 (scheduled, 2026-08-02T07:56:30Z) — captured 23 (no-write: 1966 Plateau Deck content pre-in-vault — ^cl-2026-07-17-ops); deferred 1 (d2c5691f); push 1 (116d276a); orphan-system 8 (b1dba07f/b9aaf2ab/ab18b12a/ac4a7312/e2f18a5c/c7b6dd05/f59d7d2b/7c78805a); pre-watermark 0; pending 2 (62f3e245/51c13417); total 100; 0 vault writes; 3 context compactions
 
-### 2026-08-01
-
-- **Run 1** ^run-2026-08-01-r1 (scheduled, 2026-08-01T09:15:41Z) — captured 5 (no-write: 60a338dd/6fa5f438/c908b77e/426bdf11/1b834d5c — trading×3, dashboard×2; project content pre-in-vault from run-2026-07-30-r1); deferred 0; push 0; orphan-system 3 (f17949cc/469e049b/a7a2f9a5); pre-watermark 4; pending 0 (cleared: 426bdf11/1b834d5c); total 100; no vault writes; note: фуддепо new direction (naming+branding, deadline 31.08) — no project card (context insufficient); context compaction mid-session, resumed §4–§6
-
-### 2026-07-31
-
-- **Run 1** ^run-2026-07-31-r1 (scheduled, 2026-07-31T07:18:35Z) — captured 22 (substantive: 1 [e62d715d — Almaty digital twin meeting, content pre-in-vault ^cl-2026-07-22-pause via run-2026-07-24-r1; Drone Delivery pause ^cl-2026-07-22-drone-pause backfilled this run]; no-write 21 [1b1c18e2/f4f3d9bd/1e991807/a90c2cbb/f0c6924f/357f73da/9ef6d65d/c5665971/042cf672/5ae78e8a/d3ee1b0a/77ad60a0/5bf30fb7/c74bb229/ac95540d/9617814e/e5af4ed2/3fc8003c/54c0e3ea/9eba7a45/835e41e5]); deferred 2 (426bdf11/1b834d5c — running); push 1 (34cf5823); orphan-system 1 (65049d4e); pre-watermark 0 / total 100; vault writes: [[Drone Delivery Almaty]] ^cl-2026-07-22-drone-pause; note: 1 push session skipped: 34cf5823; 1 orphan-system added to captured_recent (v3.4): local_65049d4e; context compaction mid-session, resumed §4–§6
-
-### 2026-07-30
-
-- **Run 1** ^run-2026-07-30-r1 (scheduled, 2026-07-30T04:11:17Z) — captured 20 (substantive: 3 [01b1d1f0 → [[1966 Plateau Deck]] ^cl-2026-07-30; 7a3b373e → ZILLI content pre-in-vault; cee82b4d → [[Mедео Парк Отель]] ^cl-2026-07-30-ducasse]; no-write 17 [trading/status b5f50a9a/30c7e06f/bf78d96a/2fc1829a/ef60015c/eddf18a0/8b0c1986/5960a508/3fdd8407/f14fa3de/91afa314/a6b3cc65/11c483b2/4770bbf4/342d33b4/47e92755/101eb793]); deferred 2 (a90c2cbb/1e991807 — running); orphan-system 9 (83d624f1/ae49e629/a78d65b9/c38f6727/48c23a67/4336e4d5/93ce1220/5a075a29/282c1588); pre-watermark 12 (bd1b7fa8/d84c4395/ecaf7003/271da8ee/f6a703c4/7825c4dc/c052886e/62d6f64d/47199d29/f0628a2f/9d404dba/ca6bc913); total 100; vault writes: [[1966 Plateau Deck]] ^cl-2026-07-30, [[Медео Парк Отель]] ^cl-2026-07-30-ducasse; note: 7a3b373e content already in vault ^cl-2026-07-27-taplink (prior run wrote entry, session ID not added to captured_recent — corrected this run)
-
-### 2026-07-29
-
-- **Run 1** ^run-2026-07-29-r1 (scheduled, 2026-07-29T11:39:55Z) — captured 35 / deferred 2 / push 0 / orphan-system 3 / pre-watermark 6 / total 100; no vault writes; note: 3 orphan system session(s) added to captured_recent (v3.4 rule): local_e2f18a5c-a5fc-4be5-959b-0b7580d55e70, local_c7b6dd05-e838-4cc2-ae66-4fd41d9f8e75, local_f59d7d2b-08e6-4711-a677-8a9bdb7203ec
-
-### 2026-07-28
-
-- **Run 1** ^run-2026-07-28-r1 (scheduled, 2026-07-28T05:00:51Z) — captured 3 (e6d3d96e/20fdff91/95934ecd — dashboard+trading homework, no vault writes); deferred 2 (f0c6924f/357f73da — running); push 1 (116d276a); orphan-sys 3 (ab18b12a/ac4a7312/7c78805a); pre-watermark 38 / total 100; no vault writes; note: sync_captured_recent deduplicated (5 dupes removed: ef60015c/eddf18a0/8b0c1986/5960a508/01b1d1f0)
-
-### 2026-07-27
-
-- **Run 1** ^run-2026-07-27-r1 (scheduled, 2026-07-27T04:11:57Z) — captured 10 (7a3b373e ZILLI taplink-финализация 3 бутика vault-write; 01b1d1f0 MPH content pre-existing skip; 8 trading/dashboard no-write); deferred 2 (95934ecd Almaly-dashboard, 20fdff91 trading-hw); orphan-sys 4 (ac4a7312/e2f18a5c/f59d7d2b/4336e4d5); pre-watermark 33 / total 100; vault write [[ZILLI Marketing Services]] ^cl-2026-07-27-taplink; anomaly: local_01b1d1f0 not in captured_recent despite cl-2026-07-14-gap + cl-2026-07-22-meetings
-
-### 2026-07-27
-
-- **Push** ^push-2026-07-27-T043338Z (session: 116d276a, "Weekly ROI digest") — 3 строки добавлено, 13.25 ч saved за окно 2026-07-20–2026-07-26 (136 deliverables / 476.25 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]] (Digital Twin: письмо партнёрам RU+ZH + HTML-дека v2 5 AI-рендеров; 1966 Plateau: RACI 21×16). **Anomalies:** нет.
-
-### 2026-07-26
-
-- **Run 1** ^run-2026-07-26-r1 (scheduled, 2026-07-26T04:57:02Z) — captured 2 (e6d3d96e — status-dashboard 25.07; d3ee1b0a — trading-evening-review 25.07, no vault writes); deferred 3 (2fc1829a/5ae78e8a/042cf672 — running); push 0; orphan-system 6 (e2f18a5c/ae49e629/a78d65b9/93ce1220/5a075a29/282c1588); pre-watermark 33 / total 100; no vault writes
-
-### 2026-07-25
-
-- **Run 1** ^run-2026-07-25-r1 (scheduled, 2026-07-25T09:55:57Z) — captured 35 (13 CAPTURE: 7a3b373e/7aea1491/8f09a321/25d92e60/a9beca06/2cb78279/c2b6770f/e151795b/2d756f6d/75502359/536451ea/fc02d824/c8115bbd — контент в vault от runs 06-18→07-17; 13 trading-only: ef60015c/8b0c1986/f29f545c/3a89a043/5ee72473/9546d6d7/44430f8b/315282af/ca6bc913/d0c0321e/676a6094/d334f660/77ad60a0; 5 status-only: eddf18a0/47851ff1/de08d0b9/9d404dba/bfeebaef; 3 no-vault: a070f2a5/9d5e1cd4/f4f76e74; 2 orphan-system: f59d7d2b/c7b6dd05); deferred 2 (e6d3d96e/d3ee1b0a — running); push 2 (34cf5823/19768163); pre-watermark 6 (30188030/88380dcd/e9babb6a/1cdf46e5/aa7c6342/0c8afc3e) / total 100; vault write: [[Almaty City Digital Twin]] ^cl-2026-07-09-html-deck (fc02d824 — HTML-дека v2, 5 AI-рендеров); recovery: context compaction mid-§3c, resumed §4–§6
-
-### 2026-07-24
-
-- **Run 1** ^run-2026-07-24-r1 (scheduled, 2026-07-24T05:01:20Z) — captured 7 (01b1d1f0 — doc comparison/MPH content pre-in-vault; 5960a508/c74bb229 — trading-only 23.07; 5bf30fb7 — status-only 23.07; 54c0e3ea — trading+user entries 21.07; 9eba7a45 — status-only 21.07; e62d715d — digital twin meeting content pre-in-vault); deferred 2 (eddf18a0/8b0c1986 — running); push 0; orphan-system 1 (c7b6dd05); pre-watermark 31 / total 100; no vault writes
 
 ### 2026-07-23
 

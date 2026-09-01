@@ -208,3 +208,258 @@ tags:
 - **Run 2** ^run-2026-05-12-r2 (scheduled consolidate-memory, 2026-05-12T06:37Z) — нет секций для архивации (все даты > cutoff 2026-02-11); index OK 80 строк; дубли [[Sync State]]×4 [[Memory Sync Protocol]]×7 [[Verification Protocol]]×2 [[AI System Improvement Backlog]]×3 — в body-revision prose, не структурные (известно с 2026-05-09-r2).
 - **Run 1** ^run-2026-05-12-r1 (scheduled, 2026-05-12T04:27:00Z) — 2 новых сессии: 3a0f9b5d (daily-memory-sync 2026-05-11 Run 1, vault актуален, нет проектных обновлений), 88d86e00 (task C шаблоны — vault актуален из Run 10 2026-05-01, сессия была FIFO-dropped из captured_recent). Нет проектных обновлений.
 
+
+
+## Архивировано consolidate-memory 2026-09-01
+
+### 2026-08-01
+
+- **Run 1** ^run-2026-08-01-r1 (scheduled, 2026-08-01T09:15:41Z) — captured 5 (no-write: 60a338dd/6fa5f438/c908b77e/426bdf11/1b834d5c — trading×3, dashboard×2; project content pre-in-vault from run-2026-07-30-r1); deferred 0; push 0; orphan-system 3 (f17949cc/469e049b/a7a2f9a5); pre-watermark 4; pending 0 (cleared: 426bdf11/1b834d5c); total 100; no vault writes; note: фуддепо new direction (naming+branding, deadline 31.08) — no project card (context insufficient); context compaction mid-session, resumed §4–§6
+
+### 2026-07-31
+
+- **Run 1** ^run-2026-07-31-r1 (scheduled, 2026-07-31T07:18:35Z) — captured 22 (substantive: 1 [e62d715d — Almaty digital twin meeting, content pre-in-vault ^cl-2026-07-22-pause via run-2026-07-24-r1; Drone Delivery pause ^cl-2026-07-22-drone-pause backfilled this run]; no-write 21 [1b1c18e2/f4f3d9bd/1e991807/a90c2cbb/f0c6924f/357f73da/9ef6d65d/c5665971/042cf672/5ae78e8a/d3ee1b0a/77ad60a0/5bf30fb7/c74bb229/ac95540d/9617814e/e5af4ed2/3fc8003c/54c0e3ea/9eba7a45/835e41e5]); deferred 2 (426bdf11/1b834d5c — running); push 1 (34cf5823); orphan-system 1 (65049d4e); pre-watermark 0 / total 100; vault writes: [[Drone Delivery Almaty]] ^cl-2026-07-22-drone-pause; note: 1 push session skipped: 34cf5823; 1 orphan-system added to captured_recent (v3.4): local_65049d4e; context compaction mid-session, resumed §4–§6
+
+### 2026-07-30
+
+- **Run 1** ^run-2026-07-30-r1 (scheduled, 2026-07-30T04:11:17Z) — captured 20 (substantive: 3 [01b1d1f0 → [[1966 Plateau Deck]] ^cl-2026-07-30; 7a3b373e → ZILLI content pre-in-vault; cee82b4d → [[Mедео Парк Отель]] ^cl-2026-07-30-ducasse]; no-write 17 [trading/status b5f50a9a/30c7e06f/bf78d96a/2fc1829a/ef60015c/eddf18a0/8b0c1986/5960a508/3fdd8407/f14fa3de/91afa314/a6b3cc65/11c483b2/4770bbf4/342d33b4/47e92755/101eb793]); deferred 2 (a90c2cbb/1e991807 — running); orphan-system 9 (83d624f1/ae49e629/a78d65b9/c38f6727/48c23a67/4336e4d5/93ce1220/5a075a29/282c1588); pre-watermark 12 (bd1b7fa8/d84c4395/ecaf7003/271da8ee/f6a703c4/7825c4dc/c052886e/62d6f64d/47199d29/f0628a2f/9d404dba/ca6bc913); total 100; vault writes: [[1966 Plateau Deck]] ^cl-2026-07-30, [[Медео Парк Отель]] ^cl-2026-07-30-ducasse; note: 7a3b373e content already in vault ^cl-2026-07-27-taplink (prior run wrote entry, session ID not added to captured_recent — corrected this run)
+
+### 2026-07-29
+
+- **Run 1** ^run-2026-07-29-r1 (scheduled, 2026-07-29T11:39:55Z) — captured 35 / deferred 2 / push 0 / orphan-system 3 / pre-watermark 6 / total 100; no vault writes; note: 3 orphan system session(s) added to captured_recent (v3.4 rule): local_e2f18a5c-a5fc-4be5-959b-0b7580d55e70, local_c7b6dd05-e838-4cc2-ae66-4fd41d9f8e75, local_f59d7d2b-08e6-4711-a677-8a9bdb7203ec
+
+### 2026-07-28
+
+- **Run 1** ^run-2026-07-28-r1 (scheduled, 2026-07-28T05:00:51Z) — captured 3 (e6d3d96e/20fdff91/95934ecd — dashboard+trading homework, no vault writes); deferred 2 (f0c6924f/357f73da — running); push 1 (116d276a); orphan-sys 3 (ab18b12a/ac4a7312/7c78805a); pre-watermark 38 / total 100; no vault writes; note: sync_captured_recent deduplicated (5 dupes removed: ef60015c/eddf18a0/8b0c1986/5960a508/01b1d1f0)
+
+### 2026-07-27
+
+- **Run 1** ^run-2026-07-27-r1 (scheduled, 2026-07-27T04:11:57Z) — captured 10 (7a3b373e ZILLI taplink-финализация 3 бутика vault-write; 01b1d1f0 MPH content pre-existing skip; 8 trading/dashboard no-write); deferred 2 (95934ecd Almaly-dashboard, 20fdff91 trading-hw); orphan-sys 4 (ac4a7312/e2f18a5c/f59d7d2b/4336e4d5); pre-watermark 33 / total 100; vault write [[ZILLI Marketing Services]] ^cl-2026-07-27-taplink; anomaly: local_01b1d1f0 not in captured_recent despite cl-2026-07-14-gap + cl-2026-07-22-meetings
+
+### 2026-07-27
+
+- **Push** ^push-2026-07-27-T043338Z (session: 116d276a, "Weekly ROI digest") — 3 строки добавлено, 13.25 ч saved за окно 2026-07-20–2026-07-26 (136 deliverables / 476.25 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]] (Digital Twin: письмо партнёрам RU+ZH + HTML-дека v2 5 AI-рендеров; 1966 Plateau: RACI 21×16). **Anomalies:** нет.
+
+### 2026-07-26
+
+- **Run 1** ^run-2026-07-26-r1 (scheduled, 2026-07-26T04:57:02Z) — captured 2 (e6d3d96e — status-dashboard 25.07; d3ee1b0a — trading-evening-review 25.07, no vault writes); deferred 3 (2fc1829a/5ae78e8a/042cf672 — running); push 0; orphan-system 6 (e2f18a5c/ae49e629/a78d65b9/93ce1220/5a075a29/282c1588); pre-watermark 33 / total 100; no vault writes
+
+### 2026-07-25
+
+- **Run 1** ^run-2026-07-25-r1 (scheduled, 2026-07-25T09:55:57Z) — captured 35 (13 CAPTURE: 7a3b373e/7aea1491/8f09a321/25d92e60/a9beca06/2cb78279/c2b6770f/e151795b/2d756f6d/75502359/536451ea/fc02d824/c8115bbd — контент в vault от runs 06-18→07-17; 13 trading-only: ef60015c/8b0c1986/f29f545c/3a89a043/5ee72473/9546d6d7/44430f8b/315282af/ca6bc913/d0c0321e/676a6094/d334f660/77ad60a0; 5 status-only: eddf18a0/47851ff1/de08d0b9/9d404dba/bfeebaef; 3 no-vault: a070f2a5/9d5e1cd4/f4f76e74; 2 orphan-system: f59d7d2b/c7b6dd05); deferred 2 (e6d3d96e/d3ee1b0a — running); push 2 (34cf5823/19768163); pre-watermark 6 (30188030/88380dcd/e9babb6a/1cdf46e5/aa7c6342/0c8afc3e) / total 100; vault write: [[Almaty City Digital Twin]] ^cl-2026-07-09-html-deck (fc02d824 — HTML-дека v2, 5 AI-рендеров); recovery: context compaction mid-§3c, resumed §4–§6
+
+### 2026-07-24
+
+- **Run 1** ^run-2026-07-24-r1 (scheduled, 2026-07-24T05:01:20Z) — captured 7 (01b1d1f0 — doc comparison/MPH content pre-in-vault; 5960a508/c74bb229 — trading-only 23.07; 5bf30fb7 — status-only 23.07; 54c0e3ea — trading+user entries 21.07; 9eba7a45 — status-only 21.07; e62d715d — digital twin meeting content pre-in-vault); deferred 2 (eddf18a0/8b0c1986 — running); push 0; orphan-system 1 (c7b6dd05); pre-watermark 31 / total 100; no vault writes
+
+### 2026-07-23
+
+- **Run 1** ^run-2026-07-23-r1 (scheduled, 2026-07-23T04:15:10Z) — captured 4 (ac95540d — status dashboard 22.07, no vault writes; 9617814e/e5af4ed2/3fc8003c — trading-only); deferred 2 (c74bb229/5bf30fb7 — running); push 1 (19768163); orphan-system 4 (7c78805a/2b632226/08a1e61d/50f357df); pre-watermark 27 / total 100; no vault writes
+
+### 2026-07-22
+
+- **Run 1** ^run-2026-07-22-r1 (scheduled, 2026-07-22T04:06:38Z) — 18 substantive captured (vault writes: [[Almaty City Digital Twin]] пауза 4 UTM-трека ^cl-2026-07-22-pause, [[1966 Plateau Deck]] RACI 21×16 ^cl-2026-07-22-raci, [[Постаматы Almaty]] ^cl-2026-07-22-postamat-pause, [[Autonomous Pharmacy Retail]] ^cl-2026-07-22-pharma-pause; 14 без новых vault-записей — контент уже в vault); 3 orphan-system (93ce1220/5a075a29/282c1588); 2 deferred → pending_capture (ac95540d/9617814e); pre-watermark 2 (8c7c6ad4/3532513b); 21 evicted from FIFO
+
+### 2026-07-21
+
+- **Run 1** ^run-2026-07-21-r1 (scheduled, 2026-07-21T08:35:26Z) — captured 10 (cee82b4d/3fdd8407/f14fa3de/62d6f64d/271da8ee/f6a703c4/7825c4dc/c052886e/47199d29/f0628a2f; note: 7825c4dc content pre-in-vault ^cl-2026-07-17-ops); deferred 2 (9eba7a45/54c0e3ea); push 1 (34cf5823); orphan-system 1 (a78d65b9); pre-wm 28 / total 100; updated [[Медео Парк Отель]] (Dorchester КП → пауза £284K)
+
+### 2026-07-20
+
+- **Run 1** ^run-2026-07-20-r1 (scheduled, 2026-07-20T04:05:22Z) — captured 5 (91afa314 — movie poster personal; a6b3cc65/11c483b2/342d33b4 — trading-only; 4770bbf4 — status dashboard; no vault writes); deferred 2 (f14fa3de/3fdd8407 — running); push 0; orphan-system 1 (c38f6727); pre-watermark 29 / total 100; no vault writes
+- **Push** ^push-2026-07-20-T043248Z (session: 34cf5823, "Weekly ROI digest") — 18 строк добавлено, 40.5 ч saved за окно 2026-07-13–2026-07-19 (133 deliverables / 463 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]] (1966: мебель v2 + аудит P&L + повестка №08 + рекрутинг Michelin Word-свод + реестр поставщиков + прототипы стульев + бриф персонала + меню HTML + шорт-лист Michelin + ТЗ эргономики + роадмап рекрутинга; МПО: GAP-дашборд + протокол 08.07 + RACI; ВНД: MAR-001/007 audit; Digital Twin: протокол UTM/eVTOL; ED: PR тур адженда; AMC: письма BIG/Basalt). **Anomalies:** нет.
+
+### 2026-07-19
+
+- **Run 1** ^run-2026-07-19-r1 (scheduled, 2026-07-19T14:29:08Z) — captured 5 (ce38959a — Paris PR тур ED адженда подтверждена; 47e92755/101eb793/a55f657a — trading-only, no vault writes; 835e41e5 — status dashboard); deferred 2 (342d33b4/4770bbf4 — running); push 0; orphan-system 2 (48c23a67/4336e4d5); pre-watermark 26 / total 100; updated [[Ecole Ducasse Almaty Studio]]
+
+### 2026-07-18
+
+- **Run 1** ^run-2026-07-18-r1 (scheduled, 2026-07-18T06:00:12Z) — captured 8 (0a377bf4/af252591/01c60fc3/05432ee6/5fab1290/bd1b7fa8/d84c4395/ecaf7003); deferred 2 (835e41e5/a55f657a — running); push-new 1 (7dcfed69); push-already 1 (19768163); orphan-system 0; pre-watermark 20 / total 100; updated [[1966 Plateau Deck]], [[Almaly Brand System & Skills]]
+
+### 2026-07-17
+
+- **Run 1** ^run-2026-07-17-r1 (scheduled, 2026-07-17T05:42:04Z) — captured 22 (e62d715d/edb7d6f3/7aea1491/8f09a321/c2b6770f/01b1d1f0/de08d0b9/44430f8b/47851ff1/f6a703c4/7825c4dc/c052886e/47199d29/5ee72473/271da8ee/f0628a2f/62d6f64d/f4f76e74/3a89a043/f29f545c/a9beca06/25d92e60); deferred 2 (d84c4395/ecaf7003 — running); orphan-system 2 (93ce1220/5a075a29); pre-watermark 9 (ca6bc913/d0c0321e/676a6094/75502359/2d756f6d/536451ea/9d5e1cd4/3532513b/6b9faeea) / total 100; updated [[Алматы City Digital Twin]], [[1966 Plateau Deck]], [[Медео Парк Отель]]
+
+### 2026-07-15
+
+- **Run 1** ^run-2026-07-15-r1 (scheduled, 2026-07-15T04:03:39Z) — captured 7 (9546d6d7 — trading-advisor-2 v2.9 skill; 5fab1290 — Michelin chef recruitment Word doc + cover letter; 315282af — trading evening 14.07 state.json v68 stop-day; e151795b — 1966 file org 112 files + реестр; 2cb78279 — chair comparison Mars vs CN; c8115bbd — MAR-001+007 compliance audit; 9d404dba — status dashboard idle no changes); deferred 2 (44430f8b/de08d0b9 — running); push 0; orphan-system 1 (282c1588); pre-watermark 8 (3532513b/6b9faeea/b6b6f5cd/bad4023b/fae3af7b/12228cfe/616f56fa/b44c2e8d) / total 100; updated [[1966 Plateau Deck]], [[ВНД Agent]]
+
+### 2026-07-14
+
+- **Run 1** ^run-2026-07-14-r1 (scheduled, 2026-07-14T04:03:19Z) — captured 16 (ca6bc913/d0c0321e/676a6094/01b1d1f0/75502359/2d756f6d/536451ea/9d5e1cd4/bfeebaef/a070f2a5/56cc8084/0010ce9c/6504c0bf/d2b1b575/e4b9b93f/b6603747); deferred 2 (6a59dca2/9d404dba — running); push 1 (19768163); orphan-system 3 (2b632226/2e888669/63d03ca5); pre-watermark 0 / total 100; updated: [[1966 Plateau Deck]], [[Медео Парк Отель]], [[AMC - Almaty Mountain Cluster]]
+
+### 2026-07-13
+
+- **Run 1** ^run-2026-07-13-r1 (scheduled, 2026-07-13T04:16:47Z) — captured 8 (88380dcd/30188030/d334f660/e9babb6a/1cdf46e5/aa7c6342/0c8afc3e/43c80748 — trading-only, no vault writes; note: aa7c6342 trading-advisor-2 v2.7 skill built); deferred 1 (bfeebaef — running); push 0; orphan-system 1 (08a1e61d); pre-watermark 0 / total 100; no vault writes
+- **Push** ^push-2026-07-13-T043304Z (session: 19768163, "Weekly ROI digest") — 6 строк добавлено, 14 ч saved за окно 2026-07-06–2026-07-12 (115 deliverables / 422.5 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]] (ED email Emilie Leducq; Digital Twin RFI+Акимат; Marketing Book DOCX 10 механик; Dorchester Academy КП; 1966 рекрутинг v2; Медео протокол 10.07). **Anomalies:** нет.
+
+### 2026-07-12
+
+- **Run 1** ^run-2026-07-12-r1 (scheduled, 2026-07-12T06:30:48Z) — captured 10 (f19725a7: digital twin эксклюзив+дрон-пивот; 3a89629a/b0ff09bc/d69cb4e6/29f6cd82/560afa23/2582b1de/be823bea/f8fb27fa/4a77254f: trading-only no vault writes); deferred 3 (43c80748, 0c8afc3e, d334f660 — running); push 0; orphan-system 1 (50f357df); pre-watermark 0 / total 100; updated [[Almaty City Digital Twin]] (эксклюзив Акимат + дрон-пивот)
+
+### 2026-07-11
+
+- **Run 1** ^run-2026-07-11-r1 (scheduled, 2026-07-11T07:46:36Z) — captured 16 (aafae285: Dorchester Academy КП+ответное письмо; 90a62665: Hurma+Rabotarestoran рекрутинг-DOCX v2; 23b96337: протокол встречи 10.07 посуда/Denis/Mars; 890cceb6: счета №112/113/MB Almaty бокалы; e51986cc/c58f9177/b8e413f4/540c3167/c9e35089/6783e797/8c7c6ad4/197342e5/85efb5ff/740f98d9/6fdda773/e1110f65 — trading/ops/already-in-vault) / deferred 2 (b0ff09bc, d69cb4e6) / push 0 / orphan-system 1 (7d16af35) / pre-watermark 0 / total 100; updated [[Медео Парк Отель]], [[1966 Plateau Deck]]
+
+### 2026-07-10
+
+- **Run 1** ^run-2026-07-10-r1 (scheduled, 2026-07-10T05:01:47Z) — captured 7 (593e8a17: ev.review FLAT +$78.4 eq700.47; eeec130e: TV ISP block fixed; 71533d9f: mktg book DOCX 10 mechanics; 052590f3: hmwk HYPE-SL ZEC-liq-risk; ea56b88c: ev.review overnight ZEC near-liq; 277881d0: Almaly status 11 overdue Medeu 07.07; 71161161: hmwk 06.07 HYPE/XRP/LTC 3 triggers) / deferred 1 (e51986cc) / push 3 (e396cb39, e710adea, cb89c8c7) / orphan-system 4 (fdd6f8a5, 6aa2473a, d4cc60b1, 618ef728) / pre-watermark 0 / total 100; no vault writes; anomaly: 07-09 STATE partial failure — 277881d0+71161161 re-added to captured_recent; e2389e08+9d53183e (07-09 orphan-system) lost below visible window
+
+### 2026-07-09
+
+- **Run 1** ^run-2026-07-09-r1 (scheduled, 2026-07-09T04:22:13Z) — captured 8 (ce38959a: Paris PR tour email Emilie Leducq/École Ducasse; fc02d824: Almaty City Digital Twin RFI+Акимат; 6a59dca2/be7244bc/76bba706/a31fc968/c559db05/5f319132 — trading-only, no vault writes), deferred 2 (ea56b88c, 052590f3); push 0; orphan-system 2 (7b016d33, 6b3437cb); pre-watermark 2 (d4cc60b1, 618ef728) / total 100; updated [[École Ducasse Almaty Studio]], created [[Almaty City Digital Twin]]
+
+### 2026-07-08
+
+- **Run 1** ^run-2026-07-08-r1 (scheduled, 2026-07-08T04:33:18Z) — captured 12 (865d7e6f: SOL/HYPE sizing; 64978a32: Plateau#07 deadlines; a1178758: LTC/XRP re-entry; 6f40b283: Medeo 07.07 ddl; 2dd4124c: XRP/LTC/AAVE; a517f4fa: SOL/AAVE/ONDO; 6a2465dc: eve-rev v8; 560b6a54: pos-scan5; bc13c71b: MAX-SWARM; 51735a25: freeroll; 167ac599: swarm-default; be1b8a1f: US-open-scan); deferred 3 (76bba706, be7244bc, 6a59dca2 — running); push 1 (7dcfed69); orphan-system 1 (0cb2343c); pre-watermark 0 / total 100; updated [[1966 Plateau Deck]], [[Медео Парк Отель]]
+
+### 2026-07-07
+
+- **Run 1** ^run-2026-07-07-r1 (scheduled, 2026-07-07T04:40:18Z) — captured 5 (a31fc968: trading v2.6.1+scan-pause; c559db05: evening +$78.52 equity $735; 5f319132: EU scan 0 setups; 277881d0: Almaly status 11 overdue, 07.07 Medeu Hotel ddl; 71161161: daily homework 3 triggers); deferred 2 (6f40b283, a1178758); push 2 (7dcfed69, e396cb39); orphan-system 3 (6aa2473a, e2389e08, 9d53183e); pre-watermark 0 / total 100; no vault writes
+
+### 2026-07-06
+
+- **Push** ^push-2026-07-06-T190040Z (session: 7dcfed69, "Dispatch<->Cowork trading sync layer v2.7") — создан sync-слой поверх общего Obsidian-vault: живой [[Portfolio State]] (read-first/write-on-change, state_version/updated_by) + [[Trading Sync Protocol]] в Tradings/; seed из Sync State 07-05 (4 лонга ZEC/SOL/AAVE/DOGE, депо $791.70, reconciled_with_live:false). **Deliverables:** [[Portfolio State]], [[Trading Sync Protocol]], memory trading-obsidian-sync-layer. **Anomalies:** нет.
+- **Run 1** ^run-2026-07-06-r1 (scheduled, 2026-07-06T04:17:41Z) — captured 19 / deferred 2 (71161161, 277881d0) / push 6 (33b2bf3c, 1fc06e75, b4deab0f, b686378c, b82f28a9, 815cf3be) / orphan-system 3 (5924e9bb, 48804a51, 2ff18664) / pre-watermark 0 / total 100; updated [[1966 Plateau Deck]] (Kaizen cost-out ≈77,6 млн ₸ + «Зоны развития» 12-я вкладка); note: vault project cards pre-written by prior syncs 07-02..07-05, captured_recent not updated — corrected today
+- **Push** ^push-2026-07-06-T044600Z (session: e396cb39, "Weekly ROI digest") — 5 строк добавлено, 10.25 ч saved за окно 2026-06-29–2026-07-05 (109 deliverables / 408.5 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]] (1966 Plateau: муз. система КП + смета ред.3 + протокол №07 + Kaizen cost-out; ZILLI: SMM RACI+SLA doc). **Anomalies:** нет.
+
+### 2026-07-05
+
+- **^push-2026-07-05-T123932Z** (manual, 2026-07-05T12:39:32Z, session `local_b4deab0f-dba0-477c-b535-5a8ddbba9236`) — Portfolio refresh v2.5, 17:40 Алматы, 4 открытых лонга (ZEC 25× / SOL 10× / AAVE 3× / DOGE 3×). Bybit snapshot по всем 4 + BTC. **Общий фон:** BTC 62,708 (+0.19%), 4H HH+HL/RSI 59.6 над EMA50 (61,453), под EMA200 (64,481); 1H слом; альты синхронно отскочили от утренних лоёв. **Δ vs 15:20:** ZEC 452.17→461.81 (+2.13%, PnL −$12.73→+$15.61), SOL 79.71→81.00 (+1.62%, PnL −$18.17→+$11.50, RSI 1H 30.1→41.6 капитуляция ушла), AAVE узкий коридор но 4H prevClose 88.06 > entry 87.97 (условие БУ сработало), DOGE стабилен 0.07631, 24h low 0.07524 (стоп 0.07469 не тронут). **Инвалидации:** ни одна не сработала (все 4 HOLD). **Суммарный живой риск:** $69.22 (8.74% депо, всё ещё > 5% cap). **AAVE surface — 4H close bullish:** prevClose 88.06 > entry 87.97, HL 84.94 сохранён, цена над EMA50/200 4H → предложен БУ SL 85.75→87.97 (освобождает $7.90 → total $61.32 / 7.74%). Оговорка: буфер БУ 0.78% ≈ 0.72 ATR 1H тесен — альтернатива SL 87.31 (1.4 ATR). **UNI-watchlist blocked:** даже с БУ AAVE total 7.74% > 5%, для разблокировки нужен ещё БУ SOL (пока подушка SOL 0.62% узкая — преждевременно). **Порог INVALID:** ZEC 1H<451.20 / 4H<455.23; SOL 1H<79.64 / 4H<79.20; AAVE 4H<84.94; DOGE 4H<0.07370. **Correlation guidance:** BTC под EMA50 4H (61,453) → SOL/DOGE падут первыми; BTC над EMA200 4H (64,481) → ZEC/AAVE полетят первыми. **Deliverables:** surface-сообщение по AAVE + сборный refresh-отчёт в чате; ждём отмашку пользователя по AAVE (БУ 87.97 / трейл 87.31 / оставить 85.75).
+- ^push-2026-07-05-T105033Z (manual, 2026-07-05T10:50Z) — session `local_b686378c-aa36-41a8-ad74-b127ed89d3ba`: полный ТА UNIUSDT по trading-advisor-2 v2.5 после утреннего SL 3.159. Итог: 4H-аптренд жив (цена над EMA50 3.043), но 1H пробил equal-lows 3.167 с объёмом 210%, 15m RSI 25.4, funding −0.0225% (перегрев в шорт). LONG-reclaim 3.10 / SL 3.02 / TP1 3.245 = R/R 1.81:1 ✅ математически валиден, НО перенесён в WATCHLIST на 06.07 по v2.3 п.4 (anti-revenge, 1 стоп по UNI сегодня) + risk-cap 5% пробит (открытый риск портфеля 8.74%, +UNI = ~11%). SHORT ❌ (контртренд по 4H аптренду, v2.3 п.1). BTC-фон: ✅ нейтрально-позитивный (над 1H EMA50).
+- **^push-2026-07-05-T102014Z** (session: local_b82f28a9, manual, 2026-07-05T10:20:14Z) — Portfolio review v2.5 после захода в AAVE+DOGE: 4 открытых лонга (ZEC 25× / SOL 10× / AAVE 3× / DOGE 3×). Bybit snapshot по всем 4 + BTC-фон. Вердикты HOLD по всем: ни одна позиция на INVALID не сработала. Суммарный живой риск $69.22 (8.74% депо $791.7) — превышает риск-кап v2.4 5% ($39.6) на $29.62 — ⚠️ WARNING, но по правилу v2.5 п.4 не триггер закрытия живых позиций (пользователь принял размеры сам). Основной вклад в риск: ZEC $23.52 + SOL $29.90 = $53.42. Наиболее близко к SL: SOL (1.14% до SL 79.2, RSI 1H 30.1 экстремум, 24h low 79.64 всего в 44¢ от SL — свип-риск). AAVE и DOGE — вход по плану, стоп-гейт: AAVE PASS ✅, DOGE буфер над 24h low <1 ATR 1H (стоп-гейт формально FAIL) — учтено. Корреляционная связка SOL+AAVE (DeFi/L1) — при даунлеге BTC двойной удар. BTC 62 668 4H HH+HL с RSI 64.9, 1H корректирует — смешанный фон для альтов. Артефакты: обновлений vault нет, только Run-запись. Follow-ups: (1) не наращивать риск, пока не переведём в БУ хотя бы одну из ZEC/SOL; (2) SOL — при 1H close < 79.64 готов к stop-out; (3) DOGE — узкий буфер над пулом, вероятность стоп-выноса свипом выше средней.
+- **Push** ^push-2026-07-05-T095900Z (session: 33b2bf3c, "Top-5 altcoin setups 14:44 Алматы — v2.5 confirmation gate") — по запросу пользователя составлен Top-5 альт-сетапов (BTC/ETH исключены) по правилам trading-advisor-2 v2.5. Забраны 4H/1H/15m через bybit_snapshot по 16 кандидатам из 8 секторов. Прошли все гейты: (1) AAVE long entry 87.97/SL 85.75/TP1 92.50 R/R 2.04; (2) DOGE long entry 0.0760/SL 0.07469/TP1 0.0785 R/R 1.91; (3) TIA long watchlist; (4) NEAR short watchlist; (5) AVAX long watchlist. **Deliverables:** финальный отчёт в чате.
+- **Push** ^push-2026-07-05-T094419Z (session: 33b2bf3c, "Positions review 14:44 Алматы — ZEC/SOL after UNI stop-out") — разбор ZEC/SOL после срабатывания SL UNI. UNI пост-мортем: bear-trap-механика, SL сработал по интрадей-свипу. ZEC HOLD / SOL HOLD. **Deliverables:** отчёт пользователю в чате.
+- **Push** ^push-2026-07-05-T082100Z (session: 815cf3be, "Positions review 13:18 Алматы — ZEC/UNI/SOL post-fill discipline v2.5") — разбор трёх открытых позиций: ZEC HOLD / UNI HOLD / SOL HOLD. BTC-контекст нейтральный. **Deliverables:** финальный отчёт пользователю в чате.
+- **Push** ^push-2026-07-05-T075048Z (session: 28ab2a0a, "Trading (aggressive) v2.5 SKILL patch") — добавлен раздел «ПОСТ-ФИЛЛ ДИСЦИПЛИНА (v2.5)» с 5 правилами. **Deliverables:** [[trading-advisor-2]] v2.5.0-aggressive обновлён.
+- **Run 1** ^run-2026-07-05-r1 (scheduled, 2026-07-05T06:39:47Z) — captured 12; deferred 1; push 5 (1fc06e75/e710adea/cb89c8c7/032f2551/9d76e5fb); orphan-system 2; pre-watermark 7 / total 100; updated: [[Tradings/My Trading]]
+
+### 2026-07-04
+
+- **Run 1** ^run-2026-07-04-r1 (scheduled, 2026-07-04T12:06:35Z) — captured 3 (114bc21a: лимит-ордера позиций, 45907c05: ZILLI SMM RACI+SLA doc, 5c4b64ae: протокол встречи №07 1966 Plateau); deferred 1 (b6603747: running); push 1 (1fc06e75); orphan-system 2 (48804a51, 2ff18664); pre-watermark 2 (7263c07f, fc1e0c1a — re-capture forbidden, from 07-03); updated: [[ZILLI Marketing Services]], [[1966 Plateau Deck]]
+
+### 2026-07-03
+
+- **Run 3** ^run-2026-07-03-r3 (scheduled consolidate-memory, 2026-07-03T0707Z) — archived 19 dates (2026-06-02 → 2026-05-12) / index 96 lines OK / dedup OK
+- **Run 2** ^run-2026-07-03-r2 (scheduled, 2026-07-03T06:44:42Z) — captured 21 (FIFO-evicted/ephemeral — все в vault от 07-02 r1; gap-fix: марк.бриф v2 [[1966 Plateau Deck]] local_e70c5c98); deferred 0; push 1 (032f2551); orphan-system 7 (63d03ca5, 516b21c7, 3b68260e, 348f3948, fe71b56e, 13d4d570, c3028a9b — v3.4 rule); pre-watermark 2 (7263c07f, fc1e0c1a — re-capture forbidden per r1) / total 100
+- **Run 1** ^run-2026-07-03-r1 (scheduled, 2026-07-02T21:02:06Z) — captured 29 (vault writes: [[1966 Plateau Deck]] муз.КП Вариант4=15,16М ₸ 2 gap + камины ред.3; [[Брендбук Алмалы]] дедлайн Катя 03.07; остальные 27 CAPTURE — контент уже в vault 06-22/06-27/06-30; все добавлены в captured_recent); deferred 0; push 7 (e710adea, cb89c8c7, 9d76e5fb — 3 новых push-captured; 032f2551, a9e695eb, 11534f47, 3bccc159 — уже были в captured_recent); orphan-system 8 (6b3437cb, d4cc60b1, 618ef728, e2389e08, 9d53183e, 04376510, 7a71b8c6, e6da9550 — v3.4 rule); pre-watermark 2 (7263c07f, fc1e0c1a — re-capture forbidden) / total 100; 9 крипто ТА (SOL/HYPE/ZEC/ZBT/FART/MCORE + мульти-altcoin скринер, позиции-монитор 03.07 в Tradings/); IB account $0 (открыт 2026-06-25); arshat-work-style v1→v2 (skill система)
+- **Push** ^push-2026-07-03-T071143Z (session: 1fc06e75, "Weekly ROI digest") — 0 строк добавлено, 0 ч saved за окно 2026-06-29–2026-07-02 (накоплено 104 deliverables / 398.25 ч — без изменений; нет новых deliverables вне ранее добавленных). **Deliverables:** [[AI ROI Ledger]] не изменён — все deliverables окна уже захвачены push-2026-07-02-T072119Z. **Anomalies:** none.
+
+### 2026-07-02
+
+- **Push** ^push-2026-07-02-T072119Z (session: e710adea, "Mid-week ROI digest") — 8 строк добавлено, 21 ч saved за окно 2026-06-28–2026-07-02 (104 deliverables / 398.25 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]] (1966 Plateau: анализ столярки + смета ред.2 + марк.бриф; ВНД Agent: audit MAR-001/006/007/008/010 + 002/003/004/005/009; Drone: Collaboration DOCX + Письмо Акционеру). **Anomalies:** Kaizen 11 мод. — ретро-обновление уже захваченной сессии 4592aa19; sneko-brand-guidelines.skill — сист.инфра, инвариант 3.
+- **Run 1** ^run-2026-07-02-r1 (scheduled, 2026-07-02T04:21:39Z) — captured 15; deferred 0; push 1 (032f2551); orphan-system 6; pre-watermark 0 / window 100; updated [[1966 Plateau Deck]], [[ВНД Agent]], [[Drone Delivery Almaty]], [[Autonomous Pharmacy Retail]], [[Постаматы Almaty]], [[n8n AI Agents]], [[Almaly Brand System & Skills]].
+
+### 2026-06-30
+
+- **Run 1** ^run-2026-06-30-r1 (scheduled, 2026-06-30T04:36:00Z) — captured 10 (6 project updates); deferred 0; push 1 (cb89c8c7); orphan-system 2 (d4cc60b1, 9d53183e); pre-watermark 3 / total 100; updated [[1966 Plateau Deck]], [[ВНД Agent]], [[Tselinny]], [[Drone Delivery Almaty]]
+
+### 2026-06-29
+
+- **Run 1** ^run-2026-06-29-r1 (scheduled, 2026-06-29T04:21:47Z) — captured 0 (FIFO-evicted); push 1 (e710adea); orphan-system 2 (618ef728, db181829); pre-watermark 4 / total 100; no project writes
+- **Push** ^push-2026-06-29-T043938Z (session: cb89c8c7, "Weekly ROI digest") — 1 строка добавлена, 2.5 ч saved за окно 2026-06-22–2026-06-28 (96 deliverables / 377.25 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]], Q2 Summary переписан финально для 30.06. **Anomalies:** нет.
+
+### 2026-06-27
+
+- **Run 1** ^run-2026-06-27-r1 (scheduled, 2026-06-27T17:10:39Z) — captured 6 (c069aa58: Food Pkg meeting DOCX, 17eba645: Food Pkg brief, ac2afebc: arshat-work-style v2, e70493d0/6fa55251/fc1e0c1a); push 8 (e710adea/032f2551/9d76e5fb/a9e695eb/11534f47/3bccc159/7811e93c/be5c1880); orphan-system 4; pre-watermark 5 / total 100; new [[Food Packaging]]; updated [[Almaly Brand System & Skills]]
+
+### 2026-06-26
+
+- **Run 1** ^run-2026-06-26-r1 (scheduled, 2026-06-26T08:13:26Z) — captured 5 (c8d9d9e8/fb811a80/32ff09b8/5ea2fa93/f55f6d93 — Greece vacation, IB account opened); deferred 0; push 1 (e710adea); orphan-system 1 (db181829); pre-watermark 10 / total 100; no project writes
+
+### 2026-06-25
+
+- **Run 1** ^run-2026-06-25-r1 (scheduled, 2026-06-25T04:16:20Z) — captured 1 (425aaeed: Tselinny экспертный совет 25–27.06); deferred 0; push 0; orphan-system 1 (fe71b56e); pre-watermark 3 / total 100; updated [[Tselinny]]
+- **Push** ^push-2026-06-25-T045208Z (session: e710adea, "Weekly ROI digest") — 8 строк добавлено, 16.5 ч saved за окно 2026-06-22–2026-06-24 (95 deliverables / 374.75 ч всего). **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** none.
+
+### 2026-06-24
+
+- **Run 1** ^run-2026-06-24-r1 (scheduled, 2026-06-24T04:19:47Z) — captured 4 (2d0fbee8/4dc10c8d/4592aa19/66f1bc7d); deferred 0; push 0; orphan-system 1 (13d4d570); pre-watermark 0; updated: [[Медео Парк Отель]], [[1966 Plateau Deck]], [[Drone Delivery Almaty]], [[Постаматы Almaty]]
+
+### 2026-06-23
+
+- **Run 1** ^run-2026-06-23-r1 (scheduled, 2026-06-23T04:21:09Z) — captured 3 (b641afa4/7989fb5f/339793d0); deferred 0; push 1 (032f2551); orphan-system 1 (c3028a9b); pre-watermark 0; updated: [[1966 Plateau Deck]], [[Completed Deliverables]]
+
+### 2026-06-22
+
+- **Run 1** ^run-2026-06-22-r1 (scheduled, 2026-06-22T04:42:11Z) — captured 2 (fc1e0c1a/6fa55251); push 5 (a9e695eb/11534f47/3bccc159/7811e93c/9d76e5fb); orphan-system 3; pre-watermark 0; updated: [[1966 Plateau Deck]], [[Медео Парк Отель]]
+- **Push** ^push-2026-06-22-T044155Z (session: 9d76e5fb, "Weekly ROI digest") — 10 строк добавлено, 26.75 ч saved (84 deliverables / 352 ч). **Deliverables:** обновлён [[AI ROI Ledger]].
+- **Push** ^push-2026-06-22-T045700Z (session: 032f2551, "Weekly ROI digest") — 3 строки добавлено (87 deliverables / 358.25 ч). **Deliverables:** обновлён [[AI ROI Ledger]].
+
+### 2026-06-19
+
+- **Run 1** ^run-2026-06-19-r1 (scheduled, 2026-06-19T04:15:44Z) — captured 6 (7263c07f/64aa52ae/d68346f8/9e29c6d2/4c16976a/b6489066); deferred 0; push 0; orphan-system 1 (7c31d07a); pre-watermark 0; updated: [[Drone Delivery Almaty]], [[Autonomous Pharmacy Retail]], [[Медео Парк Отель]], [[1966 Plateau Deck]]
+
+### 2026-06-18
+
+- **Run 1** ^run-2026-06-18-r1 (scheduled, 2026-06-18T04:29:20Z) — captured 3 (536451ea/7a3b373e/4c357a4d); updated: [[AMC - Almaty Mountain Cluster]], [[ZILLI Marketing Services]]
+
+### 2026-06-17
+
+- **Run 2** ^run-2026-06-17-r2 (scheduled, 2026-06-17T10:17:17Z) — captured 1 (0a609f5c: Basalt AMC commercial proposal); orphan-system 1 (eaba4789); pre-watermark 2
+- **Run 1** ^run-2026-06-17-r1 (scheduled, 2026-06-17T04:25:13Z) — captured 4 (1da621fe/e9f741e0/df1fa263/d46a37b3); push 2 (11534f47/3bccc159); orphan-system 1; new: [[Freedom Media — FK Kairat Documentary]], [[Almaly Brand System & Skills]]
+
+### 2026-06-16
+
+- **Run 1** ^run-2026-06-16-r1 (scheduled, 2026-06-16T04:46:03Z) — captured 9 (0a35e1b4/1db7ea15/44d22402/8f8329de/191f2b46/e10936ef/7cef623b/889b031a/d6a2698f); push 5 (a9e695eb/7811e93c/be5c1880/11534f47/3bccc159); orphan-system 1; pre-watermark 1; updated: [[Drone Delivery Almaty]], [[Autonomous Pharmacy Retail]], [[ZILLI Marketing Services]], [[AMC]], [[Claude Training — Marketing Team]]
+
+### 2026-06-15
+
+- **Push** ^push-2026-06-15-T043252Z (session: 11534f47, "Weekly ROI digest") — 1 строка добавлена, 2 ч saved (74 deliverables / 325.25 ч). **Deliverables:** обновлён [[AI ROI Ledger]].
+- **Push** ^push-2026-06-15-T041521Z (session: 3bccc159, "Weekly ROI digest") — 2 строки добавлено, 14.5 ч saved (73 deliverables / 323.25 ч). **Deliverables:** обновлён [[AI ROI Ledger]].
+- **Run 1** ^run-2026-06-15-r1 (scheduled, 2026-06-15T04:04:30Z) — captured 1 (b7fce71b: Instagram audit @arshat); orphan-system 1 (a0493bd1); new project [[Personal Brand @arshat]]
+
+### 2026-06-12
+
+- **Push** ^push-2026-06-12-T095656Z (session: 7811e93c, "Тренинг AI — HTML-дека") — HTML-дека тренинга ~3 ч (54 слайда). **Deliverables:** Тренинг_AI_Маркетинг_Almaly_v1.html; changelog [[Claude Training — Marketing Team]].
+- **Run 2** ^run-2026-06-12-r2 (scheduled, 2026-06-12T13:10:06Z) — captured 1 (cb156178); deferred 10; push-captured 1 (7811e93c); orphan-system 1 (de1e4c86); updated [[ZILLI Marketing Services]]
+- **Run 1** ^run-2026-06-12-r1 (scheduled, 2026-06-12T04:52:04Z) — 13 captured; push-captured 2 (a9e695eb/be5c1880); orphan-system 2; pre-watermark 1; 6 projects updated: [[Ecole Ducasse Almaty Studio]], [[Drone Delivery Almaty]], [[Постаматы Almaty]], [[1966 Plateau Deck]], [[Autonomous Pharmacy Retail]], [[ВНД Agent]]
+
+### 2026-06-11
+
+- **Push** ^push-2026-06-11-T162317Z (session: a9e695eb, "Autonomous pharmacy decks v2") — деки Аптеки Акиму (17 сл.) + Акционеру (21 сл.) v2; финмодель 1×Standard CAPEX 144 млн ₸; IRR 2.6/29.5/8.5%. **Deliverables:** Аптеки_Акиму_2026_v2.html, Аптеки_Акционеру_2026_v2.html.
+- **Run 5** ^run-2026-06-11-r5 (scheduled consolidate-memory, 2026-06-11T15:09Z) — archived 13 dates (2026-04-25–2026-05-11): push×17 run×38 retro×3; created Sync Run Archive.md; index OK 90 строк; dedup OK
+- **Run 4** ^run-2026-06-11-r4 (scheduled, 2026-06-11T05:44:30Z) — 3 captured; 0 deferred; 3 push-captured (03b3c5e3/bcbb429b/60d50b58); 1 orphan-system (db181829); 11 pre-watermark skipped
+- **Push** ^push-2026-06-11-T061622Z (session: be5c1880, "Weekly ROI digest") — 10 строк добавлено, 29.75 ч saved (71 deliverables / 308.75 ч). **Deliverables:** обновлён [[AI ROI Ledger]].
+- **Run 3** ^run-2026-06-11-r3 (manual, 2026-06-11T05:39:48Z) — v3.6 migration: daily-memory-sync v3.5→v3.6, consolidate-memory v1.2→v1.3 (архивация 90→30 дней); [[Memory Sync Protocol]] и [[AI System Improvement Backlog]] обновлены
+- **Run 2** ^run-2026-06-11-r2 (scheduled, 2026-06-11T05:05:35Z) — 10 sessions captured: ED brand rules, [[Брендбук Алмалы]], ZILLI Taplink, Drone финмодель v2, Постаматы финмодель v2, AMC YYA proposals; 7 проектов обновлено; 10 orphan-system added to captured_recent
+- **Run 1** ^run-2026-06-11-r1 (scheduled, 2026-06-11T04:18:50Z) — zero-capture idle sync
+
+### 2026-06-10
+
+- **Run 2** ^run-2026-06-10-r2 (scheduled, 2026-06-10T16:53:54Z) — 0 new captures; 5 orphan-system added to captured_recent
+- **Run 1** ^run-2026-06-10-r1 (scheduled, 2026-06-10T04:21:27Z) — zero-capture idle sync
+
+### 2026-06-09
+
+- **Run 1** ^run-2026-06-09-r1 (scheduled, 2026-06-09T04:20:40Z) — 11 sessions processed: Tatler partnership (ED), Mortgage v6, Drone deck updates, Pharmacy HTML deck, Basalt email, DZIN prompts; 4 projects updated
+
+### 2026-06-08
+
+- **Run 1** ^run-2026-06-08-r1 (scheduled, 2026-06-08T05:21:51Z) — idle sync; 0 captures
+- **Push** ^push-2026-06-08-T052148Z (session: 03b3c5e3, "Weekly ROI digest") — 1 строка добавлена, 7 ч saved (61 deliverables / 279 ч). **Deliverables:** обновлён [[AI ROI Ledger]].
+
+### 2026-06-07
+
+- **Push** ^push-2026-06-07-T133447Z (session: f43167e8, "Mortgage Report v6 docx") — собран Mortgage_Report_v6_2026-06-07.docx (314 KB, 21 стр., 10 чартов). **Deliverables:** Mortgage_Report_v6_2026-06-07.docx.
+- **Push** ^push-2026-06-07-T123844Z (session: bcbb429b, "Weekly ROI digest") — retro-fill окна 2026-05-02→2026-06-06: 51 строка добавлена, 187.75 ч saved (60 deliverables / 272 ч). **Deliverables:** обновлён [[AI ROI Ledger]].
+- **Push** ^push-2026-06-07-T123022Z (session: 60d50b58, "Project task clarification") — диагностика Cowork + миграция API-слоя v3.5: daily-memory-sync v3.4→v3.5, consolidate-memory v1.1→v1.2. **Deliverables:** SKILL.md v3.5, SKILL.md v1.2, 3 System-файла.
+- **Run 1** ^run-2026-06-07-r1 (scheduled, 2026-06-07T09:16:01Z) — no new sessions; 4 orphan-system added to captured_recent
+
+### 2026-06-06
+
+- **Run 1** ^run-2026-06-06-r1 (scheduled, 2026-06-06T13:41:08Z) — no substantive sessions captured; orphan-system count: 3 (local_668aff2c, local_9325a793, local_538c431f) added to captured_recent (v3.4 rule)
+
+### 2026-06-05
+
+- **Run 1** ^run-2026-06-05-r1 (scheduled, 2026-06-05T04:39:23Z) — no substantive sessions captured
+
+### 2026-06-04
+
+- **Run 2** ^run-2026-06-04-r2 (manual, 2026-06-04T15:52:29Z) — no substantive sessions captured; orphan-system count: 3 (local_9a3cf4f5, local_37f6cca9, local_522a0337) added to captured_recent (v3.4 rule)
+- **Run 1** ^run-2026-06-04-r1 (scheduled, 2026-06-04T04:15:53Z) — no substantive sessions captured
+
+### 2026-06-03
+
+- **Run 1** ^run-2026-06-03-r1 (scheduled, 2026-06-03T17:24:19Z) — no substantive sessions captured; orphan-system count: 4 (local_3cc344fd, local_cb2f7f35, local_84e1472f, local_f503f8e0) added to captured_recent (v3.4 rule)
