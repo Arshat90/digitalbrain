@@ -1,22 +1,31 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-01
+updated: 2026-09-02
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-01T05:02Z
+sync_last_run_at: 2026-09-02T04:56:55Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-01
+sync_runs_today_date: 2026-09-02
 sync_pending_capture:
+  - local_a4518f8e-693e-4d12-8f21-aab18e65260c
+  - local_8e6539de-dd1f-436d-b3b9-f55d9f0ee52b
+sync_captured_recent:
   - local_ca65f605-39f1-4e78-ba6d-e811104d514f
   - local_0d23cc68-6217-48bd-b46b-befc8e1b8109
-  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
   - local_05742f4d-1955-4606-9e3e-a7653f809407
-sync_captured_recent:
+  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
+  - local_e005283a-b5df-4dcd-be97-0c1559adc117
+  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
+  - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
+  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
+  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
+  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
+  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
   - local_d013942c-2a9a-445a-a883-addeb718b171
   - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
   - local_81838f11-3890-4474-99c3-1dc7ab980526
@@ -106,21 +115,7 @@ sync_captured_recent:
   - local_a4ca7bed-3f6b-47e5-971f-c15d05950a65
   - local_2ab8baf6-87f5-4948-aec8-af5c3ec65f22
   - local_283bdb55-a6b7-45eb-b399-d4750aafd666
-  - local_e9b43d98-0811-45b1-8d24-2de3528a65c6
-  - local_bbe9c106-febb-4a3e-854a-b65ef1f273bb
-  - local_82497b2a-f683-4bd0-9e21-f09cd4f9b5e3
-  - local_a99f98a1-4ad1-46c1-9c0e-e4cfd2a0c147
-  - local_f17949cc-27e5-4d3e-af21-1e89d1da9df9
-  - local_89abc640-9314-4a95-8eb6-416c15df88cc
-  - local_2dcbf1b6-a854-4128-bbaa-055662b68681
-  - local_67dce9e5-cc85-412a-a90d-ea2a9f4513a6
-  - local_9c7421bc-b741-4746-aa64-7a476d5f4e43
-  - local_7451eb1a-8cd6-4a5b-a54e-8cd853225a45
-  - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
-last_anomalies:
-  - scheduler gap 2026-08-28 to 2026-09-01 (4 days without sync) — confirmed by
-    sync_runs_today_date delta and trading review session dea6cfb5 which noted
-    'планировщик пропустил прогоны 28-30.08'
+last_anomalies: []
 ---
 
 # Sync State
@@ -139,6 +134,10 @@ last_anomalies:
 ## Run History
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
+
+### 2026-09-02
+
+- **Run 1** ^run-2026-09-02-r1 (scheduled, 2026-09-02T04:56:55Z) — captured 5 (ca65f605/0d23cc68/05742f4d/3993cc51/e005283a — 3 vault writes: Drone Delivery/Autonomous Pharmacy/Постаматы status note, Chinese window Sep–Oct); deferred 2 (a4518f8e/8e6539de — running); push 4 (cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 4 (89de4f90/c594df30/6786ee32/f2a56e79); pre-watermark 28 / total 100
 
 ### 2026-09-01
 
