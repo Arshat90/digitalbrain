@@ -1,33 +1,33 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-02
+updated: 2026-09-04
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-02T04:56:55Z
+sync_last_run_at: 2026-09-04T04:36:51Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-02
+sync_runs_today_date: 2026-09-04
 sync_pending_capture:
+  - local_44306f1e-e6b8-454d-8cd8-59e211a60a7c
+  - local_55fe7f9a-1301-469b-bbdb-83447953e93c
+sync_captured_recent:
+  - local_07127298-dd6f-40b0-8941-25078be6ccd8
+  - local_57232643-03de-46eb-baff-c66c02bbf405
+  - local_62c567db-1936-4c07-b5b4-b7dd43d9b5d4
+  - local_771178e4-d069-4bbc-bdc2-c0651791e30d
   - local_a4518f8e-693e-4d12-8f21-aab18e65260c
   - local_8e6539de-dd1f-436d-b3b9-f55d9f0ee52b
-sync_captured_recent:
-  - local_ca65f605-39f1-4e78-ba6d-e811104d514f
-  - local_0d23cc68-6217-48bd-b46b-befc8e1b8109
-  - local_05742f4d-1955-4606-9e3e-a7653f809407
-  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
-  - local_e005283a-b5df-4dcd-be97-0c1559adc117
-  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
-  - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
-  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
-  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
-  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
-  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
-  - local_d013942c-2a9a-445a-a883-addeb718b171
-  - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
+  - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
+  - local_7451eb1a-8cd6-4a5b-a54e-8cd853225a45
+  - local_9c7421bc-b741-4746-aa64-7a476d5f4e43
+  - local_f2d2801d-d2d5-47c9-986c-438ce337b618
+  - local_3a155178-865c-4abb-ac33-218aa35d961e
+  - local_82497b2a-f683-4bd0-9e21-f09cd4f9b5e3
+  - local_a99f98a1-4ad1-46c1-9c0e-e4cfd2a0c147
   - local_81838f11-3890-4474-99c3-1dc7ab980526
   - local_d3e9719b-324f-4d23-8237-94dd16b8824f
   - local_2228d328-5820-4f6c-8628-e244632435c3
@@ -134,6 +134,10 @@ last_anomalies: []
 ## Run History
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
+
+### 2026-09-04
+
+- **Run 1** ^run-2026-09-04-r1 (scheduled, 2026-09-04T04:36:51Z) — captured 2/9 (2 vault writes: Медео Парк Отель cl-2026-09-04-opening, 1966 Plateau cl-2026-09-04-smeta), deferred 2 (44306f1e/55fe7f9a — running); push 1 (cee82b4d); orphan-system 4 (f2d2801d/3a155178/82497b2a/a99f98a1); pre-watermark 33 / total 100; 2 vault writes
 
 ### 2026-09-02
 
