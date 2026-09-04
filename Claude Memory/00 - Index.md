@@ -27,6 +27,7 @@ tags:
 - [[AMC - Almaty Mountain Cluster]] — горный курорт; диалог с Ecosign (Eric Callender), параллельный трек Almaty Superski с Акиматом
 - [[1966 Plateau Deck]] — 16-слайдовый investor brief на английском для Almaly Holding
 - [[ФК Кайрат — 1xBET]] — переговоры по долгу 2025 (422,5 млн ₸) и ДС № 6 на 2027–2028 по методологии GAP; открытое расхождение 200 млн ₸
+- [[ФК Кайрат — Halyk Bank]] — привлечение спонсорства Halyk при действующем контракте с Freedom Bank; стадия сбора вводных по GAP
 - [[I'M Restaurant Chain]] — ДЗО-сеть ресторанов, аудит ROMI + mystery shopper
 - [[Медео Парк Отель]] — пре-опенинг (плаза 10 июня, отель 1 июля); коммуникационная стратегия
 - [[n8n AI Agents]] — `arshat.app.n8n.cloud`; Telegram → n8n → Claude; KUA-документы и Almaty Business FM Bot
