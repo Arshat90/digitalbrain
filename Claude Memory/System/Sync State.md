@@ -138,6 +138,7 @@ last_anomalies: []
 ### 2026-09-04
 
 - **Run 1** ^run-2026-09-04-r1 (scheduled, 2026-09-04T04:36:51Z) — captured 2/9 (2 vault writes: Медео Парк Отель cl-2026-09-04-opening, 1966 Plateau cl-2026-09-04-smeta), deferred 2 (44306f1e/55fe7f9a — running); push 1 (cee82b4d); orphan-system 4 (f2d2801d/3a155178/82497b2a/a99f98a1); pre-watermark 33 / total 100; 2 vault writes
+- **Push** ^push-2026-09-04-T112500Z (session: cloud Cowork, вне `list_sessions`) — ретроспективное восстановление [[ФК Кайрат — 1xBET]] по 26 файлам в Downloads (27.07–19.08.2026). **Deliverables:** новая карточка проекта (^cl-2026-09-04-1xbet) + строка в [[00 - Index]] §«Активные проекты». **Anomalies:** структурный пробел — облачные чаты claude.ai не попадают в `mcp__session_info__list_sessions`, поэтому трёхнедельные переговоры с 1xBET не были захвачены ни одним прогоном; компенсация — новая задача `deliverables-sweep` (обход по файлам, а не по сессиям)
 
 ### 2026-09-02
 
