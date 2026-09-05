@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-04-23
-updated: 2026-05-16
+updated: 2026-09-05
 tags:
   - claude-memory
   - project/active
@@ -33,6 +33,12 @@ tags:
 - [[Annual Report Framework]] — фреймворк, использованный для сборки итогов
 
 ## Changelog
+### 2026-09-05 — AI-концепция ресторана: финальные материалы (v4 pptx + pdf) ^cl-2026-09-05
+
+- Разработана AI-концепция ресторана I'M: итерации html v1 → html v2 → pptx v3 → pptx v4 (02.09.2026)
+- Финальные файлы на Desktop: `IM_AI_concept.pptx` (2.2MB) + `IM_AI_concept.pdf` (03.09.2026)
+- 8 визуальных вариантов: `01_zal_variant_A/B/C/D` (4 варианта зала), `02_roboruka_barista_A/B` (кофе-робот), `04_refily_QR_A`, `05_fudboksy_A`
+
 
 ### 2026-05-16 — Оценка работы консультанта по пищевой безопасности (Гульжазира) ^cl-2026-05-16
 

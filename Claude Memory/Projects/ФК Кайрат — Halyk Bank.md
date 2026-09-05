@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 tags:
   - claude-memory
   - project/active
@@ -62,6 +62,11 @@ tags:
 - [[GAP Partnership Negotiation]] — методология
 
 ## Changelog
+### 2026-09-05 — Вопросы перед планом: v1 → v2 ^cl-2026-09-05
+
+- Подготовлены вопросы перед GAP-планом (сбор вводных): `ФК_Кайрат_Halyk_вопросы_перед_планом_v1.docx` → `v2.docx` (04.09.2026, Downloads)
+- Статус: сбор вводных по GAP продолжается, v2 — финальный вариант вопросника
+
 
 ### 2026-09-04 — Документ вопросов к клубу ^cl-2026-09-04-halyk
 

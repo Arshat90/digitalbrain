@@ -1,15 +1,19 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-05
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-01T00:00:00Z
-sweep_last_run_status: initialized
-sweep_unmatched: []
+sweep_last_run_at: 2026-09-05T14:22:17Z
+sweep_last_run_status: success
+sweep_unmatched:
+  - APS-AED-MIN №24 от 31.08.2026 года.docx
+  - Alienkind_razbor_v1.docx
+  - Kamshat Bekturgan_CV.pdf
+  - 970506451012-20260810150813235.pdf
 ---
 
 # Sweep State

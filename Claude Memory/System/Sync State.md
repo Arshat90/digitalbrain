@@ -1,20 +1,35 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-04
+updated: 2026-09-05
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-04T04:36:51Z
+sync_last_run_at: 2026-09-05T14:22:17Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-04
+sync_runs_today_date: 2026-09-05
 sync_pending_capture:
+  - local_8d242210-f74e-4b06-ae19-af400e9857c0
+  - local_1f533530-c66a-429d-890c-2ebc0b666208
+sync_captured_recent:
   - local_44306f1e-e6b8-454d-8cd8-59e211a60a7c
   - local_55fe7f9a-1301-469b-bbdb-83447953e93c
-sync_captured_recent:
+  - local_5d8e84e7-df2b-4727-9e37-4189e88ae986
+  - local_ca65f605-39f1-4e78-ba6d-e811104d514f
+  - local_0d23cc68-6217-48bd-b46b-befc8e1b8109
+  - local_05742f4d-1955-4606-9e3e-a7653f809407
+  - local_d013942c-2a9a-445a-a883-addeb718b171
+  - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
+  - local_e005283a-b5df-4dcd-be97-0c1559adc117
+  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
+  - local_e24dca80-748a-462f-829b-116a37071e5b
+  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
+  - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
+  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
+  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
   - local_07127298-dd6f-40b0-8941-25078be6ccd8
   - local_57232643-03de-46eb-baff-c66c02bbf405
   - local_62c567db-1936-4c07-b5b4-b7dd43d9b5d4
@@ -100,21 +115,6 @@ sync_captured_recent:
   - local_7d983a16-1cd5-40e3-a9dd-7cfba3879910
   - local_5f501895-a0a9-41ab-a517-237da03d2d78
   - local_6bec9534-f236-4d7a-8282-6b38796a54d4
-  - local_bab863b3-4a81-4ecc-8b6f-c0d445e615ea
-  - local_e8f13a21-b6e1-4b40-8129-5c995702d41f
-  - local_f81281ee-0a88-4b50-9568-0fa19a18d442
-  - local_856d0614-6dbe-4d48-a864-90234fc2674f
-  - local_b95bb867-fe2f-4787-97e3-18b53f66c3b1
-  - local_a6813b85-a027-4ab5-80e3-d7937662f669
-  - local_e5ca98ef-c5c2-4448-a317-e214ffe3d1b9
-  - local_b2886b09-6aff-4a4e-b0f5-19c53a3fc129
-  - local_3e405c6a-6144-4d27-bed8-4ce724ddf6c3
-  - local_e3b73062-af96-47f0-9961-934d6910dcfb
-  - local_0fa51735-d257-46c1-86cf-cca75e756dab
-  - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
-  - local_a4ca7bed-3f6b-47e5-971f-c15d05950a65
-  - local_2ab8baf6-87f5-4948-aec8-af5c3ec65f22
-  - local_283bdb55-a6b7-45eb-b399-d4750aafd666
 last_anomalies: []
 ---
 
@@ -134,6 +134,10 @@ last_anomalies: []
 ## Run History
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
+
+### 2026-09-05
+
+- **Run 1** ^run-2026-09-05-r1 (scheduled, 2026-09-05T14:22:17Z) — captured 10 (session: 44306f1e/55fe7f9a/5d8e84e7/ca65f605/0d23cc68/05742f4d/d013942c/dea6cfb5/e005283a/3993cc51); deferred 2 (8d242210/1f533530 — running); push 3 (cee82b4d/b5cd7181/da14fe32); orphan-system 5 (e24dca80/89de4f90/c594df30/6786ee32/f2a56e79); pre-watermark 33 / total 100; 6 vault writes (Медео Парк Отель cl-2026-09-05, I'M Restaurant Chain cl-2026-09-05, 1966 Plateau Deck cl-2026-09-05, ФК Кайрат Halyk cl-2026-09-05, Брендбук Алмалы cl-2026-09-05, new: Маркетинг ЦКП 2026); sweep 39 files / 5 clusters
 
 ### 2026-09-04
 
