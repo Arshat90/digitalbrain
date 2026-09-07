@@ -135,6 +135,10 @@ last_anomalies: []
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
 
+### 2026-09-07
+
+- **Push** ^push-2026-09-07-T043302Z (session: local_d530716c, "Weekly ROI digest") — 8 строк добавлено, 29.25 ч saved за окно 2026-08-31–2026-09-06. **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** нет.
+
 ### 2026-09-05
 
 - **Run 1** ^run-2026-09-05-r1 (scheduled, 2026-09-05T14:22:17Z) — captured 10 (session: 44306f1e/55fe7f9a/5d8e84e7/ca65f605/0d23cc68/05742f4d/d013942c/dea6cfb5/e005283a/3993cc51); deferred 2 (8d242210/1f533530 — running); push 3 (cee82b4d/b5cd7181/da14fe32); orphan-system 5 (e24dca80/89de4f90/c594df30/6786ee32/f2a56e79); pre-watermark 33 / total 100; 6 vault writes (Медео Парк Отель cl-2026-09-05, I'M Restaurant Chain cl-2026-09-05, 1966 Plateau Deck cl-2026-09-05, ФК Кайрат Halyk cl-2026-09-05, Брендбук Алмалы cl-2026-09-05, new: Маркетинг ЦКП 2026); sweep 39 files / 5 clusters

@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-05-02
-updated: 2026-08-31
+updated: 2026-09-07
 tags:
   - claude-memory
   - system
@@ -190,8 +190,16 @@ weekly_digest_day: понедельник
 | 2026-08-07 | [[1966 Plateau Deck]] | Hurma Michelin pitch analysis (Ana Roš 3★ / Maksut Ashkar 1★ / Francisco Araya 1★) + инициативное письмо Акционеру | 2 | 0.5 | 1.5 | negotiation+analysis | 🔴 |
 | 2026-08-26 | [[Медео Парк Отель]] | Письмо George Togonidze (Marriott franchise, BATNA к DCA) — hotel operational advisory request EN; ответ получен, созвон подтверждён | 0.75 | 0.25 | 0.5 | negotiation | 🟡 |
 | 2026-08-26 | [[Медео Парк Отель]] | Re-approach письмо Marie-Pia de Roquefeuil (Ducasse Conseil) — hotel service advisory, expanded scope beyond F&B EN | 0.75 | 0.25 | 0.5 | negotiation | 🟡 |
+| 2026-08-31 | [[Медео Парк Отель]] | Протокол переговоров 31.08 — HBA RC Almaty v1 (GAP-дизайн-тендер RC Almaly) | 2 | 0.5 | 1.5 | negotiation+document | 🟡 |
+| 2026-09-01 | [[Медео Парк Отель]] | Тендерный анализ — ивент-агентства Medeu Park Hotel.docx | 3 | 0.75 | 2.25 | analysis+document | 🟡 |
+| 2026-09-02 | [[1966 Plateau Deck]] | Протокол встречи №12 — Plateau 1966 26.08.2026.docx | 1.5 | 0.5 | 1 | document | 🟡 |
+| 2026-09-03 | [[I'M Restaurant Chain]] | AI-концепция ресторана: v4 pptx + pdf + 8 AI-визуализаций (зал/кофе-робот/QR/фудбоксы) | 12 | 3 | 9 | visual+content | 🟡 |
+| 2026-09-03 | [[1966 Plateau Deck]] | Протокол встречи №13 — Plateau 1966 03.09.2026.docx + ред.2 | 1.5 | 0.5 | 1 | document | 🟡 |
+| 2026-09-04 | [[Медео Парк Отель]] | Протокол переговоров 04.09 — BLINK Design Group RC Almaty v1 (GAP-дизайн-тендер RC Almaly) | 2 | 0.5 | 1.5 | negotiation+document | 🟡 |
+| 2026-09-04 | [[Маркетинг ЦКП 2026]] | Маркетинг_ЦКП_и_показатели_16.09.2026_Arial_v4.pptx + pdf (v1→v4, защита 16.09 перед акционером) | 8 | 2 | 6 | visual+analysis | 🔴 |
+| 2026-09-04 | [[Брендбук Алмалы]] | Брендбук Алмалы.pptx финальный (1.6MB, ~5 нед. разработки, Екатерина Тулякова) | 10 | 3 | 7 | visual+document | 🟢 |
 
-**Итого 25 апр → 31 авг:** **146 deliverables**, **491.75 ч сэкономлено**
+**Итого 25 апр → 7 сент:** **154 deliverables**, **521 ч сэкономлено**
 
 ## Q2 2026 Summary (25 апр — 27 июн, финальный черновик для 30.06)
 
