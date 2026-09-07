@@ -1,19 +1,15 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-05
+updated: 2026-09-07
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-05T14:22:17Z
+sweep_last_run_at: 2026-09-07T04:13:42Z
 sweep_last_run_status: success
-sweep_unmatched:
-  - APS-AED-MIN №24 от 31.08.2026 года.docx
-  - Alienkind_razbor_v1.docx
-  - Kamshat Bekturgan_CV.pdf
-  - 970506451012-20260810150813235.pdf
+sweep_unmatched: []
 ---
 
 # Sweep State
@@ -53,3 +49,4 @@ sweep_unmatched:
 - [[Memory Sync Protocol]] — протокол основной синхронизации
 - [[Sync State]] — состояние и история `daily-memory-sync`
 - [[ФК Кайрат — 1xBET]] — кейс, из-за которого задача появилась
+- 2026-09-07T04:13:42Z — run OK; -Since param anomaly (2026-09-04 used instead of 2026-09-05T14:22:17Z); 9 files returned, all pre-watermark; effective new=0; unmatched=0

@@ -1,20 +1,37 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-05
+updated: 2026-09-07
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-05T14:22:17Z
+sync_last_run_at: 2026-09-07T04:13:42Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-05
+sync_runs_today_date: 2026-09-07
 sync_pending_capture:
-  - local_8d242210-f74e-4b06-ae19-af400e9857c0
-  - local_1f533530-c66a-429d-890c-2ebc0b666208
+  - local_1a35edb5-0262-4a48-bec5-0ab3110bb323
+  - local_504a5585-69ea-433c-ab42-8ca4b6d3fbe0
 sync_captured_recent:
+  - local_8d242210-f74e-4b06-ae19-af400e9857c0
+  - local_a760fd30-25a4-45ad-b4ac-c18afb37aac2
+  - local_7db29bb3-dd1b-4977-85f5-b6cde24e4065
+  - local_1f533530-c66a-429d-890c-2ebc0b666208
+  - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
+  - local_a4ca7bed-3f6b-47e5-971f-c15d05950a65
+  - local_2ab8baf6-87f5-4948-aec8-af5c3ec65f22
+  - local_e3b73062-af96-47f0-9961-934d6910dcfb
+  - local_3e405c6a-6144-4d27-bed8-4ce724ddf6c3
+  - local_b2886b09-6aff-4a4e-b0f5-19c53a3fc129
+  - local_e5ca98ef-c5c2-4448-a317-e214ffe3d1b9
+  - local_a6813b85-a027-4ab5-80e3-d7937662f669
+  - local_b95bb867-fe2f-4787-97e3-18b53f66c3b1
+  - local_856d0614-6dbe-4d48-a864-90234fc2674f
+  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
+  - local_f81281ee-0a88-4b50-9568-0fa19a18d442
+  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
   - local_44306f1e-e6b8-454d-8cd8-59e211a60a7c
   - local_55fe7f9a-1301-469b-bbdb-83447953e93c
   - local_5d8e84e7-df2b-4727-9e37-4189e88ae986
@@ -98,24 +115,9 @@ sync_captured_recent:
   - local_76370ea8-773e-4dd8-8ca6-d71c699aeae3
   - local_54eaa2ec-8a0a-4953-bd3c-fd70b324f0f1
   - local_7c8d096b-6c7e-4047-b75e-5266d5e8b0ac
-  - local_caefe7cb-8e4e-477e-8362-a3f0e80cb3b1
-  - local_7d17f0a7-4cfe-453f-83f7-8fe7e816b4d6
-  - local_1a324168-a67c-49ef-910f-76ba91eea351
-  - local_eff21135-af76-45ef-922b-099fd35651ac
-  - local_4a129b59-6886-4e13-b561-7e9d1e2628f6
-  - local_19704c71-9c15-424a-87c0-6f8a696dad3e
-  - local_1921dfe0-5063-4bf1-aa21-1fbb0fd83e96
-  - local_03ad9ae0-9050-448f-9d75-e447f27a7cf2
-  - local_91922ef5-c021-4cdb-a435-035012298446
-  - local_7eace26d-e079-4a1c-9956-76be436d404a
-  - local_dd115978-4b1a-4772-a8ae-f20b2532929f
-  - local_a0a77a17-5172-4ccf-82b3-2a43942cd8c8
-  - local_bf26b44d-264d-4fd4-a3bd-03f8f0f47b9a
-  - local_5f57b339-81b8-4617-aaf9-a64fe90c235f
-  - local_7d983a16-1cd5-40e3-a9dd-7cfba3879910
-  - local_5f501895-a0a9-41ab-a517-237da03d2d78
-  - local_6bec9534-f236-4d7a-8282-6b38796a54d4
-last_anomalies: []
+last_anomalies:
+  - "sweep: -Since param 2026-09-04 used instead of correct sweep_last_run_at
+    2026-09-05T14:22:17Z; all 9 files pre-watermark; effective new=0"
 ---
 
 # Sync State
@@ -138,6 +140,7 @@ last_anomalies: []
 ### 2026-09-07
 
 - **Push** ^push-2026-09-07-T043302Z (session: local_d530716c, "Weekly ROI digest") — 8 строк добавлено, 29.25 ч saved за окно 2026-08-31–2026-09-06. **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** нет.
+- **Run 1** ^run-2026-09-07-r1 (scheduled, 2026-09-07T04:13:42Z) — captured 11/17 (0 vault writes: all content already captured or trading-only); deferred 2 (1a35edb5/504a5585 — running); push 3 (cee82b4d/b5cd7181/da14fe32); orphan-system 3 (a760fd30/e3b73062/a6813b85); pre-watermark 37 / total 100; 0 vault writes; anomaly: sweep -Since wrong param (2026-09-04 vs correct sweep_last_run_at 2026-09-05T14:22Z), effective new files=0
 
 ### 2026-09-05
 
