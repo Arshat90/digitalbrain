@@ -1,13 +1,13 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-07
+updated: 2026-09-08
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-07T04:13:42Z
+sweep_last_run_at: 2026-09-08T04:27:36Z
 sweep_last_run_status: success
 sweep_unmatched: []
 ---
@@ -44,9 +44,13 @@ sweep_unmatched: []
 
 - **Init** ^sweep-init-2026-09-04 — задача создана, `sweep.ps1` протестирован вручную: за окно 01.09–04.09 отдал 25 файлов после фильтрации шума (155 до фильтров). Watermark выставлен на 2026-09-01T00:00:00Z, чтобы первый прогон подобрал последние дни.
 
+## Sweep Runs
+
+- 2026-09-07T04:13:42Z — run OK; -Since param anomaly (2026-09-04 used instead of 2026-09-05T14:22:17Z); 9 files returned, all pre-watermark; effective new=0; unmatched=0
+- 2026-09-08T04:27:36Z — run OK; -Since 2026-09-07T04:13:42Z; 16 files; 4 clusters: (A) ФК Кайрат 1xBET — ДС №6 PDF подтверждён; (B) ФК Кайрат Halyk — план переговоров v1; (C) Маркетинг ЦКП 2026 — v5 pptx; (D) Medeu Park Hotel — выбор ивент-агентства Fashion Bureau vs Insider; unmatched=0 (narod_attachment_links.html + Рисунок1.png отфильтрованы)
+
 ## Связанное
 
 - [[Memory Sync Protocol]] — протокол основной синхронизации
 - [[Sync State]] — состояние и история `daily-memory-sync`
 - [[ФК Кайрат — 1xBET]] — кейс, из-за которого задача появилась
-- 2026-09-07T04:13:42Z — run OK; -Since param anomaly (2026-09-04 used instead of 2026-09-05T14:22:17Z); 9 files returned, all pre-watermark; effective new=0; unmatched=0
