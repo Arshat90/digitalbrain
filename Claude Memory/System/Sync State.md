@@ -1,20 +1,20 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-08
+updated: 2026-09-09
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-08T04:27:36Z
-sync_last_run_status: partial
+sync_last_run_at: 2026-09-09T04:20:27Z
+sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-08
-sync_pending_capture:
+sync_runs_today_date: 2026-09-09
+sync_pending_capture: []
+sync_captured_recent:
   - local_cba8243b-e08f-45a2-95f1-5593303af6b9
   - local_634a3dbf-b0b7-4c49-9299-1291907d7165
-sync_captured_recent:
   - local_1a35edb5-0262-4a48-bec5-0ab3110bb323
   - local_504a5585-69ea-433c-ab42-8ca4b6d3fbe0
   - local_8d242210-f74e-4b06-ae19-af400e9857c0
@@ -113,11 +113,9 @@ sync_captured_recent:
   - local_e1e55268-383f-437e-b323-d17811602446
   - local_41bf5825-7dab-4be8-8527-86f25e403998
   - local_9ad18fb4-7af9-4d29-87ae-bfcc4dee384a
-  - local_3bb7621a-a5c0-4ee0-8a38-d113811da44e
-  - local_76370ea8-773e-4dd8-8ca6-d71c699aeae3
 last_anomalies:
-  - "2026-09-08: obsidian-rest fetch-failed (all REST calls) — fallback Desktop Commander writes"
-  - "2026-09-08: FIFO partial — 885fa06c + ~16 trading IDs (pos58-83) + 10 orphan-sys IDs not added: full UUIDs unavailable post-compaction"
+  - "2026-09-09: FIFO partial — 885fa06c/65623504 + ~16 trading IDs not added to captured_recent: full UUIDs unavailable post-compaction"
+  - "2026-09-09: pending_capture cleared — deferred 1225ca51/1fe3fb86 full UUIDs unavailable; will be resolved next run from session list"
 ---
 
 # Sync State
@@ -134,6 +132,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-09
+
+- **Run 1** ^run-2026-09-09-r1 (scheduled, 2026-09-09T04:20:27Z) — captured 20/~100 (3 vault writes: Маркетинг ЦКП 2026 v6+methodology, Ritz-Carlton GAP protocol+results, Медео Парк grand opening PDFs); deferred 2 (1225ca51/1fe3fb86 — running); push 4 (d530716c/cee82b4d/b5cd7181/da14fe32 — all captured_recent); orphan-system 11 (09e58325/01582840/5f501895/09d5f309/61235186/4c11e530/4369e219/8981bb90/07c94735/e710adea/9d73e369); pre-watermark 7 (57126a49/d5a9e52f/c3fbc3f8/24c4ef12/b667858d/14d7bf2a/27060bfe) / total 100; sweep 20 files / 3 clusters
+
 
 Аудит всех прогонов (scheduled + manual). Один файл вместо бывших дата-онли `Sync Logs/<date>.md`. Append-only: новый прогон → строка под сегодняшним заголовком даты (или новый заголовок + строка).
 

@@ -1,7 +1,7 @@
 ---
 type: project
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-09
 tags:
   - claude-memory
   - project/active
@@ -53,6 +53,12 @@ counterparty: Goddard Littlefair (Лондон / Порту)
 - Более ранние записи по теме в Plaud (содержание в карточку не переносилось): `09-04 Meeting: Almaly Holding & Blink`, `09-04 Встреча: Реновация The Ritz-Carlton Almaty и обсуждение проектов с BlinkSide`, `08-31 Consultation`, `08-28 Client Consultation: Strategy, Phasing, and Brand Approval`
 
 ## Changelog
+### 2026-09-08 — Протокол и итоги первого раунда переговоров с Goddard Littlefair ^cl-2026-09-08-rc-gl-protocol
+
+- **Deliverable 1**: `Протокол переговоров 08.09.2026 — Goddard Littlefair_RC Almaty_v1.docx` (Documents/Claude/Projects/Переговоры в стиле GAP, 16:17 local)
+- **Deliverable 2**: `Итоги первого раунда переговоров_RC Almaty_v1.docx` (Documents/Claude/Projects/Переговоры в стиле GAP, 16:26 local)
+- Первый раунд GAP-переговоров завершён, оба документа сформированы по итогам встречи 08.09.2026; сохранены в папку «Переговоры в стиле GAP»
+
 
 ### 2026-09-08 — Встреча с Goddard Littlefair, резюме транскрипции ^cl-2026-09-08-rc-gl
 

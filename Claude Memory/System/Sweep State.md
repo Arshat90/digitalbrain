@@ -1,13 +1,13 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-08
+updated: 2026-09-09
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-08T04:27:36Z
+sweep_last_run_at: 2026-09-09T04:20:27Z
 sweep_last_run_status: success
 sweep_unmatched: []
 ---
@@ -48,6 +48,8 @@ sweep_unmatched: []
 
 - 2026-09-07T04:13:42Z — run OK; -Since param anomaly (2026-09-04 used instead of 2026-09-05T14:22:17Z); 9 files returned, all pre-watermark; effective new=0; unmatched=0
 - 2026-09-08T04:27:36Z — run OK; -Since 2026-09-07T04:13:42Z; 16 files; 4 clusters: (A) ФК Кайрат 1xBET — ДС №6 PDF подтверждён; (B) ФК Кайрат Halyk — план переговоров v1; (C) Маркетинг ЦКП 2026 — v5 pptx; (D) Medeu Park Hotel — выбор ивент-агентства Fashion Bureau vs Insider; unmatched=0 (narod_attachment_links.html + Рисунок1.png отфильтрованы)
+
+- 2026-09-09T04:20:27Z — run OK; -Since 2026-09-08T04:27:36Z; 20 files; 3 clusters: (A) Маркетинг ЦКП 2026 — v6 pptx + именная версия + Методика показателей v1 docx; (B) Ritz-Carlton Almaty — Протокол переговоров GAP v1 + Итоги первого раунда v1; (C) Медео Парк Отель — grand opening PDF 08.09 + 22.09 (date shift); unmatched=0
 
 ## Связанное
 
