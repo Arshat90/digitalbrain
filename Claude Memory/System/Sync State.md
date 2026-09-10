@@ -1,53 +1,18 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-09
+updated: 2026-09-10
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-09T04:20:27Z
+sync_last_run_at: 2026-09-10T04:48:30Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-09
+sync_runs_today_date: 2026-09-10
 sync_pending_capture: []
 sync_captured_recent:
-  - local_885fa06c-6ddc-498c-a442-33f43e13fe4e
-  - local_65623504-f5d7-4be0-a323-a4bdbf6afc25
-  - local_1225ca51-59a3-43bd-a7fd-6ccdd346763e
-  - local_1fe3fb86-4861-49cd-8fd5-c07ac4240f70
-  - local_cba8243b-e08f-45a2-95f1-5593303af6b9
-  - local_634a3dbf-b0b7-4c49-9299-1291907d7165
-  - local_1a35edb5-0262-4a48-bec5-0ab3110bb323
-  - local_504a5585-69ea-433c-ab42-8ca4b6d3fbe0
-  - local_8d242210-f74e-4b06-ae19-af400e9857c0
-  - local_a760fd30-25a4-45ad-b4ac-c18afb37aac2
-  - local_7db29bb3-dd1b-4977-85f5-b6cde24e4065
-  - local_1f533530-c66a-429d-890c-2ebc0b666208
-  - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
-  - local_a4ca7bed-3f6b-47e5-971f-c15d05950a65
-  - local_2ab8baf6-87f5-4948-aec8-af5c3ec65f22
-  - local_e3b73062-af96-47f0-9961-934d6910dcfb
-  - local_3e405c6a-6144-4d27-bed8-4ce724ddf6c3
-  - local_b2886b09-6aff-4a4e-b0f5-19c53a3fc129
-  - local_e5ca98ef-c5c2-4448-a317-e214ffe3d1b9
-  - local_a6813b85-a027-4ab5-80e3-d7937662f669
-  - local_b95bb867-fe2f-4787-97e3-18b53f66c3b1
-  - local_856d0614-6dbe-4d48-a864-90234fc2674f
-  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
-  - local_f81281ee-0a88-4b50-9568-0fa19a18d442
-  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
-  - local_44306f1e-e6b8-454d-8cd8-59e211a60a7c
-  - local_55fe7f9a-1301-469b-bbdb-83447953e93c
-  - local_5d8e84e7-df2b-4727-9e37-4189e88ae986
-  - local_ca65f605-39f1-4e78-ba6d-e811104d514f
-  - local_0d23cc68-6217-48bd-b46b-befc8e1b8109
-  - local_05742f4d-1955-4606-9e3e-a7653f809407
-  - local_d013942c-2a9a-445a-a883-addeb718b171
-  - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
-  - local_e005283a-b5df-4dcd-be97-0c1559adc117
-  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
   - local_e24dca80-748a-462f-829b-116a37071e5b
   - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
   - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
@@ -113,8 +78,44 @@ sync_captured_recent:
   - local_62f3e245-b628-44c3-8103-b77324ca8b3b
   - local_51c13417-5b25-46a5-a360-c57b5cf6578f
   - local_d2c5691f-1c7f-4c19-bcab-c8ac31367646
+  - local_658d3ef1-7e4f-4a36-b0c1-2c8fac8c29c7
+  - local_6bec9534-f236-4d7a-8282-6b38796a54d4
+  - local_bab863b3-4a81-4ecc-8b6f-c0d445e615ea
+  - local_e8f13a21-b6e1-4b40-8129-5c995702d41f
+  - local_283bdb55-a6b7-45eb-b399-d4750aafd666
+  - local_e9b43d98-0811-45b1-8d24-2de3528a65c6
+  - local_bbe9c106-febb-4a3e-854a-b65ef1f273bb
+  - local_5d5386ce-fd6f-47ea-aab0-82a0ca4c9cd2
+  - local_e70c4b19-253b-41bd-84cc-c00dec0a81dc
+  - local_a703e6ca-1f16-4017-a52d-13a94ff53fc3
+  - local_33f612d5-de8d-4575-92c7-82d24f689a2b
+  - local_249280fa-4faf-4d44-a901-ba98775a1829
+  - local_db04d6e6-330b-4da3-a930-2831266f7b5b
+  - local_297db029-85a8-4178-ac25-72a5ba45ba0f
+  - local_67dce9e5-cc85-412a-a90d-ea2a9f4513a6
+  - local_e6ec34f8-bdc9-4761-9547-c79d5e2efe2b
+  - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
+  - local_e06958fd-c2c1-420e-b249-ac4fc667f883
+  - local_09e58325-50a2-43fa-a7e1-c9d0aec957e4
+  - local_01582840-f7da-4c37-9719-512d7e1214d2
+  - local_5f501895-a0a9-41ab-a517-237da03d2d78
+  - local_09d5f309-a50e-470d-a0e1-44a763ad7e84
+  - local_61235186-2a11-4305-ac6c-d670f6095e3b
+  - local_4c11e530-1338-4b72-9cee-e50613e1b570
+  - local_e710adea-7239-4ba0-a7af-bdc04f411026
+  - local_0fa51735-d257-46c1-86cf-cca75e756dab
+  - local_8981bb90-e71b-46bf-895c-642675a238a9
+  - local_07c94735-53f7-4c6d-add7-d359da056788
+  - local_4369e219-2bf5-4327-8481-db4e591eb1da
+  - local_2dcbf1b6-a854-4128-bbaa-055662b68681
+  - local_89abc640-9314-4a95-8eb6-416c15df88cc
+  - local_57126a49-57a8-4117-8395-fca6b80f8095
+  - local_d5a9e52f-cbae-4014-8ad0-b1821174eb6e
+  - local_c3fbc3f8-d8f9-4260-8999-39debde2c811
+  - local_df225ee3-16f2-4503-9d8f-6e879186a900
 last_anomalies:
-  - "2026-09-09: FIFO partial resolved — 885fa06c/65623504/1225ca51/1fe3fb86 added to captured_recent; 1225ca51+1fe3fb86 now idle (0 vault writes, title pattern)"
+  - "2026-09-10: 0 vault writes (all trading/hw/dashboard); sweep 1 file already
+    in vault; stale-updated fix (ФК Кайрат Halyk Bank 2026-09-07→2026-09-10)"
 ---
 
 # Sync State
@@ -131,6 +132,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-10
+
+- **Run 1** ^run-2026-09-10-r1 (scheduled, 2026-09-10T04:48:30Z) — captured 15/100 (0 vault writes: all trading-hw×5/evening-review×5/dashboard-refresh×5); deferred 2 (e6ec34f8/af98d69a — running); push 4 (d530716c/cee82b4d/b5cd7181/da14fe32); orphan-system 13 (e06958fd/09e58325/01582840/89de4f90/5f501895/09d5f309/61235186/4c11e530/e710adea/0fa51735/8981bb90/07c94735/4369e219); pre-watermark 6 (2dcbf1b6/89abc640/57126a49/d5a9e52f/c3fbc3f8/24c4ef12) / total 100; sweep 1 file/1 cluster (Halyk-план-v2 already in vault ^cl-2026-09-09-plan-v2); fix: ФК Кайрат Halyk updated stale 2026-09-07→2026-09-10
+
 ### 2026-09-09
 
 - **Run 1** ^run-2026-09-09-r1 (scheduled, 2026-09-09T04:20:27Z) — captured 20/~100 (3 vault writes: Маркетинг ЦКП 2026 v6+methodology, Ritz-Carlton GAP protocol+results, Медео Парк grand opening PDFs); deferred 2 → captured post-fix (1225ca51-59a3-43bd-a7fd-6ccdd346763e/1fe3fb86-4861-49cd-8fd5-c07ac4240f70 — idle, 0 vault writes); push 4 (d530716c/cee82b4d/b5cd7181/da14fe32 — all captured_recent); orphan-system 11 (09e58325/01582840/5f501895/09d5f309/61235186/4c11e530/4369e219/8981bb90/07c94735/e710adea/9d73e369); pre-watermark 7 (57126a49/d5a9e52f/c3fbc3f8/24c4ef12/b667858d/14d7bf2a/27060bfe) / total 100; sweep 20 files / 3 clusters; FIFO-fix: +885fa06c/65623504/1225ca51/1fe3fb86, −䐺43f4d51d/e1e55268/41bf5825/9ad18fb4
