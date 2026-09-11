@@ -1,18 +1,26 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-10
+updated: 2026-09-11
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-10T04:48:30Z
+sync_last_run_at: 2026-09-11T04:53:18Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-10
+sync_runs_today_date: 2026-09-11
 sync_pending_capture: []
 sync_captured_recent:
+  - local_6c0b04d0-0663-4a0b-8e64-628283b3234a
+  - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
+  - local_d530716c-5a33-4c4a-987e-a49c205c10dc
+  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
+  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
+  - local_a760fd30-25a4-45ad-b4ac-c18afb37aac2
+  - local_e3b73062-af96-47f0-9961-934d6910dcfb
+  - local_a6813b85-a027-4ab5-80e3-d7937662f669
   - local_e24dca80-748a-462f-829b-116a37071e5b
   - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
   - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
@@ -105,17 +113,9 @@ sync_captured_recent:
   - local_e710adea-7239-4ba0-a7af-bdc04f411026
   - local_0fa51735-d257-46c1-86cf-cca75e756dab
   - local_8981bb90-e71b-46bf-895c-642675a238a9
-  - local_07c94735-53f7-4c6d-add7-d359da056788
-  - local_4369e219-2bf5-4327-8481-db4e591eb1da
-  - local_2dcbf1b6-a854-4128-bbaa-055662b68681
-  - local_89abc640-9314-4a95-8eb6-416c15df88cc
-  - local_57126a49-57a8-4117-8395-fca6b80f8095
-  - local_d5a9e52f-cbae-4014-8ad0-b1821174eb6e
-  - local_c3fbc3f8-d8f9-4260-8999-39debde2c811
-  - local_df225ee3-16f2-4503-9d8f-6e879186a900
 last_anomalies:
-  - "2026-09-10: 0 vault writes (all trading/hw/dashboard); sweep 1 file already
-    in vault; stale-updated fix (ФК Кайрат Halyk Bank 2026-09-07→2026-09-10)"
+  - "2026-09-11: sweep unmatched — APS-AED-MIN №25 от 07.09.2026 (2 versions in
+    Downloads, project unknown without content read)"
 ---
 
 # Sync State
@@ -132,6 +132,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-11
+
+- **Run 1** ^run-2026-09-11-r1 (scheduled, 2026-09-11T04:53:18Z) — captured 1/5 new (session 6c0b04d0 trading-evening-review 10.09 PM, 0 session vault-writes); deferred 2 (5f31f0ac/8c4e9720 — running); push 4 (cee82b4d/d530716c/b5cd7181/da14fe32); orphan-system 3 (a760fd30/e3b73062/a6813b85); pre-watermark ~30 / total 100; sweep §3d: 3 clusters → 3 vault writes (TWIST cl-2026-09-10 / Медео cl-2026-09-10 / 1966 cl-2026-09-10), 1 unmatched (APS-AED-MIN №25 07.09)
+
 ### 2026-09-10
 
 - **Run 1** ^run-2026-09-10-r1 (scheduled, 2026-09-10T04:48:30Z) — captured 15/100 (0 vault writes: all trading-hw×5/evening-review×5/dashboard-refresh×5); deferred 2 (e6ec34f8/af98d69a — running); push 4 (d530716c/cee82b4d/b5cd7181/da14fe32); orphan-system 13 (e06958fd/09e58325/01582840/89de4f90/5f501895/09d5f309/61235186/4c11e530/e710adea/0fa51735/8981bb90/07c94735/4369e219); pre-watermark 6 (2dcbf1b6/89abc640/57126a49/d5a9e52f/c3fbc3f8/24c4ef12) / total 100; sweep 1 file/1 cluster (Halyk-план-v2 already in vault ^cl-2026-09-09-plan-v2); fix: ФК Кайрат Halyk updated stale 2026-09-07→2026-09-10
