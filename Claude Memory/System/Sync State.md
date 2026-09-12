@@ -1,18 +1,22 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-11
+updated: 2026-09-12
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-11T04:53:18Z
+sync_last_run_at: 2026-09-12T06:19:11Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-11
-sync_pending_capture: []
+sync_runs_today_date: 2026-09-12
+sync_pending_capture:
+  - local_9263bd6a-1891-4fe0-a83a-ac4a4ea807d0
+  - local_127a70a7-d1b8-476e-ba53-d7c9d85a06ed
 sync_captured_recent:
+  - local_8c4e9720-363c-47b1-8ebd-09ac3e486097
+  - local_5f31f0ac-6001-4a5e-9197-cea93b2b5ca5
   - local_6c0b04d0-0663-4a0b-8e64-628283b3234a
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
@@ -111,11 +115,8 @@ sync_captured_recent:
   - local_61235186-2a11-4305-ac6c-d670f6095e3b
   - local_4c11e530-1338-4b72-9cee-e50613e1b570
   - local_e710adea-7239-4ba0-a7af-bdc04f411026
-  - local_0fa51735-d257-46c1-86cf-cca75e756dab
-  - local_8981bb90-e71b-46bf-895c-642675a238a9
-last_anomalies:
-  - "2026-09-11: sweep unmatched — APS-AED-MIN №25 от 07.09.2026 (2 versions in
-    Downloads, project unknown without content read)"
+
+last_anomalies: []
 ---
 
 # Sync State
@@ -132,6 +133,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-12
+
+- **Run 1** ^run-2026-09-12-r1 (scheduled, 2026-09-12T06:19:11Z) — captured 2/5 new (8c4e9720 dashboard-refresh 11.09 + 5f31f0ac trading-hw 11.09, 0 session vault-writes); deferred 2 (9263bd6a/127a70a7 — running); push 4 (cee82b4d/d530716c/b5cd7181/da14fe32); orphan-system 3 (659101cf/df225ee3/4369e219); pre-watermark 32 / total 100; sweep §3d: 4 files → 2 clusters → 2 vault writes (1966 cl-2026-09-11 + Медео cl-2026-09-11)
+
 ### 2026-09-11
 
 - **Run 1** ^run-2026-09-11-r1 (scheduled, 2026-09-11T04:53:18Z) — captured 1/5 new (session 6c0b04d0 trading-evening-review 10.09 PM, 0 session vault-writes); deferred 2 (5f31f0ac/8c4e9720 — running); push 4 (cee82b4d/d530716c/b5cd7181/da14fe32); orphan-system 3 (a760fd30/e3b73062/a6813b85); pre-watermark ~30 / total 100; sweep §3d: 3 clusters → 3 vault writes (TWIST cl-2026-09-10 / Медео cl-2026-09-10 / 1966 cl-2026-09-10), 1 unmatched (APS-AED-MIN №25 07.09)

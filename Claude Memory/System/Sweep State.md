@@ -1,16 +1,15 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-11
+updated: 2026-09-12
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-11T04:53:18Z
+sweep_last_run_at: 2026-09-12T06:19:11Z
 sweep_last_run_status: success
-sweep_unmatched:
-  - APS-AED-MIN №25 от 07.09.2026.docx (2 copies, project unresolved)
+sweep_unmatched: []
 ---
 
 # Sweep State
@@ -59,5 +58,7 @@ sweep_unmatched:
 - [[ФК Кайрат — 1xBET]] — кейс, из-за которого задача появилась
 
 - **2026-09-10 Run 1** (2026-09-10T04:48:30Z) — 1 file scanned (ФК_Кайрат_Halyk_план_переговоров_v2.docx 09.09.2026); 1 cluster matched (cl-2026-09-09-plan-v2 already in vault); 0 new vault writes; 0 unmatched
+
+- **Run 2026-09-12** ^sweep-2026-09-12 (2026-09-12T06:19:11Z) — since 2026-09-11T04:53:18Z; 4 files found; 2 clusters: (A) 1966 Plateau — Протокол №13 ред.2 + №14 (vault write cl-2026-09-11); (B) Медео Парк Отель — встреча Insider 10.09 (vault write cl-2026-09-11-insider); 0 unmatched; status: success
 
 - **Run 2026-09-11** ^sweep-2026-09-11 (2026-09-11T04:53:18Z) — since 2026-09-10T04:48:30Z; 8 files found; clusters: TWIST (2 files, v2 vault write), Медео (1 file, vault write), 1966 (1 file, vault write), APS-AED-MIN (2 files, unmatched), Trading-evening-review (1 file, covered by session 6c0b04d0); status: success
