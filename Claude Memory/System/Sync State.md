@@ -1,20 +1,56 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-12
+updated: 2026-09-14
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-12T06:19:11Z
+sync_last_run_at: 2026-09-14T04:35:14Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-12
+sync_runs_today_date: 2026-09-14
 sync_pending_capture:
-  - local_9263bd6a-1891-4fe0-a83a-ac4a4ea807d0
-  - local_127a70a7-d1b8-476e-ba53-d7c9d85a06ed
+  - local_09992b24-833c-4986-955f-e86a1ea8fe20
+  - local_fa225a73-8c54-45ba-ac3d-090dea8cdad6
 sync_captured_recent:
+  - local_9263bd6a-1891-4fe0-a83a-ac4a4ea807d0
+  - local_d7f69802-16db-466b-a64c-cbcdb22817f1
+  - local_7debfcf3-1432-487b-819f-0ef417763d32
+  - local_127a70a7-d1b8-476e-ba53-d7c9d85a06ed
+  - local_659101cf-fdc3-4d05-84ca-95da5b8f404d
+  - local_df225ee3-16f2-4503-9d8f-6e879186a900
+  - local_a2bb4e83-fa1d-4b40-9523-2c169dc3631c
+  - local_1fe3fb86-4861-49cd-8fd5-c07ac4240f70
+  - local_1225ca51-59a3-43bd-a7fd-6ccdd346763e
+  - local_634a3dbf-b0b7-4c49-9299-1291907d7165
+  - local_65623504-f5d7-4be0-a323-a4bdbf6afc25
+  - local_cba8243b-e08f-45a2-95f1-5593303af6b9
+  - local_1a35edb5-0262-4a48-bec5-0ab3110bb323
+  - local_885fa06c-6ddc-498c-a442-33f43e13fe4e
+  - local_504a5585-69ea-433c-ab42-8ca4b6d3fbe0
+  - local_8d242210-f74e-4b06-ae19-af400e9857c0
+  - local_7db29bb3-dd1b-4977-85f5-b6cde24e4065
+  - local_1f533530-c66a-429d-890c-2ebc0b666208
+  - local_44306f1e-e6b8-454d-8cd8-59e211a60a7c
+  - local_5d8e84e7-df2b-4727-9e37-4189e88ae986
+  - local_55fe7f9a-1301-469b-bbdb-83447953e93c
+  - local_ca65f605-39f1-4e78-ba6d-e811104d514f
+  - local_0d23cc68-6217-48bd-b46b-befc8e1b8109
+  - local_05742f4d-1955-4606-9e3e-a7653f809407
+  - local_d013942c-2a9a-445a-a883-addeb718b171
+  - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
+  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
+  - local_e005283a-b5df-4dcd-be97-0c1559adc117
+  - local_a4ca7bed-3f6b-47e5-971f-c15d05950a65
+  - local_2ab8baf6-87f5-4948-aec8-af5c3ec65f22
+  - local_3e405c6a-6144-4d27-bed8-4ce724ddf6c3
+  - local_b2886b09-6aff-4a4e-b0f5-19c53a3fc129
+  - local_e5ca98ef-c5c2-4448-a317-e214ffe3d1b9
+  - local_b95bb867-fe2f-4787-97e3-18b53f66c3b1
+  - local_856d0614-6dbe-4d48-a864-90234fc2674f
+  - local_f81281ee-0a88-4b50-9568-0fa19a18d442
   - local_8c4e9720-363c-47b1-8ebd-09ac3e486097
   - local_5f31f0ac-6001-4a5e-9197-cea93b2b5ca5
   - local_6c0b04d0-0663-4a0b-8e64-628283b3234a
@@ -79,44 +115,10 @@ sync_captured_recent:
   - local_e2f18a5c-a5fc-4be5-959b-0b7580d55e70
   - local_ac4a7312-b482-4bf7-ad30-94725f8b089c
   - local_95934ecd-0fde-4cae-bc8f-cc271476c75d
-  - local_20fdff91-8a49-4a49-970a-8f24f43d933a
-  - local_116d276a-0fca-4746-9ccc-b0c7cf726fed
-  - local_ab18b12a-6ae5-41dd-9fe5-71940573b22b
-  - local_e6d3d96e-0686-405d-a89f-d3b56bd61677
-  - local_b9aaf2ab-29ba-424a-8889-5e48de54cda1
-  - local_b1dba07f-aa08-48c2-a854-2855398133fe
-  - local_c8dcfe50-0c58-4d15-89b3-39de10b75555
-  - local_6a59dca2-8c2d-4a5b-8462-b0c7767e7ea2
-  - local_62f3e245-b628-44c3-8103-b77324ca8b3b
-  - local_51c13417-5b25-46a5-a360-c57b5cf6578f
-  - local_d2c5691f-1c7f-4c19-bcab-c8ac31367646
-  - local_658d3ef1-7e4f-4a36-b0c1-2c8fac8c29c7
-  - local_6bec9534-f236-4d7a-8282-6b38796a54d4
-  - local_bab863b3-4a81-4ecc-8b6f-c0d445e615ea
-  - local_e8f13a21-b6e1-4b40-8129-5c995702d41f
-  - local_283bdb55-a6b7-45eb-b399-d4750aafd666
-  - local_e9b43d98-0811-45b1-8d24-2de3528a65c6
-  - local_bbe9c106-febb-4a3e-854a-b65ef1f273bb
-  - local_5d5386ce-fd6f-47ea-aab0-82a0ca4c9cd2
-  - local_e70c4b19-253b-41bd-84cc-c00dec0a81dc
-  - local_a703e6ca-1f16-4017-a52d-13a94ff53fc3
-  - local_33f612d5-de8d-4575-92c7-82d24f689a2b
-  - local_249280fa-4faf-4d44-a901-ba98775a1829
-  - local_db04d6e6-330b-4da3-a930-2831266f7b5b
-  - local_297db029-85a8-4178-ac25-72a5ba45ba0f
-  - local_67dce9e5-cc85-412a-a90d-ea2a9f4513a6
-  - local_e6ec34f8-bdc9-4761-9547-c79d5e2efe2b
-  - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
-  - local_e06958fd-c2c1-420e-b249-ac4fc667f883
-  - local_09e58325-50a2-43fa-a7e1-c9d0aec957e4
-  - local_01582840-f7da-4c37-9719-512d7e1214d2
-  - local_5f501895-a0a9-41ab-a517-237da03d2d78
-  - local_09d5f309-a50e-470d-a0e1-44a763ad7e84
-  - local_61235186-2a11-4305-ac6c-d670f6095e3b
-  - local_4c11e530-1338-4b72-9cee-e50613e1b570
-  - local_e710adea-7239-4ba0-a7af-bdc04f411026
-
-last_anomalies: []
+last_anomalies:
+  - "bash failed - Windows update 08.09 (fallback: lastRunAt from
+    scheduled-tasks)"
+  - fa225a73 push block missed in initial PUSH SCAN (concurrent write)
 ---
 
 # Sync State
@@ -133,6 +135,11 @@ last_anomalies: []
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-14
+
+- **Run 1** ^run-2026-09-14-r1 (scheduled, 2026-09-14T04:35:14Z) — captured 33/100 (0 session vault-writes; 1 sweep cluster → new project [[Юбилей Акционера Almaly]] cl-2026-09-14); deferred 2 (09992b24/fa225a73 — running); push 4 (d530716c/cee82b4d/b5cd7181/da14fe32 prev + fa225a73 today concurrent); orphan-system 3 (d7f69802/659101cf/df225ee3); pre-watermark 0 / total 100; 1 vault write; anomaly: bash failed (Windows update 08.09)
+- **Push** ^push-2026-09-14-T043000Z (session: fa225a73, "Weekly ROI digest") — 5 строк добавлено, 11.75 ч saved за окно 2026-09-07–2026-09-13. **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** bash недоступен (Windows update 08.09) — дата получена из env; время блока аппроксимативное.
+
 ### 2026-09-12
 
 - **Run 1** ^run-2026-09-12-r1 (scheduled, 2026-09-12T06:19:11Z) — captured 2/5 new (8c4e9720 dashboard-refresh 11.09 + 5f31f0ac trading-hw 11.09, 0 session vault-writes); deferred 2 (9263bd6a/127a70a7 — running); push 4 (cee82b4d/d530716c/b5cd7181/da14fe32); orphan-system 3 (659101cf/df225ee3/4369e219); pre-watermark 32 / total 100; sweep §3d: 4 files → 2 clusters → 2 vault writes (1966 cl-2026-09-11 + Медео cl-2026-09-11)
