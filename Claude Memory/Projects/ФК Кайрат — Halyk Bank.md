@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-09-04
-updated: 2026-09-10
+updated: 2026-09-14
 tags:
   - claude-memory
   - project/active
@@ -91,6 +91,13 @@ tags:
 - [[GAP Partnership Negotiation]] — методология
 
 ## Changelog
+### 2026-09-14 — Пакет материалов для Halyk Bank подготовлен ^cl-2026-09-14
+
+- **Deliverables (file sweep):** `FC KAIRAT PARTNERSHIP'26_01.pdf` (157 МБ, Downloads) — основной питч-пакет партнёрства ФК Кайрат 2026 для Halyk Bank.
+- `FC_Kairat_Halyk_таблица_носителей.xlsx` (13 МБ, Desktop) — детальная таблица носителей спонсорского пакета.
+- `General Sponsor Package Cost Estimate.png` (Desktop) — визуализация стоимости спонсорского пакета.
+- Статус: все материалы для переговоров с Halyk Bank при действующем контракте с Freedom Bank готовы; пакет сформирован 14.09.2026.
+
 ### 2026-09-05 — Вопросы перед планом: v1 → v2 ^cl-2026-09-05
 
 - Подготовлены вопросы перед GAP-планом (сбор вводных): `ФК_Кайрат_Halyk_вопросы_перед_планом_v1.docx` → `v2.docx` (04.09.2026, Downloads)

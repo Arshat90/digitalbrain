@@ -1,15 +1,20 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-14
+updated: 2026-09-15
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-14T04:35:14Z
+sweep_last_run_at: 2026-09-15T04:04:11Z
 sweep_last_run_status: success
-sweep_unmatched: []
+sweep_unmatched:
+  - APS-AED-MIN №26 от 14.09.2026 года.docx
+  - Текст приглашений(доработанный).docx
+  - ChatGPT Image 14 сент. 2026 г., 15_21_27.png
+  - Дегустация 1966 (1).pdf
+  - Новый документ (4).pdf
 ---
 
 # Sweep State
@@ -64,3 +69,5 @@ sweep_unmatched: []
 - **Run 2026-09-11** ^sweep-2026-09-11 (2026-09-11T04:53:18Z) — since 2026-09-10T04:48:30Z; 8 files found; clusters: TWIST (2 files, v2 vault write), Медео (1 file, vault write), 1966 (1 file, vault write), APS-AED-MIN (2 files, unmatched), Trading-evening-review (1 file, covered by session 6c0b04d0); status: success
 
 - **Run 2026-09-14** ^sweep-2026-09-14 (2026-09-14T04:35:14Z) — since 2026-09-12T06:19:11Z; 3 files found; 1 cluster: [[Юбилей Акционера Almaly]] (TAG X ALMALY юбилей акционера 61.7MB + ALMALY HOLDING юбилей акционера 3.1MB, 09-12 16:33/16:42, new project cl-2026-09-14); 0 unmatched; status: success
+
+- **Run 2026-09-15** ^sweep-2026-09-15 (2026-09-15T04:04:11Z) — since 2026-09-14T04:35:14Z; §3d file sweep via sweep.ps1; 3 clusters captured: (A) Медео Парк Отель — мебель PPTX 11MB + PDF 1.4MB + открытие docx 4.3MB + тексты приглашений; (B) ФК Кайрат — Halyk Bank — partnership PDF 157MB + carrier xlsx 13MB + cost PNG; (C) Маркетинг ЦКП 2026 — вопросы W37 docx 15KB; 5 unmatched (APS-AED-MIN №26, Текст приглашений доработанный, ChatGPT Image 14 сент., Дегустация 1966, Новый документ (4)); status: success

@@ -1,20 +1,31 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-14
+updated: 2026-09-15
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-14T04:35:14Z
+sync_last_run_at: 2026-09-15T04:04:11Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-14
-sync_pending_capture:
+sync_runs_today_date: 2026-09-15
+sync_pending_capture: []
+sync_captured_recent:
+  - local_a8ed6a9b-ab06-49a9-b917-0e86e95040e4
+  - local_fbd58fbb-1c3f-4c9d-a1f4-516e5839075e
+  - local_f31fce5d-c6c2-4863-915a-cbd1784f790d
+  - local_ed48930e-61df-4494-9718-c0d1c5329089
+  - local_976cb2fe-89c4-42d9-b089-58fd53a43120
+  - local_1a0e1558-b132-4b9d-9a44-c17a321b10aa
+  - local_43558381-8d46-48da-bb12-046c45ccaf25
   - local_09992b24-833c-4986-955f-e86a1ea8fe20
   - local_fa225a73-8c54-45ba-ac3d-090dea8cdad6
-sync_captured_recent:
+  - local_e06958fd-c2c1-420e-b249-ac4fc667f883
+  - local_09e58325-50a2-43fa-a7e1-c9d0aec957e4
+  - local_01582840-f7da-4c37-9719-512d7e1214d2
+  - local_5f501895-a0a9-41ab-a517-237da03d2d78
   - local_9263bd6a-1891-4fe0-a83a-ac4a4ea807d0
   - local_d7f69802-16db-466b-a64c-cbcdb22817f1
   - local_7debfcf3-1432-487b-819f-0ef417763d32
@@ -102,23 +113,8 @@ sync_captured_recent:
   - local_835e41e5-d7d4-4d85-8ca0-9d6e401e2574
   - local_9eba7a45-f171-4eea-a441-416f66454a09
   - local_e62d715d-97eb-4be3-be55-79cfdcd4e0d8
-  - local_54c0e3ea-8224-42ff-b690-2004daab4335
-  - local_3fc8003c-62da-44f6-931f-47f8dbaa204d
-  - local_e5af4ed2-e2fb-4e6b-a40f-d95b88cff8de
-  - local_9617814e-9b2d-4aea-94f8-d7eccd225068
-  - local_ac95540d-0ebd-4f2a-90ef-1789f3742eb8
-  - local_c74bb229-9d9a-48f7-ac7e-bc591b078e8c
-  - local_5bf30fb7-17ac-4d0d-8d98-25eef94daf3f
-  - local_77ad60a0-8e26-4abc-8462-15a2baeca9cc
-  - local_ce38959a-ba9c-404c-bd54-c6968c377586
-  - local_c7b6dd05-e838-4cc2-ae66-4fd41d9f8e75
-  - local_e2f18a5c-a5fc-4be5-959b-0b7580d55e70
-  - local_ac4a7312-b482-4bf7-ad30-94725f8b089c
-  - local_95934ecd-0fde-4cae-bc8f-cc271476c75d
 last_anomalies:
-  - "bash failed - Windows update 08.09 (fallback: lastRunAt from
-    scheduled-tasks)"
-  - fa225a73 push block missed in initial PUSH SCAN (concurrent write)
+  - bash failed (Windows update 08.09) — DC PowerShell fallback for clock
 ---
 
 # Sync State
@@ -135,6 +131,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-15
+
+- **Run 1** ^run-2026-09-15-r1 (scheduled, 2026-09-15T04:04:11Z) — captured 6/100 (3 reads, trading ×4; 0 session vault-writes; sweep: 21 files / 4 clusters / 3 writes: Медео+Halyk+ЦКП cl-2026-09-14); push 1 (fa225a73); orphan-system 5 (976cb2fe/e06958fd/09e58325/01582840/5f501895); pre-watermark 0 / total 100; anomaly: bash failed (Windows update 08.09)
+
 ### 2026-09-14
 
 - **Run 1** ^run-2026-09-14-r1 (scheduled, 2026-09-14T04:35:14Z) — captured 33/100 (0 session vault-writes; 1 sweep cluster → new project [[Юбилей Акционера Almaly]] cl-2026-09-14); deferred 2 (09992b24/fa225a73 — running); push 4 (d530716c/cee82b4d/b5cd7181/da14fe32 prev + fa225a73 today concurrent); orphan-system 3 (d7f69802/659101cf/df225ee3); pre-watermark 0 / total 100; 1 vault write; anomaly: bash failed (Windows update 08.09)
