@@ -1,18 +1,36 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-15
+updated: 2026-09-16
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-15T04:04:11Z
+sync_last_run_at: 2026-09-16T04:28:25Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-15
-sync_pending_capture: []
+sync_runs_today_date: 2026-09-16
+sync_pending_capture:
+  - local_65fa7d60-90c1-410d-baa9-fbbf307bdcb1
+  - local_6c0541b1-483a-4fca-9c19-f6e89bd40ec5
 sync_captured_recent:
+  - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
+  - local_e6ec34f8-bdc9-4761-9547-c79d5e2efe2b
+  - local_658d3ef1-7e4f-4a36-b0c1-2c8fac8c29c7
+  - local_6bec9534-f236-4d7a-8282-6b38796a54d4
+  - local_bab863b3-4a81-4ecc-8b6f-c0d445e615ea
+  - local_e8f13a21-b6e1-4b40-8129-5c995702d41f
+  - local_6a59dca2-8c2d-4a5b-8462-b0c7767e7ea2
+  - local_283bdb55-a6b7-45eb-b399-d4750aafd666
+  - local_e9b43d98-0811-45b1-8d24-2de3528a65c6
+  - local_bbe9c106-febb-4a3e-854a-b65ef1f273bb
+  - local_09d5f309-a50e-470d-a0e1-44a763ad7e84
+  - local_5d5386ce-fd6f-47ea-aab0-82a0ca4c9cd2
+  - local_e70c4b19-253b-41bd-84cc-c00dec0a81dc
+  - local_a703e6ca-1f16-4017-a52d-13a94ff53fc3
+  - local_33f612d5-de8d-4575-92c7-82d24f689a2b
+  - local_249280fa-4faf-4d44-a901-ba98775a1829
   - local_a8ed6a9b-ab06-49a9-b917-0e86e95040e4
   - local_fbd58fbb-1c3f-4c9d-a1f4-516e5839075e
   - local_f31fce5d-c6c2-4863-915a-cbd1784f790d
@@ -95,26 +113,9 @@ sync_captured_recent:
   - local_2228d328-5820-4f6c-8628-e244632435c3
   - local_2f0de3d0-eec2-4ba6-bac3-214bc6980d93
   - local_3fd7c082-81b9-44ef-8269-7687ba6702af
-  - local_eec596b9-5b78-413b-be95-82d7db0feaa5
-  - local_79edb362-6cb5-41f9-8549-a4e9248495c5
-  - local_0bed0fa8-71d2-46ab-b5b5-147234338cb5
-  - local_77cd7711-40dd-4055-8f88-a33ce0d24103
-  - local_bd1dc37c-584c-49c2-9ba3-7655360b4505
-  - local_fd6080ad-e03d-4d02-8cb4-fb4d6384b804
-  - local_fcbb4bc3-f70e-4fb7-bcec-ac33842d40cd
-  - local_7a3b373e-deff-4875-95ce-642d27f43f39
-  - local_bf78d96a-258e-4f3f-9c84-5321696cdd66
-  - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
-  - local_2fc1829a-a80f-4ec8-90a1-9e333723329e
-  - local_ef60015c-1a87-4aaa-b518-5ab8ecf8d6ea
-  - local_b5f50a9a-7ffe-455a-8b61-86c735114af0
-  - local_30c7e06f-a921-4826-b7e5-257dd800a767
-  - local_83d624f1-c18c-42e2-b462-35b9e245fee9
-  - local_835e41e5-d7d4-4d85-8ca0-9d6e401e2574
-  - local_9eba7a45-f171-4eea-a441-416f66454a09
-  - local_e62d715d-97eb-4be3-be55-79cfdcd4e0d8
 last_anomalies:
-  - bash failed (Windows update 08.09) — DC PowerShell fallback for clock
+  - "bash failed: Windows update Sep 2026 — clock from Desktop Commander
+    (2026-09-16T04:28:25Z approx)"
 ---
 
 # Sync State
@@ -134,6 +135,10 @@ last_anomalies:
 ### 2026-09-15
 
 - **Run 1** ^run-2026-09-15-r1 (scheduled, 2026-09-15T04:04:11Z) — captured 6/100 (3 reads, trading ×4; 0 session vault-writes; sweep: 21 files / 4 clusters / 3 writes: Медео+Halyk+ЦКП cl-2026-09-14); push 1 (fa225a73); orphan-system 5 (976cb2fe/e06958fd/09e58325/01582840/5f501895); pre-watermark 0 / total 100; anomaly: bash failed (Windows update 08.09)
+
+### 2026-09-16
+
+- **Run 1** ^run-2026-09-16-r1 (scheduled, 2026-09-16T04:28:25Z) — captured 15/100 (0 session vault writes; 2 sweep vault writes: Цех№1 cl-2026-09-15-tsekh, ED cl-2026-09-15-ed-candidate), deferred 2 (65fa7d60/6c0541b1 — running); push 3 (fa225a73/d530716c/b5cd7181); orphan-system 1 (09d5f309); pre-watermark 0 / total 100; 2 vault writes; anomaly: bash failed (Windows update Sep 2026)
 
 ### 2026-09-14
 

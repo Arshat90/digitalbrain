@@ -1,20 +1,16 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-15
+updated: 2026-09-16
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-15T04:04:11Z
+sweep_last_run_at: 2026-09-16T04:28:25Z
 sweep_last_run_status: success
 sweep_unmatched:
-  - APS-AED-MIN №26 от 14.09.2026 года.docx
-  - Текст приглашений(доработанный).docx
-  - ChatGPT Image 14 сент. 2026 г., 15_21_27.png
-  - Дегустация 1966 (1).pdf
-  - Новый документ (4).pdf
+  - 2026.09.15_Разбор_недели_74_W37_ред2.docx
 ---
 
 # Sweep State
@@ -48,6 +44,8 @@ sweep_unmatched:
 ### 2026-09-04
 
 - **Init** ^sweep-init-2026-09-04 — задача создана, `sweep.ps1` протестирован вручную: за окно 01.09–04.09 отдал 25 файлов после фильтрации шума (155 до фильтров). Watermark выставлен на 2026-09-01T00:00:00Z, чтобы первый прогон подобрал последние дни.
+
+- **2026-09-16T04:28:25Z** — success; files since 2026-09-15T04:04:11Z: Письмо акционеру о статусе производства работ.docx (18KB), План-график производства СМР на период с 15.09.2026 по 12.10.2026.pdf (126KB), Дильдабекова Динара.pdf (161KB), Уд Динара.pdf (1MB), 2026.09.15_Разбор_недели_74_W37_ред2.docx (unmatched); mapped: 2 projects (Цех№1, ED); unmatched: 1
 
 ## Sweep Runs
 
