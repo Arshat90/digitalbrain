@@ -1,22 +1,20 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-16
+updated: 2026-09-17
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-16T04:28:25Z
+sync_last_run_at: 2026-09-17T04:18:24Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-16
+sync_runs_today_date: 2026-09-17
 sync_pending_capture:
-  - local_65fa7d60-90c1-410d-baa9-fbbf307bdcb1
-  - local_6c0541b1-483a-4fca-9c19-f6e89bd40ec5
+  - local_afc67829-3051-4f94-907f-d582dc4e1643
+  - local_b04f96e7-cd56-49b0-b401-ef6a62114385
 sync_captured_recent:
-  - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
-  - local_e6ec34f8-bdc9-4761-9547-c79d5e2efe2b
   - local_658d3ef1-7e4f-4a36-b0c1-2c8fac8c29c7
   - local_6bec9534-f236-4d7a-8282-6b38796a54d4
   - local_bab863b3-4a81-4ecc-8b6f-c0d445e615ea
@@ -113,9 +111,14 @@ sync_captured_recent:
   - local_2228d328-5820-4f6c-8628-e244632435c3
   - local_2f0de3d0-eec2-4ba6-bac3-214bc6980d93
   - local_3fd7c082-81b9-44ef-8269-7687ba6702af
+  - local_65fa7d60-90c1-410d-baa9-fbbf307bdcb1
+  - local_6c0541b1-483a-4fca-9c19-f6e89bd40ec5
 last_anomalies:
-  - "bash failed: Windows update Sep 2026 — clock from Desktop Commander
-    (2026-09-16T04:28:25Z approx)"
+  - bash unavailable (Windows update 08.09) — clock from scheduler lastRunAt
+  - search_notes missing maxMatchesPerHit param — date-header lookup skipped
+    (Case B confirmed via sync_runs_today_date)
+  - f1019021 and b7f732cd partial UUIDs — not added to captured_recent
+    (post-compaction context loss)
 ---
 
 # Sync State
@@ -135,6 +138,9 @@ last_anomalies:
 ### 2026-09-15
 
 - **Run 1** ^run-2026-09-15-r1 (scheduled, 2026-09-15T04:04:11Z) — captured 6/100 (3 reads, trading ×4; 0 session vault-writes; sweep: 21 files / 4 clusters / 3 writes: Медео+Halyk+ЦКП cl-2026-09-14); push 1 (fa225a73); orphan-system 5 (976cb2fe/e06958fd/09e58325/01582840/5f501895); pre-watermark 0 / total 100; anomaly: bash failed (Windows update 08.09)
+
+### 2026-09-17
+- 2026-09-17T04:18Z R1 | cap:3 (0 wv) | defer:2 | push-cap:3 | orphan:1 | pre-wm:1 | sweep:12f/2w | anom:2 ^run-2026-09-17-r1
 
 ### 2026-09-16
 

@@ -1,16 +1,17 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-16
+updated: 2026-09-17
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-16T04:28:25Z
+sweep_last_run_at: 2026-09-17T04:18:24Z
 sweep_last_run_status: success
 sweep_unmatched:
-  - 2026.09.15_Разбор_недели_74_W37_ред2.docx
+  - Рабочий стол — 21.png / 22.png / 23.png / 24.png (неизвестный контекст)
+  - Almaly дашборд маркетинг.pptx (операционный — дашборд KUA Almaly)
 ---
 
 # Sweep State
@@ -46,6 +47,9 @@ sweep_unmatched:
 - **Init** ^sweep-init-2026-09-04 — задача создана, `sweep.ps1` протестирован вручную: за окно 01.09–04.09 отдал 25 файлов после фильтрации шума (155 до фильтров). Watermark выставлен на 2026-09-01T00:00:00Z, чтобы первый прогон подобрал последние дни.
 
 - **2026-09-16T04:28:25Z** — success; files since 2026-09-15T04:04:11Z: Письмо акционеру о статусе производства работ.docx (18KB), План-график производства СМР на период с 15.09.2026 по 12.10.2026.pdf (126KB), Дильдабекова Динара.pdf (161KB), Уд Динара.pdf (1MB), 2026.09.15_Разбор_недели_74_W37_ред2.docx (unmatched); mapped: 2 projects (Цех№1, ED); unmatched: 1
+
+
+- 2026-09-17T04:18Z | since: 2026-09-16T04:28Z | found: 12 files | matched: 3 clusters (Медео×2, ЦКП×1) | vault-writes: 2 | unmatched: 6 (4×png Desktop, 1×pptx dashboard, 1×Weekly74 docx) | via: Desktop Commander (bash unavailable)
 
 ## Sweep Runs
 
