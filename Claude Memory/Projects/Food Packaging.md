@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-09-17
 tags:
   - claude-memory
   - project/active
@@ -62,6 +62,12 @@ tags:
 - [[AGS Brand Development]] — концепция упаковки AGS Roastery как Phase 2 (параллельное направление)
 
 ## Changelog
+
+### 2026-09-17 — Видеоконцепция крышек + исследование фестиваля ^cl-2026-09-17-foodpkg
+
+- Создана `Видеоконцепция_Биоразлагаемые_крышки_FoodPackaging.docx` (20 KB) — видеоконцепция для продвижения биоразлагаемых крышек B2C-фокус; файл в Downloads.
+- Создано `FoodPack_Keri_payyz_festival_research_v1.docx` (68 KB) — исследование фестиваля «Кері·Payyz» как потенциальной площадки/партнёрства для Food Packaging; файл в Projects/Food Packaging.
+- Источник: Files sweep (облачный чат, вне list_sessions).
 
 ### 2026-06-27 — Открытие проекта ^cl-2026-06-27-foodpkg-open
 

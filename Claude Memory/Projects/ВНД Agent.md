@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-05-06
-updated: 2026-07-15
+updated: 2026-09-17
 tags:
   - claude-memory
   - project/active
@@ -66,6 +66,12 @@ tags:
 - Тесты на дополнительные комбинации тип×блок
 
 ## Changelog
+
+### 2026-09-17 — PRO-MAR-001 A01: форматирование итоговой версии ^cl-2026-09-17-vnd-a01
+
+- Сессия форматирования PRO-MAR-001 A01: сведены версии юриста (336 KB) и Ернара (330 KB) → финальный `APS-ORD-PRO-MAR-001_A01_final.docx` (271 KB) выгружен в output + продублирован в корень Projects/ВНД.
+- Лог сессии: `sessions/2026-09-17_PRO-MAR-001_A01_formatting/SESSION_2026-09-17_A01_formatting.md`.
+- Источник: Files sweep (облачный чат, вне list_sessions).
 
 ### 2026-07-15 — Compliance audit PRO-MAR-001 (9/10) + REGWRK-MAR-007 улучшен до 8,5/10 ^cl-2026-07-15-mar-audit
 

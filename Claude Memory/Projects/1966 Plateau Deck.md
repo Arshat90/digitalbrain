@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-04-23
-updated: 2026-09-12
+updated: 2026-09-17
 tags:
   - claude-memory
   - project/active
@@ -51,6 +51,11 @@ tags:
 - [[AMC - Almaty Mountain Cluster]] — параллельная инвест-презентация холдинга
 
 ## Changelog
+### 2026-09-17 — Реестр договоров Plateau 1966 ^cl-2026-09-17-plateau-contracts
+
+- Создан `Реестр_договоров_Plateau_1966.xlsx` (18 992 байт) — реестр договоров по объекту 1966 Plateau; файл в Downloads.
+- Источник: Files sweep (облачный чат, вне list_sessions).
+
 ### 2026-09-11 — Протоколы встреч №13 ред.2 и №14 (11.09.2026) ^cl-2026-09-11
 
 - **Claude Projects/1966 Plateau**: `Протокол встречи №13 — Plateau 1966 03.09.2026 ред.2.docx` (42.6 KB, 14:29) — финальная редакция протокола встречи от 03.09.2026; захвачен файловым обходом §3d
