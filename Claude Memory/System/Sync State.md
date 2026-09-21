@@ -1,20 +1,22 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-18
+updated: 2026-09-21
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-18T09:45:24Z
+sync_last_run_at: 2026-09-21T04:12:44Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-18
+sync_runs_today_date: 2026-09-21
 sync_pending_capture:
+  - local_124f83f2-3b78-4fb7-b155-cda830855f85
+  - local_b584fdb9-f6ec-4e84-818e-69c2f5c3ece4
+sync_captured_recent:
   - local_d440b656-5fc0-499e-ae3d-7043905331c2
   - local_53d644a6-a583-437d-ae55-78a036995299
-sync_captured_recent:
   - local_b04f96e7-cd56-49b0-b401-ef6a62114385
   - local_afc67829-3051-4f94-907f-d582dc4e1643
   - local_658d3ef1-7e4f-4a36-b0c1-2c8fac8c29c7
@@ -113,15 +115,10 @@ sync_captured_recent:
   - local_2228d328-5820-4f6c-8628-e244632435c3
   - local_2f0de3d0-eec2-4ba6-bac3-214bc6980d93
   - local_3fd7c082-81b9-44ef-8269-7687ba6702af
-  - local_65fa7d60-90c1-410d-baa9-fbbf307bdcb1
-  - local_6c0541b1-483a-4fca-9c19-f6e89bd40ec5
 last_anomalies:
-  - patch_note missing contentType param (API schema changed) — fallback
-    replace_in_note for all 4 changelog writes
-  - "Run History date order broken: first header 2026-09-15 ≠ max date
-    2026-09-17"
-  - partial UUIDs 4ff5a57d/f1019021/196af60c/b7f732cd — not added to
-    captured_recent (full UUIDs unavailable post-compaction)
+  - partial UUIDs b7bd46a5/e41b722f/196af60c/4ff5a57d/b7f732cd/f1019021 — not
+    added to captured_recent (full UUIDs unavailable post-compaction; only 2
+    confirmed from pending)
 ---
 
 # Sync State
@@ -138,6 +135,11 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-21
+
+- **Run 1** ^run-2026-09-21-r1 (scheduled, 2026-09-21T04:12:44Z) — captured 5/13 (0 session vault writes: trading×4 + dashboard×1 pre-captured); deferred 2 (124f83f2/b584fdb9 — running); pre-watermark 3 (af98d69a/e6ec34f8/01b1d1f0); orphan-system 3 (b7bd46a5/196af60c/b7f732cd); push 0; sweep §3d: 1 cluster → 1 vault write ([[Food Packaging]] cl-2026-09-21) / total 100
+- **Push** ^push-2026-09-21-T043310Z (session: 70e05491, "Weekly ROI digest") — 10 строк добавлено, 29.5 ч saved за окно 2026-09-12–2026-09-20. **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** Юбилей Акционера (09-12) — контекст восстановлен по именам файлов, сессия облачного чата вне list_sessions; ФК Кайрат/Halyk (cl-2026-09-14) — карточка проекта не читалась, deliverables сдвинуты на следующий прогон.
+
 ### 2026-09-18
 
 - **Run 1** ^run-2026-09-18-r1 (scheduled, 2026-09-18T09:45:24Z) — captured 4/100 (0 session vault-writes; 4 sweep vault-writes: FoodPack cl-2026-09-17-foodpkg + ВНД cl-2026-09-17-vnd-a01 + Медео cl-2026-09-17-medeo-insider + Plateau cl-2026-09-17-plateau-contracts), deferred 2 (d440b656/53d644a6 — running); push-cap 4 (fa225a73/cee82b4d/d530716c/b5cd7181); orphan-system 2 (196af60c/b7f732cd); pre-watermark 3 (af98d69a/e6ec34f8/01b1d1f0) / total 100; 4 vault writes; anomaly: patch_note missing contentType (fallback replace_in_note); date order broken (first header 2026-09-15 ≠ max 2026-09-17)

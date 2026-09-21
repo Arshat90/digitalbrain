@@ -1,13 +1,13 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-18
+updated: 2026-09-21
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-18T09:45:24Z
+sweep_last_run_at: 2026-09-21T04:12:44Z
 sweep_last_run_status: success
 sweep_unmatched: []
 ---
@@ -73,3 +73,5 @@ sweep_unmatched: []
 - **Run 2026-09-15** ^sweep-2026-09-15 (2026-09-15T04:04:11Z) — since 2026-09-14T04:35:14Z; §3d file sweep via sweep.ps1; 3 clusters captured: (A) Медео Парк Отель — мебель PPTX 11MB + PDF 1.4MB + открытие docx 4.3MB + тексты приглашений; (B) ФК Кайрат — Halyk Bank — partnership PDF 157MB + carrier xlsx 13MB + cost PNG; (C) Маркетинг ЦКП 2026 — вопросы W37 docx 15KB; 5 unmatched (APS-AED-MIN №26, Текст приглашений доработанный, ChatGPT Image 14 сент., Дегустация 1966, Новый документ (4)); status: success
 
 - **Run 2026-09-18** ^sweep-2026-09-18 (2026-09-18T09:45:24Z) — since 2026-09-17T04:18:24Z; 4 clusters matched: (A) Food Packaging — Видеоконцепция_Биоразлагаемые_крышки_FoodPackaging.docx 20KB + FoodPack_Keri_payyz_festival_research_v1.docx 68KB (vault write cl-2026-09-17-foodpkg); (B) ВНД Agent — APS-ORD-PRO-MAR-001_A01_final.docx 271KB (vault write cl-2026-09-17-vnd-a01); (C) Медео Парк Отель — 3 XLSX files: Insider 09.09, MEDEU PARK HOTEL, MEDEU PARK HOTEL upd (vault write cl-2026-09-17-medeo-insider); (D) 1966 Plateau Deck — Реестр_договоров_Plateau_1966.xlsx 18992B (vault write cl-2026-09-17-plateau-contracts); 0 unmatched; status: success
+
+- **Run 2026-09-21** ^sweep-2026-09-21 (2026-09-21T04:12:44Z) — since 2026-09-18T09:45:24Z; 1 cluster matched: Food Packaging — FoodPack_Paper_lids_market_analysis_v1.docx 52KB (Downloads + Claude Projects/Food Packaging, 2026-09-18 15:02) → vault write cl-2026-09-21-foodpack-lids ✓; 0 unmatched; status: success
