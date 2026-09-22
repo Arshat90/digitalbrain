@@ -7,7 +7,7 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-21T04:12:44Z
+sweep_last_run_at: '"2026-09-22T13:19:32Z"'
 sweep_last_run_status: success
 sweep_unmatched: []
 ---
@@ -75,3 +75,5 @@ sweep_unmatched: []
 - **Run 2026-09-18** ^sweep-2026-09-18 (2026-09-18T09:45:24Z) — since 2026-09-17T04:18:24Z; 4 clusters matched: (A) Food Packaging — Видеоконцепция_Биоразлагаемые_крышки_FoodPackaging.docx 20KB + FoodPack_Keri_payyz_festival_research_v1.docx 68KB (vault write cl-2026-09-17-foodpkg); (B) ВНД Agent — APS-ORD-PRO-MAR-001_A01_final.docx 271KB (vault write cl-2026-09-17-vnd-a01); (C) Медео Парк Отель — 3 XLSX files: Insider 09.09, MEDEU PARK HOTEL, MEDEU PARK HOTEL upd (vault write cl-2026-09-17-medeo-insider); (D) 1966 Plateau Deck — Реестр_договоров_Plateau_1966.xlsx 18992B (vault write cl-2026-09-17-plateau-contracts); 0 unmatched; status: success
 
 - **Run 2026-09-21** ^sweep-2026-09-21 (2026-09-21T04:12:44Z) — since 2026-09-18T09:45:24Z; 1 cluster matched: Food Packaging — FoodPack_Paper_lids_market_analysis_v1.docx 52KB (Downloads + Claude Projects/Food Packaging, 2026-09-18 15:02) → vault write cl-2026-09-21-foodpack-lids ✓; 0 unmatched; status: success
+
+- **Run 2026-09-22T13:19Z** — since 2026-09-21T04:12:44Z; 2 files found; 2 clusters: (A) [[1966 Plateau Deck]] — Схема проезда и завоза техники.pdf (310 КБ, 21.09 11:48, vault write cl-2026-09-21-plateau-route); (B) [[Медео Парк Отель]] — MEDEU PARK HOTEL (1).xlsx (51,8 КБ, 21.09 10:35, vault write cl-2026-09-21-medeo-xlsx); 0 unmatched; status: success

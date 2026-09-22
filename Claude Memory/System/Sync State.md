@@ -1,20 +1,22 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-21
+updated: 2026-09-22
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-21T04:12:44Z
+sync_last_run_at: 2026-09-22T13:19:32Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-21
+sync_runs_today_date: 2026-09-22
 sync_pending_capture:
-  - local_124f83f2-3b78-4fb7-b155-cda830855f85
-  - local_b584fdb9-f6ec-4e84-818e-69c2f5c3ece4
+  - local_66ddc859
+  - local_0a933731
 sync_captured_recent:
+  - local_b584fdb9-f6ec-4e84-818e-69c2f5c3ece4
+  - local_124f83f2-3b78-4fb7-b155-cda830855f85
   - local_d440b656-5fc0-499e-ae3d-7043905331c2
   - local_53d644a6-a583-437d-ae55-78a036995299
   - local_b04f96e7-cd56-49b0-b401-ef6a62114385
@@ -113,12 +115,11 @@ sync_captured_recent:
   - local_81838f11-3890-4474-99c3-1dc7ab980526
   - local_d3e9719b-324f-4d23-8237-94dd16b8824f
   - local_2228d328-5820-4f6c-8628-e244632435c3
-  - local_2f0de3d0-eec2-4ba6-bac3-214bc6980d93
-  - local_3fd7c082-81b9-44ef-8269-7687ba6702af
 last_anomalies:
-  - partial UUIDs b7bd46a5/e41b722f/196af60c/4ff5a57d/b7f732cd/f1019021 — not
-    added to captured_recent (full UUIDs unavailable post-compaction; only 2
-    confirmed from pending)
+  - partial UUIDs 14 sessions
+    (70e05491/78256c08/b7bd46a5/196af60c/b7f732cd/e41b722f/4ff5a57d/65fa7d60/f1019021/6c0541b1/af98d69a/e6ec34f8/01b1d1f0/f58309a8)
+    — only 2 full UUIDs (124f83f2/b584fdb9) added to captured_recent; context
+    compaction mid-session
 ---
 
 # Sync State
@@ -135,6 +136,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-22
+
+- **Run 1** ^run-2026-09-22-r1 (scheduled, 2026-09-22T13:19:32Z) — captured 16/100 (1 session vault-write: [[1966 Plateau Deck]] cl-2026-09-08-plateau-ops from local_01b1d1f0; 10 captured no-write: b584fdb9/f58309a8/124f83f2/e41b722f/4ff5a57d/65fa7d60/f1019021/6c0541b1/af98d69a/e6ec34f8); deferred 2 (66ddc859/0a933731 — running); push-cap 1 (70e05491 Weekly ROI digest); orphan-system 4 (78256c08/b7bd46a5/196af60c/b7f732cd); pre-watermark 0 / total 100; sweep §3d: 2 files / 2 clusters / 2 vault-writes ([[1966 Plateau Deck]] cl-2026-09-21-plateau-route + [[Медео Парк Отель]] cl-2026-09-21-medeo-xlsx); anomaly: partial UUIDs 14 sessions (70e05491/78256c08/b7bd46a5/196af60c/b7f732cd/e41b722f/4ff5a57d/65fa7d60/f1019021/6c0541b1/af98d69a/e6ec34f8/01b1d1f0/f58309a8) — only 2 full UUIDs (124f83f2/b584fdb9) added to captured_recent; context compaction mid-session (resumed §3d–§9)
+
 ### 2026-09-21
 
 - **Run 1** ^run-2026-09-21-r1 (scheduled, 2026-09-21T04:12:44Z) — captured 5/13 (0 session vault writes: trading×4 + dashboard×1 pre-captured); deferred 2 (124f83f2/b584fdb9 — running); pre-watermark 3 (af98d69a/e6ec34f8/01b1d1f0); orphan-system 3 (b7bd46a5/196af60c/b7f732cd); push 0; sweep §3d: 1 cluster → 1 vault write ([[Food Packaging]] cl-2026-09-21) / total 100
