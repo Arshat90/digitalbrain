@@ -1,20 +1,40 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-22
+updated: 2026-09-23
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-22T13:19:32Z
+sync_last_run_at: 2026-09-23T04:38:58Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-22
+sync_runs_today_date: 2026-09-23
 sync_pending_capture:
-  - local_66ddc859
-  - local_0a933731
+  - local_981ee42b-0812-4af5-9566-8d0d41a6e9dd
+  - local_ac6c75fa-5536-4e83-9611-8d76adef7125
 sync_captured_recent:
+  - local_66ddc859-0267-4f87-a43b-b26cde4ea507
+  - local_78bb2806-b8cb-4b81-98e0-d0148b665d60
+  - local_0a933731-3298-4088-91cf-e03fbb13d41a
+  - local_f58309a8-27ea-4a96-83b5-fab2ef728c42
+  - local_e41b722f-01f3-42e3-8db6-738abc40f047
+  - local_4ff5a57d-c1c2-42af-ab28-ca79a28fde7c
+  - local_65fa7d60-90c1-410d-baa9-fbbf307bdcb1
+  - local_f1019021-a656-49dc-98cf-30728dfb5ebb
+  - local_6c0541b1-483a-4fca-9c19-f6e89bd40ec5
+  - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
+  - local_e6ec34f8-bdc9-4761-9547-c79d5e2efe2b
+  - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
+  - local_70e05491-039f-4212-9d81-689056efc255
+  - local_af09468e-c718-46fe-9f03-b8c39d6e6df7
+  - local_78256c08-5f16-40b1-b8fa-943957f34cac
+  - local_b7bd46a5-bc46-4d76-8a68-a79dd8abfbdd
+  - local_196af60c-2c5e-4122-9583-afe61556b29c
+  - local_b7f732cd-e286-4a15-a6e6-5257cbe4fb8e
+  - local_3fd7c082-81b9-44ef-8269-7687ba6702af
+  - local_2f0de3d0-eec2-4ba6-bac3-214bc6980d93
   - local_b584fdb9-f6ec-4e84-818e-69c2f5c3ece4
   - local_124f83f2-3b78-4fb7-b155-cda830855f85
   - local_d440b656-5fc0-499e-ae3d-7043905331c2
@@ -95,31 +115,9 @@ sync_captured_recent:
   - local_e3b73062-af96-47f0-9961-934d6910dcfb
   - local_a6813b85-a027-4ab5-80e3-d7937662f669
   - local_e24dca80-748a-462f-829b-116a37071e5b
-  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
-  - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
-  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
-  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
-  - local_07127298-dd6f-40b0-8941-25078be6ccd8
-  - local_57232643-03de-46eb-baff-c66c02bbf405
-  - local_62c567db-1936-4c07-b5b4-b7dd43d9b5d4
-  - local_771178e4-d069-4bbc-bdc2-c0651791e30d
-  - local_a4518f8e-693e-4d12-8f21-aab18e65260c
-  - local_8e6539de-dd1f-436d-b3b9-f55d9f0ee52b
-  - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
-  - local_7451eb1a-8cd6-4a5b-a54e-8cd853225a45
-  - local_9c7421bc-b741-4746-aa64-7a476d5f4e43
-  - local_f2d2801d-d2d5-47c9-986c-438ce337b618
-  - local_3a155178-865c-4abb-ac33-218aa35d961e
-  - local_82497b2a-f683-4bd0-9e21-f09cd4f9b5e3
-  - local_a99f98a1-4ad1-46c1-9c0e-e4cfd2a0c147
-  - local_81838f11-3890-4474-99c3-1dc7ab980526
-  - local_d3e9719b-324f-4d23-8237-94dd16b8824f
-  - local_2228d328-5820-4f6c-8628-e244632435c3
 last_anomalies:
-  - partial UUIDs 14 sessions
-    (70e05491/78256c08/b7bd46a5/196af60c/b7f732cd/e41b722f/4ff5a57d/65fa7d60/f1019021/6c0541b1/af98d69a/e6ec34f8/01b1d1f0/f58309a8)
-    — only 2 full UUIDs (124f83f2/b584fdb9) added to captured_recent; context
-    compaction mid-session
+  - context compaction mid-run (between §3b and §3d); resumed normally, all 20
+    captured_recent entries written as full UUIDs
 ---
 
 # Sync State
@@ -136,6 +134,9 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-23
+- **Run 1** ^run-2026-09-23-r1 (scheduled, 2026-09-23T04:38:58Z) — captured 12/100 (2 vault writes: Медео Парк Отель cl-2026-09-23-mph-shareholder, 1966 Plateau Deck cl-2026-09-23-plateau-aktsioner); deferred 2 (981ee42b/ac6c75fa — running); push 1 (70e05491); orphan-system 7 (af09468e/78256c08/b7bd46a5/196af60c/b7f732cd/3fd7c082/2f0de3d0); pre-watermark 0 / total 100; sweep §3d: 6 files (1 cluster: Trading-aggressive, no vault write)
+
 ### 2026-09-22
 
 - **Run 1** ^run-2026-09-22-r1 (scheduled, 2026-09-22T13:19:32Z) — captured 16/100 (1 session vault-write: [[1966 Plateau Deck]] cl-2026-09-08-plateau-ops from local_01b1d1f0; 10 captured no-write: b584fdb9/f58309a8/124f83f2/e41b722f/4ff5a57d/65fa7d60/f1019021/6c0541b1/af98d69a/e6ec34f8); deferred 2 (66ddc859/0a933731 — running); push-cap 1 (70e05491 Weekly ROI digest); orphan-system 4 (78256c08/b7bd46a5/196af60c/b7f732cd); pre-watermark 0 / total 100; sweep §3d: 2 files / 2 clusters / 2 vault-writes ([[1966 Plateau Deck]] cl-2026-09-21-plateau-route + [[Медео Парк Отель]] cl-2026-09-21-medeo-xlsx); anomaly: partial UUIDs 14 sessions (70e05491/78256c08/b7bd46a5/196af60c/b7f732cd/e41b722f/4ff5a57d/65fa7d60/f1019021/6c0541b1/af98d69a/e6ec34f8/01b1d1f0/f58309a8) — only 2 full UUIDs (124f83f2/b584fdb9) added to captured_recent; context compaction mid-session (resumed §3d–§9)

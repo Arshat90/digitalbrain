@@ -7,8 +7,8 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-09-22T13:19:32Z"'
-sweep_last_run_status: success
+sweep_last_run_at: 2026-09-23T04:48:30Z
+sweep_last_run_status: "ok: 6 files (1 cluster: Trading-aggressive, no vault write)"
 sweep_unmatched: []
 ---
 
