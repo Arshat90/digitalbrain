@@ -1,20 +1,43 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-23
+updated: 2026-09-24
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-23T04:38:58Z
+sync_last_run_at: 2026-09-24T10:12:51Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-23
+sync_runs_today_date: 2026-09-24
 sync_pending_capture:
-  - local_981ee42b-0812-4af5-9566-8d0d41a6e9dd
-  - local_ac6c75fa-5536-4e83-9611-8d76adef7125
+  - local_982547ec-d423-4312-9e0b-db10351e078c
+  - local_96d0a592-2bbe-4432-9ae3-bfc1f7d1fc2f
 sync_captured_recent:
+  - local_982547ec-d423-4312-9e0b-db10351e078c
+  - local_96d0a592-2bbe-4432-9ae3-bfc1f7d1fc2f
+  - local_5b59fd94-5dd0-43c2-aaef-9f7616981073
+  - local_afd4fcdf-1acf-4226-91ed-68d2b144b3d3
+  - local_ac6c75fa-5536-4e83-9611-8d76adef7125
+  - local_981ee42b-0812-4af5-9566-8d0d41a6e9dd
+  - local_f2d2801d-d2d5-47c9-986c-438ce337b618
+  - local_07127298-dd6f-40b0-8941-25078be6ccd8
+  - local_57232643-03de-46eb-baff-c66c02bbf405
+  - local_62c567db-1936-4c07-b5b4-b7dd43d9b5d4
+  - local_3a155178-865c-4abb-ac33-218aa35d961e
+  - local_771178e4-d069-4bbc-bdc2-c0651791e30d
+  - local_a4518f8e-693e-4d12-8f21-aab18e65260c
+  - local_8e6539de-dd1f-436d-b3b9-f55d9f0ee52b
+  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
+  - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
+  - local_81838f11-3890-4474-99c3-1dc7ab980526
+  - local_d3e9719b-324f-4d23-8237-94dd16b8824f
+  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
+  - local_2228d328-5820-4f6c-8628-e244632435c3
+  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
+  - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
+  - local_82497b2a-f683-4bd0-9e21-f09cd4f9b5e3
   - local_66ddc859-0267-4f87-a43b-b26cde4ea507
   - local_78bb2806-b8cb-4b81-98e0-d0148b665d60
   - local_0a933731-3298-4088-91cf-e03fbb13d41a
@@ -69,55 +92,9 @@ sync_captured_recent:
   - local_01582840-f7da-4c37-9719-512d7e1214d2
   - local_5f501895-a0a9-41ab-a517-237da03d2d78
   - local_9263bd6a-1891-4fe0-a83a-ac4a4ea807d0
-  - local_d7f69802-16db-466b-a64c-cbcdb22817f1
-  - local_7debfcf3-1432-487b-819f-0ef417763d32
-  - local_127a70a7-d1b8-476e-ba53-d7c9d85a06ed
-  - local_659101cf-fdc3-4d05-84ca-95da5b8f404d
-  - local_df225ee3-16f2-4503-9d8f-6e879186a900
-  - local_a2bb4e83-fa1d-4b40-9523-2c169dc3631c
-  - local_1fe3fb86-4861-49cd-8fd5-c07ac4240f70
-  - local_1225ca51-59a3-43bd-a7fd-6ccdd346763e
-  - local_634a3dbf-b0b7-4c49-9299-1291907d7165
-  - local_65623504-f5d7-4be0-a323-a4bdbf6afc25
-  - local_cba8243b-e08f-45a2-95f1-5593303af6b9
-  - local_1a35edb5-0262-4a48-bec5-0ab3110bb323
-  - local_885fa06c-6ddc-498c-a442-33f43e13fe4e
-  - local_504a5585-69ea-433c-ab42-8ca4b6d3fbe0
-  - local_8d242210-f74e-4b06-ae19-af400e9857c0
-  - local_7db29bb3-dd1b-4977-85f5-b6cde24e4065
-  - local_1f533530-c66a-429d-890c-2ebc0b666208
-  - local_44306f1e-e6b8-454d-8cd8-59e211a60a7c
-  - local_5d8e84e7-df2b-4727-9e37-4189e88ae986
-  - local_55fe7f9a-1301-469b-bbdb-83447953e93c
-  - local_ca65f605-39f1-4e78-ba6d-e811104d514f
-  - local_0d23cc68-6217-48bd-b46b-befc8e1b8109
-  - local_05742f4d-1955-4606-9e3e-a7653f809407
-  - local_d013942c-2a9a-445a-a883-addeb718b171
-  - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
-  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
-  - local_e005283a-b5df-4dcd-be97-0c1559adc117
-  - local_a4ca7bed-3f6b-47e5-971f-c15d05950a65
-  - local_2ab8baf6-87f5-4948-aec8-af5c3ec65f22
-  - local_3e405c6a-6144-4d27-bed8-4ce724ddf6c3
-  - local_b2886b09-6aff-4a4e-b0f5-19c53a3fc129
-  - local_e5ca98ef-c5c2-4448-a317-e214ffe3d1b9
-  - local_b95bb867-fe2f-4787-97e3-18b53f66c3b1
-  - local_856d0614-6dbe-4d48-a864-90234fc2674f
-  - local_f81281ee-0a88-4b50-9568-0fa19a18d442
-  - local_8c4e9720-363c-47b1-8ebd-09ac3e486097
-  - local_5f31f0ac-6001-4a5e-9197-cea93b2b5ca5
-  - local_6c0b04d0-0663-4a0b-8e64-628283b3234a
-  - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
-  - local_d530716c-5a33-4c4a-987e-a49c205c10dc
-  - local_b5cd7181-5c1f-4335-b818-8eefe18ff4be
-  - local_da14fe32-adea-4e3e-9455-427e90f58ba5
-  - local_a760fd30-25a4-45ad-b4ac-c18afb37aac2
-  - local_e3b73062-af96-47f0-9961-934d6910dcfb
-  - local_a6813b85-a027-4ab5-80e3-d7937662f669
-  - local_e24dca80-748a-462f-829b-116a37071e5b
 last_anomalies:
-  - context compaction mid-run (between §3b and §3d); resumed normally, all 20
-    captured_recent entries written as full UUIDs
+  - sweep start_process timeout_ms param error on first attempt (used
+    timeout_seconds instead)
 ---
 
 # Sync State
@@ -134,6 +111,9 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-24
+- **Run 1** ^run-2026-09-24-r1 (scheduled, 2026-09-24T10:12:51Z) — captured 3/100 (0 vault writes); deferred 2 (982547ec/96d0a592 — running); push 4 (70e05491/fa225a73/cee82b4d/d530716c prev); orphan-system 8 (5b59fd94/f2d2801d/3a155178/89de4f90/c594df30/6786ee32/f2a56e79/82497b2a); pre-watermark 1 (7451eb1a); routine-no-vault 10 (07127298/57232643/62c567db/771178e4/a4518f8e/8e6539de/81838f11/d3e9719b/2228d328/7ca4a13c); sweep §3d: 4 files / 2 clusters (Trading-aggressive 3 files no-vault; 1 unmatched PDF Downloads 10MB); anomaly: sweep start_process timeout_ms param error on first attempt
+
 ### 2026-09-23
 - **Run 1** ^run-2026-09-23-r1 (scheduled, 2026-09-23T04:38:58Z) — captured 12/100 (2 vault writes: Медео Парк Отель cl-2026-09-23-mph-shareholder, 1966 Plateau Deck cl-2026-09-23-plateau-aktsioner); deferred 2 (981ee42b/ac6c75fa — running); push 1 (70e05491); orphan-system 7 (af09468e/78256c08/b7bd46a5/196af60c/b7f732cd/3fd7c082/2f0de3d0); pre-watermark 0 / total 100; sweep §3d: 6 files (1 cluster: Trading-aggressive, no vault write)
 
