@@ -1,19 +1,19 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-09-24
+updated: '"2026-09-25"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-09-24T10:12:51Z
-sync_last_run_status: success
+sync_last_run_at: '"2026-09-25T04:30:20Z"'
+sync_last_run_status: '"success"'
 sync_runs_today: 1
-sync_runs_today_date: 2026-09-24
+sync_runs_today_date: '"2026-09-25"'
 sync_pending_capture:
-  - local_982547ec-d423-4312-9e0b-db10351e078c
-  - local_96d0a592-2bbe-4432-9ae3-bfc1f7d1fc2f
+  - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
+  - local_5aff3846-9b45-435e-ae4a-68910b39c548
 sync_captured_recent:
   - local_982547ec-d423-4312-9e0b-db10351e078c
   - local_96d0a592-2bbe-4432-9ae3-bfc1f7d1fc2f
@@ -92,9 +92,16 @@ sync_captured_recent:
   - local_01582840-f7da-4c37-9719-512d7e1214d2
   - local_5f501895-a0a9-41ab-a517-237da03d2d78
   - local_9263bd6a-1891-4fe0-a83a-ac4a4ea807d0
-last_anomalies:
-  - sweep start_process timeout_ms param error on first attempt (used
-    timeout_seconds instead)
+  - local_7eb75725-7c41-4395-9860-845081b1c018
+  - local_f2f06051-4ffb-451b-b7b7-dc58a5660002
+  - local_d7f69802-16db-466b-a64c-cbcdb22817f1
+  - local_659101cf-fdc3-4d05-84ca-95da5b8f404d
+  - local_df225ee3-16f2-4503-9d8f-6e879186a900
+  - local_a760fd30-25a4-45ad-b4ac-c18afb37aac2
+  - local_e24dca80-748a-462f-829b-116a37071e5b
+  - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
+  - local_d530716c-5a33-4c4a-987e-a49c205c10dc
+last_anomalies: []
 ---
 
 # Sync State
@@ -111,6 +118,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-25
+
+- **Run 1** ^run-2026-09-25-r1 (scheduled, 2026-09-25T04:30:20Z) — captured 1/100 (0 vault writes: trading-review no vault); deferred 2 (7bbdbdd3/5aff3846 — running); push 2 (cee82b4d/d530716c prev); orphan-system 6 (f2f06051/d7f69802/659101cf/df225ee3/a760fd30/e24dca80); pre-watermark 27 (7debfcf3/127a70a7/8c4e9720/5f31f0ac/6c0b04d0/a2bb4e83/1fe3fb86/1225ca51/634a3dbf/65623504/cba8243b/1a35edb5/885fa06c/504a5585/8d242210/7db29bb3/1f533530/44306f1e/5d8e84e7/55fe7f9a/ca65f605/0d23cc68/05742f4d/d013942c/dea6cfb5/3993cc51/e005283a); sweep §3d: 6 files / 1 trading skip / 5 unmatched (забег/W38/Мультименю/КЭ-этика×2)
+
 ### 2026-09-24
 - **Run 1** ^run-2026-09-24-r1 (scheduled, 2026-09-24T10:12:51Z) — captured 3/100 (0 vault writes); deferred 2 (982547ec/96d0a592 — running); push 4 (70e05491/fa225a73/cee82b4d/d530716c prev); orphan-system 8 (5b59fd94/f2d2801d/3a155178/89de4f90/c594df30/6786ee32/f2a56e79/82497b2a); pre-watermark 1 (7451eb1a); routine-no-vault 10 (07127298/57232643/62c567db/771178e4/a4518f8e/8e6539de/81838f11/d3e9719b/2228d328/7ca4a13c); sweep §3d: 4 files / 2 clusters (Trading-aggressive 3 files no-vault; 1 unmatched PDF Downloads 10MB); anomaly: sweep start_process timeout_ms param error on first attempt
 

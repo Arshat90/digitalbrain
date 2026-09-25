@@ -7,9 +7,14 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-09-23T04:48:30Z
-sweep_last_run_status: "ok: 6 files (1 cluster: Trading-aggressive, no vault write)"
-sweep_unmatched: []
+sweep_last_run_at: '"2026-09-25T04:30:20Z"'
+sweep_last_run_status: '"success"'
+sweep_unmatched:
+  - Стандарт_проведения_забега с колясками 2026.docx (2026-09-24)
+  - 2026.09.22_Вопросы_по_отчетам_74_W38.docx (2026-09-24)
+  - Презентация Мультименю.pdf (2026-09-24)
+  - Протокол_Комитет_по_этике_2026-09-18_v2.docx (2026-09-24)
+  - Протокол_КЭ-01-2026_2026-09-18_v3.docx (2026-09-24)
 ---
 
 # Sweep State
@@ -77,3 +82,4 @@ sweep_unmatched: []
 - **Run 2026-09-21** ^sweep-2026-09-21 (2026-09-21T04:12:44Z) — since 2026-09-18T09:45:24Z; 1 cluster matched: Food Packaging — FoodPack_Paper_lids_market_analysis_v1.docx 52KB (Downloads + Claude Projects/Food Packaging, 2026-09-18 15:02) → vault write cl-2026-09-21-foodpack-lids ✓; 0 unmatched; status: success
 
 - **Run 2026-09-22T13:19Z** — since 2026-09-21T04:12:44Z; 2 files found; 2 clusters: (A) [[1966 Plateau Deck]] — Схема проезда и завоза техники.pdf (310 КБ, 21.09 11:48, vault write cl-2026-09-21-plateau-route); (B) [[Медео Парк Отель]] — MEDEU PARK HOTEL (1).xlsx (51,8 КБ, 21.09 10:35, vault write cl-2026-09-21-medeo-xlsx); 0 unmatched; status: success
+- **2026-09-25T04:30:20Z** — 6 files scanned (since 2026-09-24T10:12:51Z); 1 trading skip (Вечерняя-ревизия); 5 unmatched (забег/W38/Мультименю/КЭ-этика×2); 0 vault writes
