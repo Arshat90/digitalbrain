@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-09-25"'
+updated: '"2026-09-26"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-09-25T04:30:20Z"'
+sync_last_run_at: '"2026-09-26T08:56:31Z"'
 sync_last_run_status: '"success"'
 sync_runs_today: 1
-sync_runs_today_date: '"2026-09-25"'
+sync_runs_today_date: '"2026-09-26"'
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -101,7 +101,9 @@ sync_captured_recent:
   - local_e24dca80-748a-462f-829b-116a37071e5b
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
-last_anomalies: []
+last_anomalies:
+  - "session listing unavailable: mcp__session_info__list_sessions not in
+    session tools; .claude/sessions dir empty (cloud-only scheduled run)"
 ---
 
 # Sync State
@@ -118,6 +120,10 @@ last_anomalies: []
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-26
+
+- **Run 1** ^run-2026-09-26-r1 (scheduled, 2026-09-26T08:56:31Z) — captured 0 (mcp__session_info unavailable; .claude/sessions empty, cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 2 (cee82b4d/d530716c prev-cache); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 4 files / 1 skip trading / 1 cluster КНК 3 files → delta ^cl-2026-09-25-knk-sbtape (2 PDFs: презентации для SB Tape, docx already captured) / 0 unmatched; anomaly: session listing unavailable
+
 ### 2026-09-25
 
 - **Run 1** ^run-2026-09-25-r1 (scheduled, 2026-09-25T04:30:20Z) — captured 1/100 (0 vault writes: trading-review no vault); deferred 2 (7bbdbdd3/5aff3846 — running); push 2 (cee82b4d/d530716c prev); orphan-system 6 (f2f06051/d7f69802/659101cf/df225ee3/a760fd30/e24dca80); pre-watermark 27 (7debfcf3/127a70a7/8c4e9720/5f31f0ac/6c0b04d0/a2bb4e83/1fe3fb86/1225ca51/634a3dbf/65623504/cba8243b/1a35edb5/885fa06c/504a5585/8d242210/7db29bb3/1f533530/44306f1e/5d8e84e7/55fe7f9a/ca65f605/0d23cc68/05742f4d/d013942c/dea6cfb5/3993cc51/e005283a); sweep §3d: 6 files / 1 trading skip / 5 unmatched (забег/W38/Мультименю/КЭ-этика×2)

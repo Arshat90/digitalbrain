@@ -1,13 +1,13 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-21
+updated: 2026-09-26
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-09-25T04:30:20Z"'
+sweep_last_run_at: '"2026-09-26T08:56:31Z"'
 sweep_last_run_status: '"success"'
 sweep_unmatched:
   - Стандарт_проведения_забега с колясками 2026.docx (2026-09-24)
@@ -53,6 +53,9 @@ sweep_unmatched:
 
 
 - 2026-09-17T04:18Z | since: 2026-09-16T04:28Z | found: 12 files | matched: 3 clusters (Медео×2, ЦКП×1) | vault-writes: 2 | unmatched: 6 (4×png Desktop, 1×pptx dashboard, 1×Weekly74 docx) | via: Desktop Commander (bash unavailable)
+
+
+- **2026-09-26T08:56:31Z** — files: 4 total / 1 skip (trading) / 3 КНК cluster / 0 unmatched; vault: 1 delta (КНК Кемикал ^cl-2026-09-25-knk-sbtape + PDFs нота); session listing: unavailable (cloud-only run)
 
 ## Sweep Runs
 
