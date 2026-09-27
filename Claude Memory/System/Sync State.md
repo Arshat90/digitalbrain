@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-09-26"'
+updated: '"2026-09-27"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-09-26T08:56:31Z"'
-sync_last_run_status: '"success"'
+sync_last_run_at: '"2026-09-27T12:44:24Z"'
+sync_last_run_status: '"partial"'
 sync_runs_today: 1
-sync_runs_today_date: '"2026-09-26"'
+sync_runs_today_date: '"2026-09-27"'
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -102,8 +102,9 @@ sync_captured_recent:
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
-  - "session listing unavailable: mcp__session_info__list_sessions not in
-    session tools; .claude/sessions dir empty (cloud-only scheduled run)"
+  - "mcp__session_info tool unavailable — session listing skipped (recurring
+    structural issue, cloud-only run); sweep §3d: 1 file found, trading-skip, 0
+    clusters"
 ---
 
 # Sync State
@@ -120,6 +121,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-09-27
+
+- **Run 1** ^run-2026-09-27-r1 (scheduled, 2026-09-27T12:44:24Z) — captured 0 (mcp__session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 7 (70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8 cache); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 1 file / 1 trading-skip / 0 clusters / 0 unmatched; anomaly: session listing unavailable
+
 ### 2026-09-26
 
 - **Run 1** ^run-2026-09-26-r1 (scheduled, 2026-09-26T08:56:31Z) — captured 0 (mcp__session_info unavailable; .claude/sessions empty, cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 2 (cee82b4d/d530716c prev-cache); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 4 files / 1 skip trading / 1 cluster КНК 3 files → delta ^cl-2026-09-25-knk-sbtape (2 PDFs: презентации для SB Tape, docx already captured) / 0 unmatched; anomaly: session listing unavailable

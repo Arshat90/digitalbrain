@@ -7,14 +7,9 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-09-26T08:56:31Z"'
+sweep_last_run_at: '"2026-09-27T12:44:24Z"'
 sweep_last_run_status: '"success"'
-sweep_unmatched:
-  - Стандарт_проведения_забега с колясками 2026.docx (2026-09-24)
-  - 2026.09.22_Вопросы_по_отчетам_74_W38.docx (2026-09-24)
-  - Презентация Мультименю.pdf (2026-09-24)
-  - Протокол_Комитет_по_этике_2026-09-18_v2.docx (2026-09-24)
-  - Протокол_КЭ-01-2026_2026-09-18_v3.docx (2026-09-24)
+sweep_unmatched: []
 ---
 
 # Sweep State
@@ -56,6 +51,9 @@ sweep_unmatched:
 
 
 - **2026-09-26T08:56:31Z** — files: 4 total / 1 skip (trading) / 3 КНК cluster / 0 unmatched; vault: 1 delta (КНК Кемикал ^cl-2026-09-25-knk-sbtape + PDFs нота); session listing: unavailable (cloud-only run)
+
+
+- **2026-09-27T12:44:24Z** — since 2026-09-26T08:56:31Z: 1 file scanned / 1 trading-skip / 0 clusters / 0 unmatched. status: success
 
 ## Sweep Runs
 
