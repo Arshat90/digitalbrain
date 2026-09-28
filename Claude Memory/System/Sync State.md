@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-09-27"'
+updated: '"2026-09-28"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-09-27T12:44:24Z"'
-sync_last_run_status: '"partial"'
+sync_last_run_at: '"2026-09-28T05:19:35Z"'
+sync_last_run_status: '"success"'
 sync_runs_today: 1
-sync_runs_today_date: '"2026-09-27"'
+sync_runs_today_date: '"2026-09-28"'
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -102,9 +102,7 @@ sync_captured_recent:
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
-  - "mcp__session_info tool unavailable — session listing skipped (recurring
-    structural issue, cloud-only run); sweep §3d: 1 file found, trading-skip, 0
-    clusters"
+  - session listing unavailable (mcp__session_info not available in cloud run)
 ---
 
 # Sync State
@@ -332,5 +330,7 @@ last_anomalies:
 - Дедуп по содержанию changelog-записи; реконсилиация по префиксам не применима.
 
 ### 2026-09-28
+
+- **Run 1** ^run-2026-09-28-r1 (scheduled, 2026-09-28T05:19:35Z) — captured 0 (mcp__session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 0 files / 0 clusters / 0 vault writes; anomaly: session listing unavailable
 
 - **Push** ^push-2026-09-28-T043000Z (session: cb800021, "Weekly ROI digest") — 5 строк добавлено, 14.5 ч saved; окно 2026-09-05–2026-09-25; ФК Кайрат/Halyk Bank (4 deliverables: вопросы_перед_планом_v2.docx, план_переговоров_v1.docx, план_переговоров_v2.docx, FC KAIRAT PARTNERSHIP'26 package) — deferred cl-2026-09-14 закрыт + доначислены cl-2026-09-05/07/09; КНК Кемикал / SB Tape Group (2 PDF презентации); аномалии: session listing unavailable (cloud-only); итого по Ledger: 174 deliverables, 576.75 ч сэкономлено
