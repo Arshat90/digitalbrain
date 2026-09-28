@@ -330,3 +330,7 @@ last_anomalies:
 - Дописан changelog [[КНК Кемикал]] `^cl-2026-09-25-knk-sbtape`, bump `updated: 2026-09-25`.
 - Deliverable: «Протокол встречи КНК — SB Tape Group 2026-09-25 v1.docx» по записи Plaud от 2026-09-25.
 - Дедуп по содержанию changelog-записи; реконсилиация по префиксам не применима.
+
+### 2026-09-28
+
+- **Push** ^push-2026-09-28-T043000Z (session: cb800021, "Weekly ROI digest") — 5 строк добавлено, 14.5 ч saved; окно 2026-09-05–2026-09-25; ФК Кайрат/Halyk Bank (4 deliverables: вопросы_перед_планом_v2.docx, план_переговоров_v1.docx, план_переговоров_v2.docx, FC KAIRAT PARTNERSHIP'26 package) — deferred cl-2026-09-14 закрыт + доначислены cl-2026-09-05/07/09; КНК Кемикал / SB Tape Group (2 PDF презентации); аномалии: session listing unavailable (cloud-only); итого по Ledger: 174 deliverables, 576.75 ч сэкономлено
