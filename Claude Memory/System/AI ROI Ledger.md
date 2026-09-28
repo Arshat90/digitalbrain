@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-05-02
-updated: 2026-09-21
+updated: 2026-09-28
 tags:
   - claude-memory
   - system
@@ -213,8 +213,13 @@ weekly_digest_day: понедельник
 | 2026-09-17 | [[Food Packaging]] | Видеоконцепция_Биоразлагаемые_крышки_FoodPackaging.docx (20 KB) | 4 | 1 | 3 | content | 🟡 |
 | 2026-09-17 | [[Food Packaging]] | FoodPack_Keri_payyz_festival_research_v1.docx (68 KB) | 5 | 1.5 | 3.5 | analysis | 🟡 |
 | 2026-09-18 | [[Food Packaging]] | FoodPack_Paper_lids_market_analysis_v1.docx (52 KB) | 5 | 1.5 | 3.5 | analysis | 🟡 |
+| 2026-09-05 | [[ФК Кайрат — Halyk Bank]] | ФК_Кайрат_Halyk_вопросы_перед_планом_v2.docx (59 вопросов GAP) | 4 | 1 | 3 | analysis | 🔴 |
+| 2026-09-07 | [[ФК Кайрат — Halyk Bank]] | ФК_Кайрат_Halyk_план_переговоров_v1.docx (9 стр, аудит 4 контрактов) | 6 | 2 | 4 | negotiation+analysis | 🔴 |
+| 2026-09-09 | [[ФК Кайрат — Halyk Bank]] | ФК_Кайрат_Halyk_план_переговоров_v2.docx (11 стр, НДС/бонусы) | 3 | 1 | 2 | negotiation+analysis | 🔴 |
+| 2026-09-14 | [[ФК Кайрат — Halyk Bank]] | FC KAIRAT PARTNERSHIP'26.pdf (157 МБ) + таблица носителей.xlsx (13 МБ) + стоимость пакета.png | 5 | 1.5 | 3.5 | document+visual | 🔴 |
+| 2026-09-25 | [[КНК Кемикал]] | Презентации КНК для SB Tape Group (2 PDF) | 3 | 1 | 2 | document+visual | 🟡 |
 
-**Итого 25 апр → 21 сент:** **169 deliverables**, **562.25 ч сэкономлено**
+**Итого 25 апр → 28 сент:** **174 deliverables**, **576.75 ч сэкономлено**
 
 ## Q2 2026 Summary (25 апр — 27 июн, финальный черновик для 30.06)
 
