@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-09-28"'
+updated: '"2026-09-29"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-09-28T05:19:35Z"'
+sync_last_run_at: '"2026-09-29T04:48:44Z"'
 sync_last_run_status: '"success"'
 sync_runs_today: 1
-sync_runs_today_date: '"2026-09-28"'
+sync_runs_today_date: '"2026-09-29"'
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -103,6 +103,8 @@ sync_captured_recent:
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
   - session listing unavailable (mcp__session_info not available in cloud run)
+  - PowerShell -AsUTC flag not supported (clock fallback to task timestamp)
+  - Бюджеты ДЗО 2027 missing from Index — structural fix applied §7
 ---
 
 # Sync State
@@ -329,8 +331,19 @@ last_anomalies:
 - Deliverable: «Протокол встречи КНК — SB Tape Group 2026-09-25 v1.docx» по записи Plaud от 2026-09-25.
 - Дедуп по содержанию changelog-записи; реконсилиация по префиксам не применима.
 
+### 2026-09-29
+
+- **Run 1** ^run-2026-09-29-r1 (scheduled, 2026-09-29T04:48:44Z) — captured 0 (session listing unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8 cache); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 47 files / 1 trading-skip / 21 memory-skip / 20 already-captured (КФК×16+АЛЕКС×4) / 3 unmatched (КазСтройПроект-А×2+Справка) / 0 new vault writes; anomaly: session listing unavailable
+
 ### 2026-09-28
 
 - **Run 1** ^run-2026-09-28-r1 (scheduled, 2026-09-28T05:19:35Z) — captured 0 (mcp__session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 0 files / 0 clusters / 0 vault writes; anomaly: session listing unavailable
 
 - **Push** ^push-2026-09-28-T043000Z (session: cb800021, "Weekly ROI digest") — 5 строк добавлено, 14.5 ч saved; окно 2026-09-05–2026-09-25; ФК Кайрат/Halyk Bank (4 deliverables: вопросы_перед_планом_v2.docx, план_переговоров_v1.docx, план_переговоров_v2.docx, FC KAIRAT PARTNERSHIP'26 package) — deferred cl-2026-09-14 закрыт + доначислены cl-2026-09-05/07/09; КНК Кемикал / SB Tape Group (2 PDF презентации); аномалии: session listing unavailable (cloud-only); итого по Ledger: 174 deliverables, 576.75 ч сэкономлено
+
+### Push 2026-09-29 — Weekly 7-4, неделя №39, ДЗО АЛЕКС (session: cloud Cowork, вне list_sessions)
+
+- Заведена карточка [[Weekly 7-4 — недельные отчёты ДЗО]] + строка в [[00 - Index]] §Активные проекты.
+- Changelog-запись `^cl-2026-09-29-w39-alex`: разобран отчёт 7-4 АЛЕКС за 21.09–27.09.2026, 12 замечаний, deliverable `АЛЕКС — Разбор отчёта 7-4 W39 v1.docx` в `Documents\Claude\Projects\Отчет 7_4\АЛЕКС\`.
+- Частичный срез недели записан в проект claude.ai «Отчет 7/4»: `claude/2026.09.29_Срез_W39_частичный_АЛЕКС.json`.
+- Открыто: ждём остальные 19 отчётов W39 для сводки периметра, PDF недели и Word с вопросами.

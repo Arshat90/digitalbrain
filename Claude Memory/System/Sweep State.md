@@ -1,15 +1,18 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-09-26
+updated: '"2026-09-29"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-09-28T05:19:35Z"'
+sweep_last_run_at: '"2026-09-29T04:48:44Z"'
 sweep_last_run_status: '"success"'
-sweep_unmatched: []
+sweep_unmatched:
+  - Бриф_КазСтройПроект-А_2026-09-28_v1.docx (Desktop)
+  - Бриф_КазСтройПроект-А_2026-09-28_v2.docx (Desktop)
+  - Справка_обращение_09.09.2026.pdf (Downloads)
 ---
 
 # Sweep State
@@ -57,6 +60,8 @@ sweep_unmatched: []
 
 
 - 2026-09-28T05:19:35Z — 0 files scanned (since 2026-09-27T12:44:24Z); 0 clusters; 0 vault writes; 0 unmatched ^sweep-2026-09-28-r1
+
+- **2026-09-29T04:48:44Z** ^sweep-2026-09-29-r1 — files: 47 total / 1 trading-skip / 21 memory-skip / 20 already-captured (КФК×16+АЛЕКС×4) / 3 unmatched (КазСтройПроект-А×2+Справка) / 0 new vault writes; session listing: unavailable (cloud-only run); status: success
 
 ## Sweep Runs
 
