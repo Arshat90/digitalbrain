@@ -1,18 +1,15 @@
 ---
 type: system
 created: 2026-09-04
-updated: '"2026-09-29"'
+updated: '"2026-09-30"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-09-29T04:48:44Z"'
+sweep_last_run_at: '"2026-09-30T04:04:19Z"'
 sweep_last_run_status: '"success"'
-sweep_unmatched:
-  - Бриф_КазСтройПроект-А_2026-09-28_v1.docx (Desktop)
-  - Бриф_КазСтройПроект-А_2026-09-28_v2.docx (Desktop)
-  - Справка_обращение_09.09.2026.pdf (Downloads)
+sweep_unmatched: []
 ---
 
 # Sweep State
@@ -92,3 +89,5 @@ sweep_unmatched:
 
 - **Run 2026-09-22T13:19Z** — since 2026-09-21T04:12:44Z; 2 files found; 2 clusters: (A) [[1966 Plateau Deck]] — Схема проезда и завоза техники.pdf (310 КБ, 21.09 11:48, vault write cl-2026-09-21-plateau-route); (B) [[Медео Парк Отель]] — MEDEU PARK HOTEL (1).xlsx (51,8 КБ, 21.09 10:35, vault write cl-2026-09-21-medeo-xlsx); 0 unmatched; status: success
 - **2026-09-25T04:30:20Z** — 6 files scanned (since 2026-09-24T10:12:51Z); 1 trading skip (Вечерняя-ревизия); 5 unmatched (забег/W38/Мультименю/КЭ-этика×2); 0 vault writes
+
+- **2026-09-30T04:04:19Z** ^sweep-2026-09-30-r1 — files: 49 raw / 1 trading-skip / 48 relevant / 1 cluster / 1 vault write ([[Weekly 7-4]] cl-2026-09-30-w39-full); Маркетинг ЦКП pre-captured skip (identical 495KB, cl-2026-09-08); unmatched 0; status: success
