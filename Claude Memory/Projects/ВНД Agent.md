@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-05-06
-updated: 2026-09-17
+updated: 2026-09-30
 tags:
   - claude-memory
   - project/active
@@ -66,6 +66,11 @@ tags:
 - Тесты на дополнительные комбинации тип×блок
 
 ## Changelog
+
+### 2026-09-30 — Оценка перечня ВНД Маркетинг v1 ^cl-2026-09-30-vnd-mkt-eval
+
+- **Deliverable:** `2026.09.30_Перечень_ВНД_Маркетинг_оценка_v1.xlsx` (31 KB) — табличная оценка нормативных документов маркетинг-блока холдинга; сохранён в `Projects\ВНД\` и Desktop.
+- Источник: file sweep §3d; файлы в `Documents\Claude\Projects\ВНД\`, `Desktop\`, обход deliverables-sweep.
 
 ### 2026-09-17 — PRO-MAR-001 A01: форматирование итоговой версии ^cl-2026-09-17-vnd-a01
 
