@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-01
+updated: '"2026-10-02"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-01T06:58:27Z
-sync_last_run_status: success
+sync_last_run_at: '"2026-10-02T10:36:16Z"'
+sync_last_run_status: '"success"'
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-01
+sync_runs_today_date: '"2026-10-02"'
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -102,8 +102,8 @@ sync_captured_recent:
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
-  - "date order broken in Run History: ^run-2026-09-30-r1 appended at file
-    bottom (out of chron order)"
+  - mcp__session_info unavailable (cloud-only run) — session capture skipped;
+    sweep §3d ran normally
 ---
 
 # Sync State
@@ -120,6 +120,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+### 2026-10-02
+
+- **Run 1** ^run-2026-10-02-r1 (scheduled, 2026-10-02T10:36:16Z) — captured 0 (session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 0; orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 10 files / 1 cluster → 1 vault write ([[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-01-w39-protocol-regulations); skipped 5 (1 trading + 1 w39-already + 3 plateau-already); unmatched 1 (Протокол_КЭ-01-2026_v3_1)
+
 ### 2026-10-01
 
 - **Run 1** ^run-2026-10-01-r1 (scheduled consolidate-memory, 2026-10-01T06:51Z) — archived 20 dates (2026-08-31→2026-08-02) / 4 push-блоков / 18 run-блоков / Sync State 37,977→27,320 bytes; Index OK ~106 строк; dedup 3 dup-links (ожидаемые)

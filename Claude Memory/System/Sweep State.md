@@ -1,15 +1,16 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-01
+updated: '"2026-10-02"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-01T06:58:27Z
+sweep_last_run_at: '"2026-10-02T10:36:16Z"'
 sweep_last_run_status: '"success"'
-sweep_unmatched: []
+sweep_unmatched:
+  - C:\Users\LENOVO\Downloads\Протокол_КЭ-01-2026_2026-09-18_v3_1.docx
 ---
 
 # Sweep State
@@ -101,3 +102,4 @@ sweep_unmatched: []
   - Cluster 2: ВНД Маркетинг оценка (1 file) → [[ВНД Agent]] `^cl-2026-09-30-vnd-mkt-eval`
 - **Vault writes:** 2
 - **Status:** success
+- **2026-10-02T10:36:16Z** (scheduled) — 10 files scanned; 1 cluster → 1 vault write ([[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-01-w39-protocol-regulations); skipped 5 (1 trading + 1 w39-already + 3 plateau-already); unmatched 1 (Протокол_КЭ-01-2026_2026-09-18_v3_1.docx)
