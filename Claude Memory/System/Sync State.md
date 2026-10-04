@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-10-02"'
+updated: 2026-10-04
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-10-02T10:36:16Z"'
-sync_last_run_status: '"success"'
+sync_last_run_at: 2026-10-04T07:38:03Z
+sync_last_run_status: ok-1vw
 sync_runs_today: 1
-sync_runs_today_date: '"2026-10-02"'
+sync_runs_today_date: 2026-10-04
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -102,8 +102,8 @@ sync_captured_recent:
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
-  - mcp__session_info unavailable (cloud-only run) — session capture skipped;
-    sweep §3d ran normally
+  - session_info_unavailable
+  - context_compaction
 ---
 
 # Sync State
@@ -120,6 +120,11 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-04
+
+- **Run 1** ^run-2026-10-04-r1 (scheduled, 2026-10-04T07:38:03Z) — captured 0 (session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8 cache); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 10 files / 1 new cluster → 1 vault write (new [[Комитет по этике — КУА Алмалы]] ^cl-2026-10-04-ke02); Мейiрiм cluster already captured (cl-2026-10-03-meirm); skipped 5 trading + 1 book PDF; unmatched 0; anomaly: session listing unavailable; context compaction (resumed §4 from summary)
+
 ### 2026-10-02
 
 - **Run 1** ^run-2026-10-02-r1 (scheduled, 2026-10-02T10:36:16Z) — captured 0 (session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 0; orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 10 files / 1 cluster → 1 vault write ([[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-01-w39-protocol-regulations); skipped 5 (1 trading + 1 w39-already + 3 plateau-already); unmatched 1 (Протокол_КЭ-01-2026_v3_1)

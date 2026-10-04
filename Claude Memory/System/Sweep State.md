@@ -1,16 +1,15 @@
 ---
 type: system
 created: 2026-09-04
-updated: '"2026-10-02"'
+updated: 2026-10-04
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-10-02T10:36:16Z"'
-sweep_last_run_status: '"success"'
-sweep_unmatched:
-  - C:\Users\LENOVO\Downloads\Протокол_КЭ-01-2026_2026-09-18_v3_1.docx
+sweep_last_run_at: 2026-10-04T07:38:03Z
+sweep_last_run_status: ok-1vw
+sweep_unmatched: 0
 ---
 
 # Sweep State
@@ -60,6 +59,9 @@ sweep_unmatched:
 - 2026-09-28T05:19:35Z — 0 files scanned (since 2026-09-27T12:44:24Z); 0 clusters; 0 vault writes; 0 unmatched ^sweep-2026-09-28-r1
 
 - **2026-09-29T04:48:44Z** ^sweep-2026-09-29-r1 — files: 47 total / 1 trading-skip / 21 memory-skip / 20 already-captured (КФК×16+АЛЕКС×4) / 3 unmatched (КазСтройПроект-А×2+Справка) / 0 new vault writes; session listing: unavailable (cloud-only run); status: success
+
+
+- **2026-10-04T07:38:03Z** ^sweep-2026-10-04-r1 — files: 10 total / 5 trading-skip / 1 book-skip / 1 Мейiрiм cluster (already captured cl-2026-10-03-meirm, no dup-write) / 1 КЭ-02 cluster → 1 vault write (new [[Комитет по этике — КУА Алмалы]] ^cl-2026-10-04-ke02) / 0 unmatched; session listing: unavailable; status: success
 
 ## Sweep Runs
 
