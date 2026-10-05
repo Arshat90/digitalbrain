@@ -7,9 +7,9 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-04T07:38:03Z
-sweep_last_run_status: ok-1vw
-sweep_unmatched: 0
+sweep_last_run_at: 2026-10-05T05:06:33Z
+sweep_last_run_status: success
+sweep_unmatched: []
 ---
 
 # Sweep State
@@ -105,3 +105,7 @@ sweep_unmatched: 0
 - **Vault writes:** 2
 - **Status:** success
 - **2026-10-02T10:36:16Z** (scheduled) — 10 files scanned; 1 cluster → 1 vault write ([[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-01-w39-protocol-regulations); skipped 5 (1 trading + 1 w39-already + 3 plateau-already); unmatched 1 (Протокол_КЭ-01-2026_2026-09-18_v3_1.docx)
+
+### 2026-10-05
+
+- **Run 1** ^sweep-2026-10-05-r1 (2026-10-05T05:06:33Z) — 7 files scanned; 4 trading (skip), 3 book PDFs in Downloads (skip: скачанный чужой файл); 0 clusters → 0 vault writes; anomaly: session_info unavailable (cloud-only run); status: success
