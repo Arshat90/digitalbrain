@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-06-27
-updated: 2026-09-21
+updated: 2026-10-06
 tags:
   - claude-memory
   - project/active
@@ -62,6 +62,10 @@ tags:
 - [[AGS Brand Development]] — концепция упаковки AGS Roastery как Phase 2 (параллельное направление)
 
 ## Changelog
+### 2026-10-06 — VOLNA Packaging 2026 PDF ^cl-2026-10-06-volna
+
+- File sweep §3d: обнаружен `VOLNA Packaging 2026.pdf` (Downloads, 20.5MB, 2026-10-05 18:12) — каталог/презентация VOLNA Packaging 2026, вероятно от клиента или потенциального партнёра по экологичной упаковке B2B.
+
 ### 2026-09-21 — Анализ рынка бумажных крышек; файловый обход ^cl-2026-09-21-foodpack-lids
 
 - **Deliverable (file sweep §3d):** `FoodPack_Paper_lids_market_analysis_v1.docx` (52 KB, 2026-09-18 15:02, Downloads + Claude Projects/Food Packaging) — анализ рынка бумажных крышек v1.

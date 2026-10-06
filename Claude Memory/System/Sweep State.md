@@ -7,9 +7,13 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-05T05:06:33Z
+sweep_last_run_at: 2026-10-06T07:20:12Z
 sweep_last_run_status: success
-sweep_unmatched: []
+sweep_unmatched:
+  - Almaly_EOI_METRO_Kazakhstan cluster (3 docx, 2026-10-05 18:14–18:29, no
+    project card)
+  - Концепция_закрытого_открытия_Стол_основателей.md (2026-10-06 12:08, possible
+    Медео/AGS, unconfirmed)
 ---
 
 # Sweep State
@@ -39,6 +43,8 @@ sweep_unmatched: []
 Исключаются: `image-gen-package`, `fal_gen_*`, `_tmp_*`, `~$*`, служебные каталоги. Trading-файлы ведёт `trading-evening-review`.
 
 ## Run History
+
+- 2026-10-06T07:20:12Z · status=success · raw=24 → trading_skip=12 → clusters=7 → matched=5 → unmatched=2 · projects: 1966 Plateau Deck, Медео Парк Отель, ФК Кайрат—Halyk Bank, Weekly 7-4, Food Packaging · unmatched: Almaly_EOI_METRO_Kazakhstan, Концепция_закрытого_открытия ^sweep-2026-10-06-r1
 
 ### 2026-09-04
 

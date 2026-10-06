@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-09-04
-updated: 2026-09-14
+updated: 2026-10-06
 tags:
   - claude-memory
   - project/active
@@ -91,6 +91,10 @@ tags:
 - [[GAP Partnership Negotiation]] — методология
 
 ## Changelog
+### 2026-10-06 — Протокол встречи Halyk Bank 05.10.2026 ^cl-2026-10-06-meeting-protocol
+
+- File sweep §3d: обнаружен `Протокол встречи 05.10.2026 — Halyk Bank_ФК Кайрат_v1.docx` (Downloads, 37KB, 2026-10-05 19:12) — протокол первой переговорной встречи с Halyk Bank по спонсорству ФК «Кайрат».
+
 ### 2026-09-14 — Пакет материалов для Halyk Bank подготовлен ^cl-2026-09-14
 
 - **Deliverables (file sweep):** `FC KAIRAT PARTNERSHIP'26_01.pdf` (157 МБ, Downloads) — основной питч-пакет партнёрства ФК Кайрат 2026 для Halyk Bank.
