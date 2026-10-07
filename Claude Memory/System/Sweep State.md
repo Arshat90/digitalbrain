@@ -7,8 +7,8 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-06T07:20:12Z
-sweep_last_run_status: success
+sweep_last_run_at: '"2026-10-07T04:56:23Z"'
+sweep_last_run_status: '"success"'
 sweep_unmatched:
   - Almaly_EOI_METRO_Kazakhstan cluster (3 docx, 2026-10-05 18:14–18:29, no
     project card)
@@ -115,3 +115,5 @@ sweep_unmatched:
 ### 2026-10-05
 
 - **Run 1** ^sweep-2026-10-05-r1 (2026-10-05T05:06:33Z) — 7 files scanned; 4 trading (skip), 3 book PDFs in Downloads (skip: скачанный чужой файл); 0 clusters → 0 vault writes; anomaly: session_info unavailable (cloud-only run); status: success
+
+- **2026-10-07T04:56:23Z** — since 2026-10-06T07:20:12Z: 0 files scanned / 0 clusters / 0 vault writes; status: success
