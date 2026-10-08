@@ -8,12 +8,21 @@ tags:
   - sync-state
   - auto-managed
 sweep_last_run_at: 2026-10-08T10:09:16Z
-sweep_last_run_status: '"success"'
+sweep_last_run_status: success
 sweep_unmatched:
+  - акт сверки.xlsx (Downloads, 2026-10-07, project unclear)
+  - 2025 Кайрат.xlsx (Downloads, 2026-10-07, FK Kairat historical?)
+  - Central_Asia_Bakery_Manufacturing_RU (3).pdf (Downloads, 2026-10-07,
+    research/M&A unclear)
+  - Whatsapp Scan 7 октября 2026 г..pdf (Downloads, 2026-10-07, no project)
+  - Концепция_закрытого_открытия_Стол_основателей (1).md (Downloads, 2026-10-07,
+    unclear — Медео/AGS/new)
+  - Протокол_статус_по_проектам_2026-10-01.docx (Projects+Downloads, 2026-10-07,
+    no single project)
+  - Как выполнять ДЗ после урока 1.docx (Downloads, 2026-10-07,
+    training/education, no project card)
   - Almaly_EOI_METRO_Kazakhstan cluster (3 docx, 2026-10-05 18:14–18:29, no
     project card)
-  - Концепция_закрытого_открытия_Стол_основателей.md (2026-10-06 12:08, possible
-    Медео/AGS, unconfirmed)
 ---
 
 # Sweep State
@@ -68,6 +77,9 @@ sweep_unmatched:
 
 
 - **2026-10-04T07:38:03Z** ^sweep-2026-10-04-r1 — files: 10 total / 5 trading-skip / 1 book-skip / 1 Мейiрiм cluster (already captured cl-2026-10-03-meirm, no dup-write) / 1 КЭ-02 cluster → 1 vault write (new [[Комитет по этике — КУА Алмалы]] ^cl-2026-10-04-ke02) / 0 unmatched; session listing: unavailable; status: success
+
+
+- **2026-10-08T10:09:16Z** — since 2026-10-07T04:56:23Z → 41 files / 4 clusters captured / 7 unmatched — [[Weekly 7-4 — недельные отчёты ДЗО]] W40 (21+ PDFs+md), [[1966 Plateau Deck]] дегустация, [[Медео Парк Отель]] influencers, [[Маркетинг ЦКП 2026]] штат
 
 ## Sweep Runs
 
