@@ -7,7 +7,7 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-10-07T04:56:23Z"'
+sweep_last_run_at: 2026-10-08T10:09:16Z
 sweep_last_run_status: '"success"'
 sweep_unmatched:
   - Almaly_EOI_METRO_Kazakhstan cluster (3 docx, 2026-10-05 18:14–18:29, no

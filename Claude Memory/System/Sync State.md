@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-10-07"'
+updated: 2026-10-08
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-10-07T04:56:23Z"'
-sync_last_run_status: '"success"'
+sync_last_run_at: 2026-10-08T10:09:16Z
+sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: '"2026-10-07"'
+sync_runs_today_date: 2026-10-08
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -103,7 +103,7 @@ sync_captured_recent:
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
   - session_info unavailable (mcp__session_info__list_sessions not accessible,
-    cloud-only run, 2026-10-07)
+    cloud-only run, 2026-10-08)
 ---
 
 # Sync State
@@ -120,6 +120,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-08
+
+- **Run 1** ^run-2026-10-08-r1 (scheduled, 2026-10-08T10:09:16Z) — captured 0 (session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); skipped 0; pre-watermark 0; orphan-system 0 / total 0; sweep §3d: 41 files / 4 clusters → 4 vault writes ([[Weekly 7-4 — недельные отчёты ДЗО]] W40, [[1966 Plateau Deck]] дегустация, [[Медео Парк Отель]] influencers, [[Маркетинг ЦКП 2026]] штат) / 7 unmatched; anomaly: session listing unavailable
 
 ### 2026-10-07
 
