@@ -1,7 +1,7 @@
 ---
 type: project
 created: 2026-09-08
-updated: 2026-09-09
+updated: 2026-10-08
 tags:
   - claude-memory
   - project/active
@@ -53,6 +53,14 @@ counterparty: Goddard Littlefair (Лондон / Порту)
 - Более ранние записи по теме в Plaud (содержание в карточку не переносилось): `09-04 Meeting: Almaly Holding & Blink`, `09-04 Встреча: Реновация The Ritz-Carlton Almaty и обсуждение проектов с BlinkSide`, `08-31 Consultation`, `08-28 Client Consultation: Strategy, Phasing, and Brand Approval`
 
 ## Changelog
+### 2026-10-08 — Протокол встречи 08.10.2026 (v1/v2 + для Акционера) + аудит Marriott ^cl-2026-10-08-rc-protocol
+
+- **Протокол встречи 08.10.2026 — реновация The Ritz-Carlton Almaty_v1.docx** (GAP Negotiations folder, 45 КБ, 2026-10-08 18:18) — протокол встречи по реновации.
+- **Протокол встречи 08.10.2026 — реновация The Ritz-Carlton Almaty_v2.docx** (GAP Negotiations folder, 45 КБ, 2026-10-08 18:31) — финальная редакция протокола.
+- **Протокол встречи 08.10.2026 — реновация The Ritz-Carlton Almaty_для Акционера_v1.docx** (Downloads + GAP Negotiations folder, 37 КБ, 2026-10-08 18:28) — версия протокола для Акционера.
+- **Отчет по итогам аудита Marriott_Куангали Г..pdf** (Downloads, 230 КБ, 2026-10-09 15:40) — аудит Marriott (бренд-стандарты); Куангали Г. — вероятно, Marriott-представитель или аудитор; связан с реновацией RC Almaty (Marriott portfolio brand).
+- Источник: файловый обход §3d (since 2026-10-08T10:09:16Z).
+
 ### 2026-09-08 — Протокол и итоги первого раунда переговоров с Goddard Littlefair ^cl-2026-09-08-rc-gl-protocol
 
 - **Deliverable 1**: `Протокол переговоров 08.09.2026 — Goddard Littlefair_RC Almaty_v1.docx` (Documents/Claude/Projects/Переговоры в стиле GAP, 16:17 local)

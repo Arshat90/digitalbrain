@@ -1,28 +1,15 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-04
+updated: 2026-10-09
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-08T10:09:16Z
+sweep_last_run_at: 2026-10-09T10:52:54Z
 sweep_last_run_status: success
-sweep_unmatched:
-  - акт сверки.xlsx (Downloads, 2026-10-07, project unclear)
-  - 2025 Кайрат.xlsx (Downloads, 2026-10-07, FK Kairat historical?)
-  - Central_Asia_Bakery_Manufacturing_RU (3).pdf (Downloads, 2026-10-07,
-    research/M&A unclear)
-  - Whatsapp Scan 7 октября 2026 г..pdf (Downloads, 2026-10-07, no project)
-  - Концепция_закрытого_открытия_Стол_основателей (1).md (Downloads, 2026-10-07,
-    unclear — Медео/AGS/new)
-  - Протокол_статус_по_проектам_2026-10-01.docx (Projects+Downloads, 2026-10-07,
-    no single project)
-  - Как выполнять ДЗ после урока 1.docx (Downloads, 2026-10-07,
-    training/education, no project card)
-  - Almaly_EOI_METRO_Kazakhstan cluster (3 docx, 2026-10-05 18:14–18:29, no
-    project card)
+sweep_unmatched: []
 ---
 
 # Sweep State
@@ -129,3 +116,5 @@ sweep_unmatched:
 - **Run 1** ^sweep-2026-10-05-r1 (2026-10-05T05:06:33Z) — 7 files scanned; 4 trading (skip), 3 book PDFs in Downloads (skip: скачанный чужой файл); 0 clusters → 0 vault writes; anomaly: session_info unavailable (cloud-only run); status: success
 
 - **2026-10-07T04:56:23Z** — since 2026-10-06T07:20:12Z: 0 files scanned / 0 clusters / 0 vault writes; status: success
+
+- **2026-10-09T10:52:54Z** ^sweep-2026-10-09-r1 — since 2026-10-08T10:09:16Z: 10 files / 2 clusters → 2 vault writes ([[1966 Plateau Deck]] cl-2026-10-08-plateau-expansion, [[Ritz-Carlton Almaty — Реновация]] cl-2026-10-08-rc-protocol) / 0 unmatched; anomaly: session listing unavailable (cloud-only run); status: success
