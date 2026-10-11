@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-09
+updated: 2026-10-11
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-09T10:52:54Z
+sync_last_run_at: 2026-10-11T07:02:05Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-09
+sync_runs_today_date: 2026-10-11
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -103,7 +103,7 @@ sync_captured_recent:
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
   - session_info unavailable (mcp__session_info__list_sessions not accessible,
-    cloud-only run, 2026-10-09)
+    cloud-only run, 2026-10-11); context compaction mid-session
 ---
 
 # Sync State
@@ -120,6 +120,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-11
+
+- **Run 1** ^run-2026-10-11-r1 (scheduled, 2026-10-11T07:02:05Z) — captured 0 (session_info unavailable; cloud-only run); deferred 0; push 0; orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 13 files / 2 clusters → 2 vault writes ([[Медео Парк Отель]] cl-2026-10-09-medeo-audit, [[1966 Plateau Deck]] cl-2026-10-09-plateau-p16) / 1 unmatched (курс-2026_3 ×3) / 2 generic-skip (Desktop images) / 4 trading-skip (trading PNGs); anomaly: session listing unavailable; context compaction (resumed §4 from summary)
 
 ### 2026-10-09
 
