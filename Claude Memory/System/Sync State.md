@@ -124,6 +124,7 @@ last_anomalies:
 ### 2026-10-12
 
 - **Run 1** ^run-2026-10-12-r1 (scheduled, 2026-10-12T06:25:07Z) — captured 0 (session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8 cache); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 7 files / 1 cluster → 1 vault write ([[1966 Plateau Deck]] cl-2026-10-11-plateau-degustation) / 3 trading-skip / 1 pre-captured-skip; anomaly: session listing unavailable
+- **Push** ^push-2026-10-12-T063542Z (session: cloud-scheduled, "Weekly ROI digest") — 8 строк добавлено, 15.0 ч saved за окно 05.10–11.10.2026. **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** context compaction (resumed from summary).
 
 ### 2026-10-11
 
