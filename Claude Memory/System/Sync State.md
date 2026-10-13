@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-12
+updated: 2026-10-13
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-12T06:25:07Z
+sync_last_run_at: 2026-10-13T04:57:31Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-12
+sync_runs_today_date: 2026-10-13
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -103,7 +103,7 @@ sync_captured_recent:
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
   - session_info unavailable (mcp__session_info__list_sessions not accessible,
-    cloud-only run, 2026-10-12)
+    cloud-only run, 2026-10-13)
 ---
 
 # Sync State
@@ -120,6 +120,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-13
+
+- **Run 1** ^run-2026-10-13-r1 (scheduled, 2026-10-13T04:57:31Z) — captured 0 (session_info unavailable; cloud-only run); deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8 cache); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 3 files / 1 cluster → 1 vault write ([[Комитет по этике — КУА Алмалы]] cl-2026-10-13-ke-slide-v8) / 1 trading-skip / 1 unmatched; anomaly: session listing unavailable
 
 ### 2026-10-12
 

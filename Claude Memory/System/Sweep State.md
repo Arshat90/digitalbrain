@@ -1,15 +1,16 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-12
+updated: 2026-10-13
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-12T06:25:07Z
+sweep_last_run_at: 2026-10-13T04:57:31Z
 sweep_last_run_status: success
-sweep_unmatched: []
+sweep_unmatched:
+  - photo_5352824982779666296_y.jpg
 ---
 
 # Sweep State
@@ -69,6 +70,9 @@ sweep_unmatched: []
 - **2026-10-08T10:09:16Z** — since 2026-10-07T04:56:23Z → 41 files / 4 clusters captured / 7 unmatched — [[Weekly 7-4 — недельные отчёты ДЗО]] W40 (21+ PDFs+md), [[1966 Plateau Deck]] дегустация, [[Медео Парк Отель]] influencers, [[Маркетинг ЦКП 2026]] штат
 
 - **2026-10-11T07:02:05Z** ^sweep-2026-10-11-r1 — since 2026-10-09T10:52:54Z → 13 files / 2 clusters captured (Медео аудит PDF 76МБ, Plateau протокол№16+концепция) / 1 unmatched (курс-2026_3 ×3) / 2 generic-skip (Desktop images) / 4 trading-skip; vault: 2 writes ([[Медео Парк Отель]] cl-2026-10-09-medeo-audit, [[1966 Plateau Deck]] cl-2026-10-09-plateau-p16); status: success
+
+
+- **2026-10-13T04:57:31Z** — 3 files since 2026-10-12T06:35:42Z; 1 cluster → [[Комитет по этике — КУА Алмалы]] (Комитет по этике - 1 слайд v8.pptx); 1 trading-skip (HYPEUSDT 1H.png); 1 unmatched (photo_5352824982779666296_y.jpg); status: success
 
 ## Sweep Runs
 
