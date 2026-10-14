@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-04-23
-updated: 2026-10-12
+updated: 2026-10-14
 tags:
   - claude-memory
   - project/active
@@ -51,6 +51,12 @@ tags:
 - [[AMC - Almaty Mountain Cluster]] — параллельная инвест-презентация холдинга
 
 ## Changelog
+### 2026-10-13 — Отчёт дегустации день 1 (12.10.2026): расширенный + для Акционера ^cl-2026-10-13-degustation-day1
+
+- Создано 2 версии отчёта по итогам первой дегустации Plateau 1966 (12.10.2026): **расширенная** (v1, 27 KB docx) и **для Акционера** (v1, 13 KB docx); исходный PDF «Дегустация для холдинга» (89 KB) в Downloads
+- Файлы в `Documents\Claude\Projects\1966 Plateau\` + копии в Downloads
+- Контекст: дегустационная программа запущена; день 1 проведён 12.10.2026
+
 ### 2026-10-11 — Дегустация: план, оценочные листы и Holding-презентация ^cl-2026-10-11-plateau-degustation
 
 - `Almaly Holding_1966_Plateau (0907).pptx` (Desktop\Almaly\ДЗО\Medeo Park Hotel\Кафе Медео\, 29.4 МБ, 2026-10-11 17:19) — внутренняя презентация 1966 Plateau для Almaly Holding; mtime 11.10.2026 указывает на обновление к серии дегустаций 12–19 октября.
