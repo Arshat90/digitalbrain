@@ -328,3 +328,10 @@ last_anomalies:
 - deliverable: `Projects\Food Packaging\Food Packaging — Домашнее задание к стратсессии v1.docx` (26 вопросов, 4 блока, шаблоны XLSX).
 - память проекта claude.ai «Food Packaging»: `food-packaging-dzo.md` дописан (стратсессия, участники, свод 7/4 W30–W40).
 - дедуп по содержанию changelog-записи; реконсилиация по префиксам неприменима.
+
+### push 2026-10-16 — 1966 Plateau: протокол №17 (15.10.2026)
+- session: cloud Cowork, вне `list_sessions`
+- writes: `Projects/1966 Plateau Deck.md` → `^cl-2026-10-16-plateau-p17`, frontmatter `updated: 2026-10-16`
+- deliverable: `Протокол встречи №17 — Plateau 1966 15.10.2026.docx` (папка проекта на desktop-mq7qvgr)
+- память проекта: `project_1966_plateau_meeting_15102026.md` (новый), правки в `roles`, `feedback_meeting_minutes_format` (§82–84), `archives`, `index`
+- источник: Plaud `of_4b2e6089d43e2bb8dc473e4a32bd11f2`
