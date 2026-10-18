@@ -1,13 +1,13 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-17
+updated: 2026-10-18
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-17T15:40:46Z
+sweep_last_run_at: 2026-10-18T06:20:13Z
 sweep_last_run_status: success
 sweep_unmatched: []
 ---
@@ -130,3 +130,5 @@ sweep_unmatched: []
 - **2026-10-16T09:47:55Z** ^sweep-2026-10-16-r1 — since 2026-10-14T09:30:40Z: 8 files / 4 clusters / 2 vault writes ([[1966 Plateau Deck]] cl-2026-10-14-plateau-degustation-day2, [[Weekly 7-4 — недельные отчёты ДЗО]] cl-2026-10-14-w41-report) / 2 pre-captured-skip (Plateau-п17 + FP-стратсессия) / 0 unmatched; anomaly: session listing unavailable (cloud-only run); skipped-day: no run on 2026-10-15; status: success
 
 - **2026-10-17T15:40:46Z** ^sweep-2026-10-17-r1 — since 2026-10-16T09:47:55Z: 2 files / 1 cluster → 1 vault write ([[1966 Plateau Deck]] cl-2026-10-16-plateau-degustation-day3) / 0 unmatched; anomaly: session listing unavailable (cloud-only run); status: success
+
+- **2026-10-18T06:20:13Z** — run ok; since=2026-10-17T15:40:46Z; found 1 file; captured 1 cluster → [[Маркетинг ЦКП 2026]] (Слайды маркетинг.pptx, QBR); unmatched 0
