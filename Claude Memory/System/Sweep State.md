@@ -1,15 +1,19 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-18
+updated: 2026-10-19
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-18T06:20:13Z
+sweep_last_run_at: 2026-10-19T11:36:50Z
 sweep_last_run_status: success
-sweep_unmatched: []
+sweep_unmatched:
+  - Desktop/123.png
+  - Desktop/12345.png
+  - Desktop/4444.png
+  - Desktop/5555.png
 ---
 
 # Sweep State
@@ -72,6 +76,9 @@ sweep_unmatched: []
 
 
 - **2026-10-13T04:57:31Z** — 3 files since 2026-10-12T06:35:42Z; 1 cluster → [[Комитет по этике — КУА Алмалы]] (Комитет по этике - 1 слайд v8.pptx); 1 trading-skip (HYPEUSDT 1H.png); 1 unmatched (photo_5352824982779666296_y.jpg); status: success
+
+
+- **2026-10-19T11:36:50Z** — since 2026-10-18T06:20:13Z; 9 files scanned; 5 trading-skip; 4 unmatched (Desktop/123.png, 12345.png, 4444.png, 5555.png); 0 clusters → 0 vault writes; status: success
 
 ## Sweep Runs
 

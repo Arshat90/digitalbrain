@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-18
+updated: 2026-10-19
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-18T06:20:13Z
+sync_last_run_at: 2026-10-19T11:36:50Z
 sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-18
+sync_runs_today_date: 2026-10-19
 sync_pending_capture:
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
@@ -102,7 +102,7 @@ sync_captured_recent:
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
 last_anomalies:
-  - session_info unavailable (cloud-only run, 2026-10-18, ongoing known)
+  - session listing unavailable (cloud-only run, 2026-10-19, ongoing known)
 ---
 
 # Sync State
@@ -119,6 +119,14 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-19
+
+- **Run 1** ^run-2026-10-19-r1 (scheduled, 2026-10-19T11:36:50Z) — session listing unavailable (cloud-only run); captured 0; deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 cached (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 9 files / 0 clusters / 0 vault writes; 5 trading-skip / 4 unmatched PNGs (Desktop 123/12345/4444/5555.png); anomaly: session listing unavailable (ongoing, known)
+
+### 2026-10-19
+
+**Push** ^push-2026-10-19-T113630Z (session: cloud-scheduled, "Weekly ROI digest") — 10 строк добавлено, 17.5 ч saved за окно 12.10–18.10.2026.
 
 ### 2026-10-18
 
