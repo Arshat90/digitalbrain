@@ -1,18 +1,17 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-19
+updated: 2026-10-20
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-19T11:36:50Z
-sync_last_run_status: success
+sync_last_run_at: 2026-10-20T04:28:34Z
+sync_last_run_status: ok
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-19
+sync_runs_today_date: 2026-10-20
 sync_pending_capture:
-  - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_5aff3846-9b45-435e-ae4a-68910b39c548
 sync_captured_recent:
   - local_982547ec-d423-4312-9e0b-db10351e078c
@@ -101,8 +100,16 @@ sync_captured_recent:
   - local_e24dca80-748a-462f-829b-116a37071e5b
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
+  - local_1988261d-4511-4ee8-8992-d578665ab4c4
+  - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
+  - local_a2bb4e83-fa1d-4b40-9523-2c169dc3631c
+  - local_7debfcf3-1432-487b-819f-0ef417763d32
+  - local_6c0b04d0-0663-4a0b-8e64-628283b3234a
+  - local_65623504-f5d7-4be0-a323-a4bdbf6afc25
+  - local_59d8dbb8-6683-4f7e-9c5f-c921427dda87
 last_anomalies:
-  - session listing unavailable (cloud-only run, 2026-10-19, ongoing known)
+  - local_5aff3846 deferred (transcript unreadable)
+  - context compaction ×2
 ---
 
 # Sync State
@@ -119,6 +126,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-20
+
+- **Run 1** ^run-2026-10-20-r1 (scheduled, 2026-10-20T04:28:34Z) — captured 7/100 (0 session vault writes; context compaction resumed from summary); deferred 1 (local_5aff3846 "Almaly status dashboard refresh" — transcript unreadable, rolling); push 8 cached (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 1 (1988261d "Consolidate memory" 2026-10-01); archived-new 6 (a2bb4e83/7debfcf3/6c0b04d0/65623504/59d8dbb8/7bbdbdd3 trading); pre-watermark ~88; sweep §3d: 17 files / 3 vault-write clusters → 3 writes (NEW [[Консьерж-служба холдинга Almaly]] ^conc-2026-10-20-analysis; [[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-20-w42; [[Index]] +1 проект); 4 unmatched (Любчиков PDF ×2 / курс-2026 conspect ×2); anomaly: context compaction mid-run (×2); local_5aff3846 deferred rolling
 
 ### 2026-10-19
 
