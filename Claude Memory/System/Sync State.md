@@ -1,18 +1,17 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-20
+updated: 2026-10-21
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-20T04:28:34Z
-sync_last_run_status: ok
+sync_last_run_at: 2026-10-21T04:56:09Z
+sync_last_run_status: success
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-20
-sync_pending_capture:
-  - local_5aff3846-9b45-435e-ae4a-68910b39c548
+sync_runs_today_date: 2026-10-21
+sync_pending_capture: []
 sync_captured_recent:
   - local_982547ec-d423-4312-9e0b-db10351e078c
   - local_96d0a592-2bbe-4432-9ae3-bfc1f7d1fc2f
@@ -108,8 +107,8 @@ sync_captured_recent:
   - local_65623504-f5d7-4be0-a323-a4bdbf6afc25
   - local_59d8dbb8-6683-4f7e-9c5f-c921427dda87
 last_anomalies:
-  - local_5aff3846 deferred (transcript unreadable)
-  - context compaction ×2
+  - local_5aff3846 missing from top-100 scan (cleared from pending)
+  - context compaction (resumed from summary)
 ---
 
 # Sync State
@@ -126,6 +125,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-21
+
+- **Run 1** ^run-2026-10-21-r1 (scheduled, 2026-10-21T04:56:09Z) — captured 0/3 (0 vault writes; all non-archived already captured/pushed); deferred 0; push 8 cached (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 0 (1988261d already in captured_recent); archived 97; local_5aff3846 missing from top-100 scan (cleared from pending); sweep §3d: SUCCESS — 29 files / 2 vault-write clusters ([[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-21-w42-parts234: разбор parts 2+3+4 + 17 ДЗО «Пять цифр»; [[1966 Plateau Deck]] ^cl-2026-10-21-plateau-degustation-day4: День 4 + сводный 12–19.10.2026) / 5 unmatched (GMFS-договор×2+проверочный_лист×2+Куангали_премия); anomaly: context compaction (resumed from summary)
 
 ### 2026-10-20
 

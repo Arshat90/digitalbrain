@@ -1,21 +1,20 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-20
+updated: 2026-10-21
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-20T04:28:34Z
+sweep_last_run_at: 2026-10-21T05:01:17Z
 sweep_last_run_status: success
 sweep_unmatched:
-  - Desktop/123.png
-  - Desktop/12345.png
-  - Desktop/4444.png
-  - Desktop/5555.png
-  - Любчиков PDF (×2)
-  - курс-2026 conspect (×2)
+  - ИП GMFS_Alex_Договор
+  - ИП GMFS_Alex_Доп_соглашение
+  - Приложение №2_Проверочный лист №1_общепиты
+  - Приложение №2_Проверочный лист №2_производство
+  - Обоснование премиальной части Куангали Г. за март апр май 2026
 ---
 
 # Sweep State
@@ -143,3 +142,5 @@ sweep_unmatched:
 - **2026-10-18T06:20:13Z** — run ok; since=2026-10-17T15:40:46Z; found 1 file; captured 1 cluster → [[Маркетинг ЦКП 2026]] (Слайды маркетинг.pptx, QBR); unmatched 0
 
 - **2026-10-20T04:28:34Z** ^sweep-2026-10-20-r1 — since 2026-10-19T11:36:50Z: 17 files / 3 vault-write clusters → 3 writes (NEW [[Консьерж-служба холдинга Almaly]] ^conc-2026-10-20-analysis; [[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-20-w42; [[Index]] +1 проект) / 4 unmatched (Любчиков PDF ×2 / курс-2026 conspect ×2); anomaly: context compaction mid-run (×2); status: success
+
+- **2026-10-21T05:01:17Z** ^sweep-2026-10-21-r1 — since 2026-10-20T04:28:34Z: 29 files / 2 vault-write clusters (A: W42 разбор parts 2+3+4 + 17 ДЗО → [[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-21-w42-parts234; B: Plateau День 4 + сводный → [[1966 Plateau Deck]] ^cl-2026-10-21-plateau-degustation-day4) / 5 unmatched (ИП GMFS договор+доп_соглашение, проверочный лист №1+№2, Куангали_премия) / 0 trading-skip; status: success
