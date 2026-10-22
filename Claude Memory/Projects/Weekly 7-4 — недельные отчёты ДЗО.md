@@ -1,7 +1,7 @@
 ---
 type: project
 created: 2026-09-29
-updated: 2026-10-16
+updated: '"2026-10-22"'
 status: active
 tags:
   - project/active
@@ -103,3 +103,8 @@ tags:
 - Источник: file sweep §3d (since 2026-10-19T04:28Z); файлы `2026.10.20_Разбор_W42_часть_1.md` + `ORTAQ_ZHENIS_Big_Idea_ALEX_KDC_2026.docx` + `ALEX_Big_Idea_Opening_Concept_2026.docx`.
 
 - ^cl-2026-10-21-w42-parts234 (2026-10-21) sweep §3d — W42 разбор parts 2+3+4 (md×3: части 2 8KB/часть 3 6KB/часть 4 6KB) + 17 ДЗО «Пять цифр W42»: КСПА/PAUL/СПРА/КНК/КФК/АЛЕКС/ФК-КАЙРАТ/FC-Service/ABL/ХК-КТР/СЦ-КТР/LPG/CCP/MPH-QA/KOZ-AI/Food-Packaging/МИГ (PPTX×9+PDF×8); папка `Projects\Отчет 7_4\W42\Отчеты ДЗО\`; дата deliverables: 2026-10-20 10:45–13:14
+### 2026-10-21 — W42: финальные «Пять цифр» 13 ДЗО + ответы ^cl-2026-10-21-w42-final
+
+- File sweep §3d (since 2026-10-21T05:01:17Z): 16 deliverables W42 в `Projects\Отчет 7_4\W42\` — `2026.10.21_Ответы_ДЗО_и_исправленные_отчеты.md` + финальные «Пять цифр W42»: CCP v2 (PPTX), Food_Solutions v3×2 (ROMI0+ROMI136, PPTX), Food_Town (PPTX), GRM v2 (PPTX), MPH_QA v2 (PPTX), АЛЕКС v2 (PDF), КФК v3 (PDF), МИГ v2 (PDF), СПРА v2 (PDF), СЦ_КТР v3 (PDF), ФК_КАЙРАТ Ответы (DOCX)+v2 (PPTX), ХК_КТР v3 (PDF), KDC v2 (PDF).
+- Охват: 13 ДЗО с финальными версиями «Пять цифр W42»; MD-файл сводных ответов и исправлений.
+- Источник: файловый обход §3d (since 2026-10-21T05:01:17Z).

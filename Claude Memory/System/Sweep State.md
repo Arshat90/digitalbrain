@@ -7,7 +7,7 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-21T05:01:17Z
+sweep_last_run_at: '"2026-10-22T05:11:17Z"'
 sweep_last_run_status: success
 sweep_unmatched:
   - ИП GMFS_Alex_Договор

@@ -7,74 +7,12 @@ tags:
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-21T04:56:09Z
-sync_last_run_status: success
+sync_last_run_at: '"2026-10-22T05:10:54Z"'
+sync_last_run_status: '"ok"'
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-21
+sync_runs_today_date: '"2026-10-22"'
 sync_pending_capture: []
 sync_captured_recent:
-  - local_982547ec-d423-4312-9e0b-db10351e078c
-  - local_96d0a592-2bbe-4432-9ae3-bfc1f7d1fc2f
-  - local_5b59fd94-5dd0-43c2-aaef-9f7616981073
-  - local_afd4fcdf-1acf-4226-91ed-68d2b144b3d3
-  - local_ac6c75fa-5536-4e83-9611-8d76adef7125
-  - local_981ee42b-0812-4af5-9566-8d0d41a6e9dd
-  - local_f2d2801d-d2d5-47c9-986c-438ce337b618
-  - local_07127298-dd6f-40b0-8941-25078be6ccd8
-  - local_57232643-03de-46eb-baff-c66c02bbf405
-  - local_62c567db-1936-4c07-b5b4-b7dd43d9b5d4
-  - local_3a155178-865c-4abb-ac33-218aa35d961e
-  - local_771178e4-d069-4bbc-bdc2-c0651791e30d
-  - local_a4518f8e-693e-4d12-8f21-aab18e65260c
-  - local_8e6539de-dd1f-436d-b3b9-f55d9f0ee52b
-  - local_89de4f90-4e5f-4c0c-bfc0-fb8eaf92b5b1
-  - local_c594df30-5fa5-47d6-8b0c-9d0c2548d443
-  - local_81838f11-3890-4474-99c3-1dc7ab980526
-  - local_d3e9719b-324f-4d23-8237-94dd16b8824f
-  - local_6786ee32-35f3-4eb1-98de-bde90dd42dd6
-  - local_2228d328-5820-4f6c-8628-e244632435c3
-  - local_f2a56e79-765d-4bb6-823a-97cf0fabac84
-  - local_7ca4a13c-a9eb-4613-97e9-b20f03de01be
-  - local_82497b2a-f683-4bd0-9e21-f09cd4f9b5e3
-  - local_66ddc859-0267-4f87-a43b-b26cde4ea507
-  - local_78bb2806-b8cb-4b81-98e0-d0148b665d60
-  - local_0a933731-3298-4088-91cf-e03fbb13d41a
-  - local_f58309a8-27ea-4a96-83b5-fab2ef728c42
-  - local_e41b722f-01f3-42e3-8db6-738abc40f047
-  - local_4ff5a57d-c1c2-42af-ab28-ca79a28fde7c
-  - local_65fa7d60-90c1-410d-baa9-fbbf307bdcb1
-  - local_f1019021-a656-49dc-98cf-30728dfb5ebb
-  - local_6c0541b1-483a-4fca-9c19-f6e89bd40ec5
-  - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
-  - local_e6ec34f8-bdc9-4761-9547-c79d5e2efe2b
-  - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
-  - local_70e05491-039f-4212-9d81-689056efc255
-  - local_af09468e-c718-46fe-9f03-b8c39d6e6df7
-  - local_78256c08-5f16-40b1-b8fa-943957f34cac
-  - local_b7bd46a5-bc46-4d76-8a68-a79dd8abfbdd
-  - local_196af60c-2c5e-4122-9583-afe61556b29c
-  - local_b7f732cd-e286-4a15-a6e6-5257cbe4fb8e
-  - local_3fd7c082-81b9-44ef-8269-7687ba6702af
-  - local_2f0de3d0-eec2-4ba6-bac3-214bc6980d93
-  - local_b584fdb9-f6ec-4e84-818e-69c2f5c3ece4
-  - local_124f83f2-3b78-4fb7-b155-cda830855f85
-  - local_d440b656-5fc0-499e-ae3d-7043905331c2
-  - local_53d644a6-a583-437d-ae55-78a036995299
-  - local_b04f96e7-cd56-49b0-b401-ef6a62114385
-  - local_afc67829-3051-4f94-907f-d582dc4e1643
-  - local_658d3ef1-7e4f-4a36-b0c1-2c8fac8c29c7
-  - local_6bec9534-f236-4d7a-8282-6b38796a54d4
-  - local_bab863b3-4a81-4ecc-8b6f-c0d445e615ea
-  - local_e8f13a21-b6e1-4b40-8129-5c995702d41f
-  - local_6a59dca2-8c2d-4a5b-8462-b0c7767e7ea2
-  - local_283bdb55-a6b7-45eb-b399-d4750aafd666
-  - local_e9b43d98-0811-45b1-8d24-2de3528a65c6
-  - local_bbe9c106-febb-4a3e-854a-b65ef1f273bb
-  - local_09d5f309-a50e-470d-a0e1-44a763ad7e84
-  - local_5d5386ce-fd6f-47ea-aab0-82a0ca4c9cd2
-  - local_e70c4b19-253b-41bd-84cc-c00dec0a81dc
-  - local_a703e6ca-1f16-4017-a52d-13a94ff53fc3
-  - local_33f612d5-de8d-4575-92c7-82d24f689a2b
   - local_249280fa-4faf-4d44-a901-ba98775a1829
   - local_a8ed6a9b-ab06-49a9-b917-0e86e95040e4
   - local_fbd58fbb-1c3f-4c9d-a1f4-516e5839075e
@@ -106,6 +44,75 @@ sync_captured_recent:
   - local_6c0b04d0-0663-4a0b-8e64-628283b3234a
   - local_65623504-f5d7-4be0-a323-a4bdbf6afc25
   - local_59d8dbb8-6683-4f7e-9c5f-c921427dda87
+  - local_fd6080ad-e03d-4d02-8cb4-fb4d6384b804
+  - local_f81281ee-0a88-4b50-9568-0fa19a18d442
+  - local_f4f76e74-ac86-438c-b494-a820eeb9f1c1
+  - local_f4f3d9bd-a1d1-4928-8660-01ecd7cd4107
+  - local_ef60015c-1a87-4aaa-b518-5ab8ecf8d6ea
+  - local_ea56b88c-cfc3-4c99-b127-4d69d556a157
+  - local_e9babb6a-2e7f-4d7b-b0c2-6dec59424e40
+  - local_e5ca98ef-c5c2-4448-a317-e214ffe3d1b9
+  - local_e5af4ed2-e2fb-4e6b-a40f-d95b88cff8de
+  - local_dea6cfb5-b37f-41ed-b565-a822ab72f736
+  - local_d69cb4e6-4c37-4076-9059-4c6a0da53bc5
+  - local_d3ee1b0a-1d9f-4ac4-b051-04e3d7f7cc60
+  - local_d0c0321e-4722-450c-a2f5-6a9a3360f1f4
+  - local_c8dcfe50-0c58-4d15-89b3-39de10b75555
+  - local_c5665971-026a-463d-916d-24c0f35fe63b
+  - local_c559db05-63b8-455b-9cfb-f666e83d691b
+  - local_be7244bc-e81f-4e60-b42f-2094d060a5c6
+  - local_a6b3cc65-27a4-41f6-a41e-c94dbc87dfbf
+  - local_a4ca7bed-3f6b-47e5-971f-c15d05950a65
+  - local_a0a77a17-5172-4ccf-82b3-2a43942cd8c8
+  - local_9ef6d65d-4726-4cb6-af02-34cfb6d4d2d9
+  - local_9ad18fb4-7af9-4d29-87ae-bfcc4dee384a
+  - local_885fa06c-6ddc-498c-a442-33f43e13fe4e
+  - local_7db29bb3-dd1b-4977-85f5-b6cde24e4065
+  - local_7d983a16-1cd5-40e3-a9dd-7cfba3879910
+  - local_7d17f0a7-4cfe-453f-83f7-8fe7e816b4d6
+  - local_76370ea8-773e-4dd8-8ca6-d71c699aeae3
+  - local_7225257d-d365-493a-872c-738a35b26666
+  - local_6fa5f438-522e-4176-8ff0-994f40807bc5
+  - local_6a2465dc-16b9-48d7-b4b4-d0e2a63e2705
+  - local_62d6f64d-feea-4a45-b95a-8930d6e745a8
+  - local_5d8e84e7-df2b-4727-9e37-4189e88ae986
+  - local_5960a508-3447-4e41-9dd2-418844f7ad36
+  - local_593e8a17-ba71-4b13-aa03-37467d627bc2
+  - local_57126a49-57a8-4117-8395-fca6b80f8095
+  - local_3fc8003c-62da-44f6-931f-47f8dbaa204d
+  - local_3993cc51-0506-4e2f-8357-128d72a42fa2
+  - local_315282af-f43d-4cba-9fa6-c9a2f0163b29
+  - local_30c7e06f-a921-4826-b7e5-257dd800a767
+  - local_2dcbf1b6-a854-4128-bbaa-055662b68681
+  - local_2ab8baf6-87f5-4948-aec8-af5c3ec65f22
+  - local_29f6cd82-7a30-4d6b-ad9c-06296b2aa598
+  - local_24c4ef12-39e1-4d8f-b887-6d7d50b6d164
+  - local_1d67e7af-de47-4b00-ae31-5514811dc9aa
+  - local_1b1c18e2-70b5-46f9-84a9-664db3a96533
+  - local_1921dfe0-5063-4bf1-aa21-1fbb0fd83e96
+  - local_19704c71-9c15-424a-87c0-6f8a696dad3e
+  - local_14d7bf2a-83f9-4800-bbdd-a91578ad41df
+  - local_101eb793-a90f-4a5a-b66c-b6d3722d95fd
+  - local_0a377bf4-91ac-4c23-bc31-3ede640dfbf0
+  - local_05742f4d-1955-4606-9e3e-a7653f809407
+  - local_042cf672-751f-40e4-b24d-35c88076b538
+  - local_fcbb4bc3-f70e-4fb7-bcec-ac33842d40cd
+  - local_f0c6924f-3b1c-4332-9dc9-277d4aad3517
+  - local_ecaf7003-93be-4384-8030-1eed99972884
+  - local_e51986cc-02f9-463f-bfd8-5e1eb6e69be1
+  - local_e309de5f-46ca-4571-84a5-52b099ac1987
+  - local_e005283a-b5df-4dcd-be97-0c1559adc117
+  - local_dd115978-4b1a-4772-a8ae-f20b2532929f
+  - local_d5a9e52f-cbae-4014-8ad0-b1821174eb6e
+  - local_caefe7cb-8e4e-477e-8362-a3f0e80cb3b1
+  - local_ca6bc913-872c-412d-bcf1-6898c42dff2a
+  - local_c74bb229-9d9a-48f7-ac7e-bc591b078e8c
+  - local_bd1dc37c-584c-49c2-9ba3-7655360b4505
+  - local_b95bb867-fe2f-4787-97e3-18b53f66c3b1
+  - local_b667858d-d350-4f3a-8879-dbcdb5a7e6c7
+  - local_b5f50a9a-7ffe-455a-8b61-86c735114af0
+  - local_b0ff09bc-6c3e-42c3-9d14-db3ad667c2e8
+  - local_a90c2cbb-a7bb-433f-93eb-f312630ced53
 last_anomalies:
   - local_5aff3846 missing from top-100 scan (cleared from pending)
   - context compaction (resumed from summary)
@@ -125,6 +132,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-22
+
+- **Run 1** ^run-2026-10-22-r1 (scheduled, 2026-10-22T05:10:54Z) — captured 0/3 (all non-archived already in captured_recent); deferred 0; push 3 cached (cb800021/70e05491/fa225a73); orphan-system 0; archived 97 (69 new → added to captured_recent, FIFO-100); sweep §3d (since 2026-10-21T05:01:17Z): SUCCESS — 2 vault-write clusters ([[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-21-w42-final: 16 deliverables W42 final; [[1966 Plateau Deck]] ^cl-2026-10-21-plateau-evening: Вечер на Плато.pdf 55MB) / 1 unmatched (КСПА Бриф сводный v3) / 2 skipped (trading assets); anomaly: context compaction (resumed from summary)
 
 ### 2026-10-21
 
