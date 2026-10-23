@@ -1,19 +1,18 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-21
+updated: 2026-10-23
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-10-22T05:10:54Z"'
-sync_last_run_status: '"ok"'
+sync_last_run_at: 2026-10-23T05:09:06Z
+sync_last_run_status: ok
 sync_runs_today: 1
-sync_runs_today_date: '"2026-10-22"'
+sync_runs_today_date: 2026-10-23
 sync_pending_capture: []
 sync_captured_recent:
-  - local_249280fa-4faf-4d44-a901-ba98775a1829
   - local_a8ed6a9b-ab06-49a9-b917-0e86e95040e4
   - local_fbd58fbb-1c3f-4c9d-a1f4-516e5839075e
   - local_f31fce5d-c6c2-4863-915a-cbd1784f790d
@@ -113,9 +112,10 @@ sync_captured_recent:
   - local_b5f50a9a-7ffe-455a-8b61-86c735114af0
   - local_b0ff09bc-6c3e-42c3-9d14-db3ad667c2e8
   - local_a90c2cbb-a7bb-433f-93eb-f312630ced53
+  - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
 last_anomalies:
-  - local_5aff3846 missing from top-100 scan (cleared from pending)
-  - context compaction (resumed from summary)
+  - context compaction (resumed from summary); 20 new-archived IDs unavailable
+    post-compaction
 ---
 
 # Sync State
@@ -132,6 +132,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-23
+
+- **Run 1** ^run-2026-10-23-r1 (scheduled, 2026-10-23T05:09:06Z) — captured 0/100; push 8 cached (fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8/cb800021/70e05491); new 21 (20 archived; local_01b1d1f0 empty MSG_COUNT=0 → skip); CAPTURE: 0; sweep §3d: 4 files → 1 cluster → 1 vault write ([[Консьерж-служба холдинга Almaly]] ^conc-2026-10-23-sweep: AHM hotels package×3 + комплексное проживание); anomaly: context compaction (resumed from summary); 20 new-archived IDs unavailable post-compaction
 
 ### 2026-10-22
 
