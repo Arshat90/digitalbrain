@@ -1,35 +1,18 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-23
+updated: 2026-10-24
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-23T05:09:06Z
+sync_last_run_at: 2026-10-24T04:02:41Z
 sync_last_run_status: ok
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-23
+sync_runs_today_date: 2026-10-24
 sync_pending_capture: []
 sync_captured_recent:
-  - local_a8ed6a9b-ab06-49a9-b917-0e86e95040e4
-  - local_fbd58fbb-1c3f-4c9d-a1f4-516e5839075e
-  - local_f31fce5d-c6c2-4863-915a-cbd1784f790d
-  - local_ed48930e-61df-4494-9718-c0d1c5329089
-  - local_976cb2fe-89c4-42d9-b089-58fd53a43120
-  - local_1a0e1558-b132-4b9d-9a44-c17a321b10aa
-  - local_43558381-8d46-48da-bb12-046c45ccaf25
-  - local_09992b24-833c-4986-955f-e86a1ea8fe20
-  - local_fa225a73-8c54-45ba-ac3d-090dea8cdad6
-  - local_e06958fd-c2c1-420e-b249-ac4fc667f883
-  - local_09e58325-50a2-43fa-a7e1-c9d0aec957e4
-  - local_01582840-f7da-4c37-9719-512d7e1214d2
-  - local_5f501895-a0a9-41ab-a517-237da03d2d78
-  - local_9263bd6a-1891-4fe0-a83a-ac4a4ea807d0
-  - local_7eb75725-7c41-4395-9860-845081b1c018
-  - local_f2f06051-4ffb-451b-b7b7-dc58a5660002
-  - local_d7f69802-16db-466b-a64c-cbcdb22817f1
   - local_659101cf-fdc3-4d05-84ca-95da5b8f404d
   - local_df225ee3-16f2-4503-9d8f-6e879186a900
   - local_a760fd30-25a4-45ad-b4ac-c18afb37aac2
@@ -113,9 +96,25 @@ sync_captured_recent:
   - local_b0ff09bc-6c3e-42c3-9d14-db3ad667c2e8
   - local_a90c2cbb-a7bb-433f-93eb-f312630ced53
   - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
+  - local_f58309a8
+  - local_e70c4b19
+  - local_e41b722f
+  - local_afd4fcdf
+  - local_78bb2806
+  - local_771178e4
+  - local_6bec9534
+  - local_658d3ef1
+  - local_4ff5a57d
+  - local_33f612d5
+  - local_283bdb55
+  - local_d3e9719b
+  - local_bab863b3
+  - local_b04f96e7
+  - local_ac6c75fa
+  - local_07127298
+  - local_e9b43d98
 last_anomalies:
-  - context compaction (resumed from summary); 20 new-archived IDs unavailable
-    post-compaction
+  - context compaction (resumed from summary)
 ---
 
 # Sync State
@@ -132,6 +131,10 @@ last_anomalies:
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-24
+
+- **Run 1** ^run-2026-10-24-r1 (scheduled, 2026-10-24T04:02:41Z) — captured 0; deferred 0; skipped 0 (17 archived trading added to watermark: f58309a8/e70c4b19/e41b722f/afd4fcdf/78bb2806/771178e4/6bec9534/658d3ef1/4ff5a57d/33f612d5/283bdb55/d3e9719b/bab863b3/b04f96e7/ac6c75fa/07127298/e9b43d98); push 0; orphan-system 0; pre-watermark 0 / total 100; sweep §3d (since 2026-10-23T05:09:06Z): 62 files / 2 vault-write clusters ([[Консьерж-служба холдинга Almaly]] ^cl-2026-10-23-conc-docs; [[1966 Plateau Deck]] ^cl-2026-10-23-plateau-p18) / 1 pre-captured ([[Плагины гостеприимства]]) / 14 book-skip / 3 unmatched (ORA PDF, Almaly Holding.pptx+pdf); anomaly: context compaction (resumed from summary)
 
 ### 2026-10-23
 

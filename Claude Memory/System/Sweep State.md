@@ -1,15 +1,18 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-21
+updated: 2026-10-24
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-23T05:09:06Z
+sweep_last_run_at: 2026-10-24T04:13:18Z
 sweep_last_run_status: ok
-sweep_unmatched: []
+sweep_unmatched:
+  - ORA - Информация о компании.pdf
+  - Almaly Holding.pptx
+  - Almaly Holding.pdf
 ---
 
 # Sweep State
