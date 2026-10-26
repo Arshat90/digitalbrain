@@ -1,21 +1,18 @@
 ---
 type: system
 created: 2026-05-01
-updated: 2026-10-24
+updated: 2026-10-26
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-24T04:02:41Z
+sync_last_run_at: 2026-10-26T11:35:54Z
 sync_last_run_status: ok
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-24
+sync_runs_today_date: 2026-10-26
 sync_pending_capture: []
 sync_captured_recent:
-  - local_659101cf-fdc3-4d05-84ca-95da5b8f404d
-  - local_df225ee3-16f2-4503-9d8f-6e879186a900
-  - local_a760fd30-25a4-45ad-b4ac-c18afb37aac2
   - local_e24dca80-748a-462f-829b-116a37071e5b
   - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
   - local_d530716c-5a33-4c4a-987e-a49c205c10dc
@@ -113,8 +110,13 @@ sync_captured_recent:
   - local_ac6c75fa
   - local_07127298
   - local_e9b43d98
-last_anomalies:
-  - context compaction (resumed from summary)
+  - local_f1019021-a656-49dc-98cf-30728dfb5ebb
+  - local_ed48930e-61df-4494-9718-c0d1c5329089
+  - local_7eb75725-7c41-4395-9860-845081b1c018
+  - local_1a0e1558-b132-4b9d-9a44-c17a321b10aa
+  - local_f31fce5d-c6c2-4863-915a-cbd1784f790d
+  - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
+last_anomalies: none
 ---
 
 # Sync State
@@ -151,6 +153,9 @@ last_anomalies:
 ### 2026-10-20
 
 - **Run 1** ^run-2026-10-20-r1 (scheduled, 2026-10-20T04:28:34Z) — captured 7/100 (0 session vault writes; context compaction resumed from summary); deferred 1 (local_5aff3846 "Almaly status dashboard refresh" — transcript unreadable, rolling); push 8 cached (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 1 (1988261d "Consolidate memory" 2026-10-01); archived-new 6 (a2bb4e83/7debfcf3/6c0b04d0/65623504/59d8dbb8/7bbdbdd3 trading); pre-watermark ~88; sweep §3d: 17 files / 3 vault-write clusters → 3 writes (NEW [[Консьерж-служба холдинга Almaly]] ^conc-2026-10-20-analysis; [[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-20-w42; [[Index]] +1 проект); 4 unmatched (Любчиков PDF ×2 / курс-2026 conspect ×2); anomaly: context compaction mid-run (×2); local_5aff3846 deferred rolling
+
+### 2026-10-26
+`run-2026-10-26-r1` ^push-2026-10-26-T113554Z session: cloud-scheduled | sessions: 100 scanned · 0 captured · +6 archived→FIFO-cap@100 | sweep: 13 files · 1 cluster (Консьерж AHM) · already-in-card → 0 writes | anomalies: none
 
 ### 2026-10-19
 

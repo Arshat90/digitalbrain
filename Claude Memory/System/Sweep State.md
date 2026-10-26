@@ -1,13 +1,13 @@
 ---
 type: system
 created: 2026-09-04
-updated: 2026-10-24
+updated: 2026-10-26
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-24T04:13:18Z
+sweep_last_run_at: 2026-10-26T11:35:54Z
 sweep_last_run_status: ok
 sweep_unmatched:
   - ORA - Информация о компании.pdf
@@ -144,3 +144,5 @@ sweep_unmatched:
 - **2026-10-21T05:01:17Z** ^sweep-2026-10-21-r1 — since 2026-10-20T04:28:34Z: 29 files / 2 vault-write clusters (A: W42 разбор parts 2+3+4 + 17 ДЗО → [[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-21-w42-parts234; B: Plateau День 4 + сводный → [[1966 Plateau Deck]] ^cl-2026-10-21-plateau-degustation-day4) / 5 unmatched (ИП GMFS договор+доп_соглашение, проверочный лист №1+№2, Куангали_премия) / 0 trading-skip; status: success
 
 - **2026-10-23T05:09:06Z** ^sweep-2026-10-23-r1 — since 2026-10-22T05:11:17Z: 4 files / 1 cluster → 1 vault write ([[Консьерж-служба холдинга Almaly]] ^conc-2026-10-23-sweep: `7 day stay in AHM hotels.pdf`, `7 day stay in AHM hotels.pptx`, `7 day stay in AHM hotels (1).pptx`, `комплексное проживание 1 в отелях АМН .docx`) / 0 unmatched; session capture: 0 (session 01b1d1f0 empty MSG_COUNT=0); anomaly: context compaction mid-run; status: ok
+
+- **2026-10-26T11:35:54Z** ^sweep-2026-10-26-r1 — since 2026-10-24T04:13:18Z: 13 files / 1 cluster (Консьерж AHM v2→v7 HTML + Выжимка ChatGPT) · already-in-card → 0 vault writes / 0 unmatched; sessions: 100 local scanned (+6 archived→captured_recent FIFO@100); status: ok
