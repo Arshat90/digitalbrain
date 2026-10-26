@@ -156,6 +156,10 @@ last_anomalies:
 
 - **Run 1** ^run-2026-10-19-r1 (scheduled, 2026-10-19T11:36:50Z) — session listing unavailable (cloud-only run); captured 0; deferred 2 (7bbdbdd3/5aff3846 rolling); push 8 cached (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 0; pre-watermark 0 / total 0; sweep §3d: 9 files / 0 clusters / 0 vault writes; 5 trading-skip / 4 unmatched PNGs (Desktop 123/12345/4444/5555.png); anomaly: session listing unavailable (ongoing, known)
 
+### 2026-10-26
+
+- **Push** ^push-2026-10-26-T113542Z (session: cloud-scheduled, "Weekly ROI digest") — 9 строк добавлено, 31.0 ч saved за окно 19.10–25.10.2026. **Deliverables:** обновлён [[AI ROI Ledger]]. **Anomalies:** context compaction (resumed from summary).
+
 ### 2026-10-19
 
 **Push** ^push-2026-10-19-T113630Z (session: cloud-scheduled, "Weekly ROI digest") — 10 строк добавлено, 17.5 ч saved за окно 12.10–18.10.2026.
