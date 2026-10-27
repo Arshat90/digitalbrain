@@ -399,3 +399,9 @@ last_anomalies: []
 - deliverable: `Протокол встречи №17 — Plateau 1966 15.10.2026.docx` (папка проекта на desktop-mq7qvgr)
 - память проекта: `project_1966_plateau_meeting_15102026.md` (новый), правки в `roles`, `feedback_meeting_minutes_format` (§82–84), `archives`, `index`
 - источник: Plaud `of_4b2e6089d43e2bb8dc473e4a32bd11f2`
+
+
+### Push 2026-10-27 — Целинный / стратсессия «Целинный 2031» (session: cloud Cowork, вне list_sessions)
+
+- vault write: [[Tselinny]] — changelog ^cl-2026-10-27-tselinny-stratsession-hw, updated → 2026-10-27.
+- deliverable: `Projects\Целинный\Целинный — Домашнее задание к стратсессии v1.docx` (30 вопросов, 5 блоков, шаблоны таблиц; образец — FP «Горизонт 2029»).
