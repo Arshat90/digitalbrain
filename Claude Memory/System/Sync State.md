@@ -7,10 +7,10 @@ tags:
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-10-27T04:48:52Z"'
+sync_last_run_at: 2026-10-28T07:02:25Z
 sync_last_run_status: '"success"'
 sync_runs_today: 1
-sync_runs_today_date: '"2026-10-27"'
+sync_runs_today_date: 2026-10-28
 sync_pending_capture: []
 sync_captured_recent:
   - local_e24dca80-748a-462f-829b-116a37071e5b
@@ -153,6 +153,10 @@ last_anomalies: []
 ### 2026-10-20
 
 - **Run 1** ^run-2026-10-20-r1 (scheduled, 2026-10-20T04:28:34Z) — captured 7/100 (0 session vault writes; context compaction resumed from summary); deferred 1 (local_5aff3846 "Almaly status dashboard refresh" — transcript unreadable, rolling); push 8 cached (cb800021/70e05491/fa225a73/d530716c/cee82b4d/b5cd7181/da14fe32/0bed4fa8); orphan-system 1 (1988261d "Consolidate memory" 2026-10-01); archived-new 6 (a2bb4e83/7debfcf3/6c0b04d0/65623504/59d8dbb8/7bbdbdd3 trading); pre-watermark ~88; sweep §3d: 17 files / 3 vault-write clusters → 3 writes (NEW [[Консьерж-служба холдинга Almaly]] ^conc-2026-10-20-analysis; [[Weekly 7-4 — недельные отчёты ДЗО]] ^cl-2026-10-20-w42; [[Index]] +1 проект); 4 unmatched (Любчиков PDF ×2 / курс-2026 conspect ×2); anomaly: context compaction mid-run (×2); local_5aff3846 deferred rolling
+
+### 2026-10-28
+
+- **Run 1** ^run-2026-10-28-r1 (scheduled, 2026-10-28T07:02:25Z) — sessions: 100 scanned · 0 captured (all in watermark) · 0 deferred · 0 push-captured · 0 orphan-system · 0 pre-watermark / total 100; sweep §3d: 22 files / 7 clusters / 1 vault write (Консьерж AHM: финансовая часть v1–v3 + симуляция недели; Целинный: already-in-card); anomalies: none
 
 ### 2026-10-27
 
