@@ -1,21 +1,19 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-10-27"'
+updated: '"2026-10-29"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: 2026-10-28T07:02:25Z
-sync_last_run_status: '"success"'
+sync_last_run_at: '"2026-10-29T04:02:12Z"'
+sync_last_run_status: '"ok"'
 sync_runs_today: 1
-sync_runs_today_date: 2026-10-28
+sync_runs_today_date: '"2026-10-29"'
 sync_pending_capture: []
 sync_captured_recent:
-  - local_e24dca80-748a-462f-829b-116a37071e5b
-  - local_cee82b4d-64c2-43f2-afd4-e9c6e245f987
-  - local_d530716c-5a33-4c4a-987e-a49c205c10dc
+  - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
   - local_1988261d-4511-4ee8-8992-d578665ab4c4
   - local_7bbdbdd3-f57f-426c-8008-b70eaff0d9cf
   - local_a2bb4e83-fa1d-4b40-9523-2c169dc3631c
@@ -92,7 +90,6 @@ sync_captured_recent:
   - local_b5f50a9a-7ffe-455a-8b61-86c735114af0
   - local_b0ff09bc-6c3e-42c3-9d14-db3ad667c2e8
   - local_a90c2cbb-a7bb-433f-93eb-f312630ced53
-  - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
   - local_f58309a8
   - local_e70c4b19
   - local_e41b722f
@@ -116,7 +113,8 @@ sync_captured_recent:
   - local_1a0e1558-b132-4b9d-9a44-c17a321b10aa
   - local_f31fce5d-c6c2-4863-915a-cbd1784f790d
   - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
-last_anomalies: []
+last_anomalies: '"captured_recent trimmed 103→100 (dropped e24dca80, cee82b4d,
+  d530716c; 01b1d1f0 moved to front)"'
 ---
 
 # Sync State
@@ -157,6 +155,10 @@ last_anomalies: []
 ### 2026-10-28
 
 - **Run 1** ^run-2026-10-28-r1 (scheduled, 2026-10-28T07:02:25Z) — sessions: 100 scanned · 0 captured (all in watermark) · 0 deferred · 0 push-captured · 0 orphan-system · 0 pre-watermark / total 100; sweep §3d: 22 files / 7 clusters / 1 vault write (Консьерж AHM: финансовая часть v1–v3 + симуляция недели; Целинный: already-in-card); anomalies: none
+
+### 2026-10-29
+
+- **Run 1** ^run-2026-10-29-r1 (scheduled, 2026-10-29T04:02:12Z) — sessions: 100 scanned · 1 captured (local_01b1d1f0 "Document comparison analysis") · 0 deferred · 0 push-captured · 0 orphan-system · 0 pre-watermark / total 100; sweep §3d (since 2026-10-28T07:02:25Z): 8 files / 2 clusters (Консьерж AHM v1-v9 presentations; Медео мебель PPTX 11MB) / 3 vault writes; anomaly: captured_recent 102→100 trimmed (dropped e24dca80, cee82b4d; moved 01b1d1f0 to front)
 
 ### 2026-10-27
 
