@@ -7,7 +7,7 @@ tags:
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: 2026-10-28T07:02:25Z
+sweep_last_run_at: '"2026-10-29T04:02:12Z"'
 sweep_last_run_status: '"success"'
 sweep_unmatched:
   - ORA - Информация о компании.pdf
