@@ -418,3 +418,8 @@ last_anomalies:
 
 - vault write: [[Tselinny]] — changelog ^cl-2026-10-27-tselinny-stratsession-hw, updated → 2026-10-27.
 - deliverable: `Projects\Целинный\Целинный — Домашнее задание к стратсессии v1.docx` (30 вопросов, 5 блоков, шаблоны таблиц; образец — FP «Горизонт 2029»).
+
+### Push 2026-10-31 — Trading with Merlin / Portfolio State v110 (session: cloud Cowork, вне list_sessions)
+
+- vault write: [[Portfolio State]] — добавлен warning «снапшот 10.07 устарел, действующий канон v4.0 + OV-002»; `## Снапшот` переименован в «История: снапшот 10.07.2026»; frontmatter `state_version` 110, `reconciled_with_live: false`, `canon`. Журнал сделок не тронут (сверено побайтно с резервной копией).
+- deliverable: инструкция проекта «Trading with Meriln» (пространство Merlin) — документ проекта `claude/Merlin — инструкция проекта.md`.
