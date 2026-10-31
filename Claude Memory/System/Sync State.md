@@ -1,16 +1,16 @@
 ---
 type: system
 created: 2026-05-01
-updated: '"2026-10-29"'
+updated: '"2026-10-31"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sync_last_run_at: '"2026-10-29T04:02:12Z"'
-sync_last_run_status: '"ok"'
+sync_last_run_at: '"2026-10-31T06:17:04Z"'
+sync_last_run_status: '"success"'
 sync_runs_today: 1
-sync_runs_today_date: '"2026-10-29"'
+sync_runs_today_date: '"2026-10-31"'
 sync_pending_capture: []
 sync_captured_recent:
   - local_01b1d1f0-429c-45f6-8025-73d27c7b0e14
@@ -113,8 +113,11 @@ sync_captured_recent:
   - local_1a0e1558-b132-4b9d-9a44-c17a321b10aa
   - local_f31fce5d-c6c2-4863-915a-cbd1784f790d
   - local_af98d69a-9cf6-4364-ac5a-c3ee67bc0d34
-last_anomalies: '"captured_recent trimmed 103→100 (dropped e24dca80, cee82b4d,
-  d530716c; 01b1d1f0 moved to front)"'
+last_anomalies:
+  - "Run History date order broken (2026-10-24 at top, max 2026-10-29 —
+    2026-10-31 inserted above first ### per §5 Case B)"
+  - "cee82b4d: push-captured presumed without confirmed block (evicted FIFO Oct
+    29, consistent with 7 prior runs)"
 ---
 
 # Sync State
@@ -131,6 +134,10 @@ last_anomalies: '"captured_recent trimmed 103→100 (dropped e24dca80, cee82b4d,
 - `last_anomalies` — последние известные проблемы (bash unavailable, REST timeout, search_replace 0-match, scheduler serialization)
 
 ## Run History
+
+### 2026-10-31
+
+- **Run 1** ^run-2026-10-31-r1 (scheduled, 2026-10-31T06:17:04Z) — sessions: 100 scanned · 0 captured · 0 deferred · 1 push-captured (cee82b4d presumed — evicted FIFO Oct 29, classified push-captured in 7 prior runs) · 0 orphan-system · 2 watermark-skipped · 97 archived-skip / total 100; sweep §3d (since 2026-10-29T04:02:12Z): 28 files / 3 vault-write clusters ([[Консьерж-служба холдинга Almaly]] финмодели v11→v17 + презентация v10–v12 PPTX+PDF, дедлайн 30.10 выполнен; [[1966 Plateau Deck]] меню 2.0 барное/винная/сигарная + арт-объекты + текстиль; [[Медео Парк Отель]] Medeu_2027 v3.0) / unmatched: CV/visa×3, Городской консьерж pptx (новая концепция), Мозг Мерлина.html, Эскизы.pdf, Мебель 1.pdf; anomaly: Run History date order broken (2026-10-24 at top, max date 2026-10-29 — inserted above first ### per §5 Case B)
 
 ### 2026-10-24
 

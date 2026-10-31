@@ -1,18 +1,22 @@
 ---
 type: system
 created: 2026-09-04
-updated: '"2026-10-27"'
+updated: '"2026-10-31"'
 tags:
   - claude-memory
   - system
   - sync-state
   - auto-managed
-sweep_last_run_at: '"2026-10-29T04:02:12Z"'
+sweep_last_run_at: '"2026-10-31T06:17:04Z"'
 sweep_last_run_status: '"success"'
 sweep_unmatched:
-  - ORA - Информация о компании.pdf
-  - Almaly Holding.pptx
-  - Almaly Holding.pdf
+  - Baktygali Arshat Amanovich.pdf
+  - Arshat_Baktygali_CV_Visa_v4.docx
+  - Arshat_Baktygali_CV.pdf
+  - Городской консьерж — идея и план пилота.pptx
+  - Мозг Мерлина.html
+  - Эскизы.pdf
+  - Мебель 1.pdf
 ---
 
 # Sweep State
@@ -147,3 +151,5 @@ sweep_unmatched:
 
 - **2026-10-26T11:35:54Z** ^sweep-2026-10-26-r1 — since 2026-10-24T04:13:18Z: 13 files / 1 cluster (Консьерж AHM v2→v7 HTML + Выжимка ChatGPT) · already-in-card → 0 vault writes / 0 unmatched; sessions: 100 local scanned (+6 archived→captured_recent FIFO@100); status: ok
 - **2026-10-27T04:48:52Z** (scheduled) — since 2026-10-26T11:35:54Z; TOTAL: 0 files; vault writes: 0; status: success
+
+- **2026-10-31T06:17:04Z** ^sweep-2026-10-31-r1 — since 2026-10-29T04:02:12Z: 28 files / 0 trading-skip / 3 clusters ([[Консьерж-служба холдинга Almaly]] финмодели v11→v17 + презентация v10–v12 PPTX+PDF, дедлайн 30.10; [[1966 Plateau Deck]] меню 2.0 барное/винная/сигарная + арт-объекты + текстиль; [[Медео Парк Отель]] Medeu_2027 v3.0) / 7 unmatched (CV/visa×3, Городской консьерж pptx, Мозг Мерлина.html, Эскизы.pdf, Мебель 1.pdf) / 3 vault writes; status: success
